@@ -1,0 +1,69 @@
+---
+title: Conclusion
+author: Author
+chapter: 5
+in_context: False
+knit: iheiddown::chapter_pdf
+output: iheiddown::chapter_pdf
+---
+
+\setcounter{chapter}{4}
+
+# Conclusion {#conclusion}
+
+In sum, `{iheiddown}` offers an easy way to write IHEID-consistent theses,
+but is enormously extensible and adaptable, 
+allowing students to craft their own dissertations and other documents.
+
+## Using iheiddown for proposals
+
+As an example of this, let us consider how one might begin using iheiddown
+from the start of a masters or doctoral dissertation,
+and not just at the end while 'writing up' (a good idea in any case).
+
+One feature often requested by supervisors from DDPs and MPTs
+is the preparation of a plan about how and when the various tasks
+associated with the project will be completed.
+Your supervisor may even ask for this to be presented in a table or a Gantt chart.
+
+We have covered tables in the previous chapter.
+Here I want to offer a quick vignette about how you can create a Gantt chart
+that outlines the temporal progression you expect to make.
+We will use the `{gantrify}` package to do this.
+
+```{r }
+library("ganttrify")
+ganttrify(project = ganttrify::test_project,
+          project_start_date = "2020-03",
+          colour_palette = iheiddown::iheid_palette("Centres", 
+                                                    type = "continuous")
+          )
+```
+
+## Additional resources
+
+- [_Markdown_ Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+- _RMarkdown_
+    - [Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+    - [Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
+    - [For newbies](https://rbasics.netlify.com) 
+
+
+- _RStudio IDE_
+    - [Official website](https://rstudio.com/products/rstudio/)
+    - [Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf)
+
+- [`dplyr`](https://cran.rstudio.com/web/packages/dplyr/vignettes/dplyr.html)
+
+- `ggplot2`
+    - [Documentation](https://ggplot2.tidyverse.org/)
+    - [Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)
+
+- [`bookdown`](https://bookdown.org/yihui/bookdown/)
+
+## Anything else?
+
+If you'd like to see examples of other things in this template, 
+please add them as feature requests to the [iheiddown](https://github.com/jhollway/iheiddown) website. 
+We love to see people using _RMarkdown_ for their theses, and are happy to help.

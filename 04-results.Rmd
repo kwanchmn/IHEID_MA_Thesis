@@ -1,0 +1,151 @@
+---
+title: Results
+author: Chin Man KWAN
+chapter: 4
+in_context: True
+knit: iheiddown::chapter_pdf
+output: iheiddown::chapter_pdf
+---
+
+\setcounter{chapter}{3}
+
+```{r setup}
+library(reticulate)
+```
+
+```{python results_modules}
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import jieba
+import zhon.hanzi
+import re
+from itertools import chain
+pd.set_option('display.max_columns', None)
+sns.set_theme(context='paper')
+```
+
+```{python nlp_setup}
+# Utility function for reading text files which contain the words required for preprocessing
+def read_text(path, output=None):
+  with open(path, 'r', encoding='utf-8') as file:
+    text = file.readlines()
+    text = (word.replace('\n', '') for word in text)
+    return text
+
+# Creating stop word list
+stop_words_cantonese = read_text('Coding/text_cleaning/cantonese_stopwords.txt')
+punctuations = (punc for punc in zhon.hanzi.punctuation)
+stop_words_full = set(word for word in chain(stop_words_cantonese, punctuations))
+```
+
+```{python adding_proper_words_to_dict, include=FALSE}
+# Words of Hong Kong politics
+hk_politics_words = read_text('Coding/HKPolDict-master/merged.txt')
+for word in hk_politics_words:
+  jieba.add_word(word)
+```
+
+```{python import_dataset}
+all_news_articles = pd.read_csv('Coding/all_news_articles.csv')
+num_of_articles = all_news_articles.shape[0]
+num_of_newspapers = all_news_articles.Newspaper.nunique()
+```
+
+# Results
+
+After searching for articles which contain at least one of the keywords and are relevant to asylum seekers residing in Hong Kong, there were in total `r py$num_of_articles` articles published in 2019 by `r py$num_of_newspapers` newspapers. In this section, I will first explore the data set preliminarily, and then move onto topic modelling with LDA and NMF before choosing which model performs better in finding out coherent topics.
+
+## Exploratory data analysis (EDA)
+
+### Number of news articles
+
+Let us first explore how the number of publications of news articles about asylum seekers might differ by newspaper outlets and month. Starting with the number of articles by media outlets in figure 4.1, consistent with the study by @ngFramingIssueAsylum2019, Oriental Daily News continues to be the media outlet covering the most frequently on asylum seekers with 545 (or `r round(545/1115*100, 2)`%) articles throughout 2019. The second-most frequent publisher Sing Tao Daily by contrast only had 132 entries which was `r round(132/545 * 100, 2)`% of Oriental Daily News. Apple Daily, the then-most prominent pro-democracy printed media, ranked third in the coverage of non-refoulement claimants in 2019. If we look at the number of news articles by political camp, then once again the pattern in 2019 echoes with that observed by @ngFramingIssueAsylum2019 back in 2015-16, namely, the coverage of non-refoulement claimants in Hong Kong were mainly done by pro-Beijing news media, as almost 85% of the news articles on this issue came from pro-Beijing affiliated media outlets. (Question: Should I just lump pro-democracy and neutral outlets into the 'non-pro-Beijing' category then?)
+
+```{python, fig.cap="News articles on asylum seekers in 2019 by news outlet (left) and political camp (right)"}
+fig, axes = plt.subplots(1,2)
+
+# Plotting by-outlet amount of articles
+articles_outlet = all_news_articles.value_counts('Newspaper')
+sns.barplot(x=articles_outlet, y=articles_outlet.index, ax=axes[0])
+axes[0].set(xlabel='Number of articles', ylabel='', title='By news outlet')
+for idx, value in enumerate(articles_outlet):
+    axes[0].text(value + 5, idx + 0.2, value)
+
+# Plotting by-camp amount of articles
+sns.countplot(x='Political_camp', data=all_news_articles, ax=axes[1])    
+axes[1].set(xlabel='', ylabel='Number of articles', title='By political camp')
+count_by_political_camp = all_news_articles['Political_camp'].value_counts(sort=False)
+for idx, value in enumerate(count_by_political_camp):
+  axes[1].text(idx - 0.1, value + 5, value)
+axes[1].set_xticklabels(['Pro-Beijing', 'Neutral', 'Pro-democracy'], rotation=60)
+plt.tight_layout()
+plt.show()
+plt.clf()
+```
+
+Next will be to look at how the number of articles might vary temporally in figure 4.2. Month-wise, January was the month with the highest amount of asylum-seeker-related articles published in 2019. Since then, the coverage of asylum seekers decreased from February to April until it bounced back in May. As the Anti-Extradition Law Protest started in June, the number of articles published first rose slightly in July and then dropped drastically in the next two months, until the figure bounced back again in October. If we look at the number of news articles published before and during the anti-extradition law protest since June, then the two periods had similar amounts of publications.
+
+```{python, fig.cap="Temporal patterns of the publication of news articles about asylum seekers in Hong Kong in 2019"}
+fig, axes = plt.subplots(1,2)
+
+# Plotting by-month articles
+articles_by_month = all_news_articles.Month.value_counts(sort=False)
+sns.lineplot(x=articles_by_month.index, y=articles_by_month, color='tab:orange', ax=axes[0])
+axes[0].set(xlabel='Month', ylabel='Number of articles', title='By month', xticks=np.arange(1,13))
+
+# Plotting amount of articles before and during the anti-extradition law protest
+sns.countplot(x='Protest', data=all_news_articles, ax=axes[1])
+axes[1].set(xlabel='', ylabel='Number of articles', title='By before and during protest')
+axes[1].set_xticklabels(['Before (Jan-May)', 'During (June-Dec)'])
+plt.tight_layout()
+plt.show()
+plt.clf()
+```
+
+### Character lengths of news articles and titles
+
+```{python, fig.cap="Distributions of the word counts of the articles' titles (left) and main texts (right)"}
+fig, axes = plt.subplots(1, 2)
+
+# Plotting distribution of title word count
+sns.histplot(x='Title_length', data=all_news_articles, ax=axes[0], color='tab:blue', alpha=0.5)
+axes[0].set(xlabel='Word count', title='Article title')
+mean_title_length = all_news_articles.Title_length.mean()
+axes[0].axvline(mean_title_length, alpha=0.5, linestyle = '-.', c='black', label='Mean of title length')
+axes[0].legend()
+
+# Plotting distribution of article word count
+sns.histplot(x='Raw_article_length', data=all_news_articles, ax=axes[1], color='tab:orange', alpha=0.5)
+axes[1].set(xlabel='Word count (in thousands)', title='Raw article text', xticks=np.arange(0, 17e3, 2e3), xticklabels=np.arange(0, 17, 2))
+mean_article_length = all_news_articles.Raw_article_length.mean()
+axes[1].axvline(mean_article_length, alpha=0.5, linestyle = '--', c='black', label='Mean of main text length')
+axes[1].legend()
+
+# Global setup
+plt.tight_layout()
+plt.show()
+plt.clf()
+```
+
+The next interesting pattern to explore will be the distribution of the word count of each document, which are shown on the histograms in figure 4.3. On the left plot, a large proportion of the news articles have their title's word counts ranging from 10 to 20 Chinese characters long, but there are also articles whose titles have more than 50 characters. On the right of figure 4.3 is the distribution of the word counts of the main texts in the news articles prior to preprocessing. Most of the news articles in the dataset were less than 2000 characters long, but there was one with around 16000 words in the main text as well. Table 4.1 contains the detailed summary statistics of the lengths of the news articles' titles and main texts.
+
+```{python}
+article_length_summary = all_news_articles[['Title_length', 'Raw_article_length']].describe()
+```
+
+```{r}
+knitr::kable(py$article_length_summary, col.names = c("Title", "Raw main text"), caption="Summary statistics of the word counts of the news articles' titles and main texts")
+```
+
+## The most common words in the news articles
+
+```{python}
+from wordcloud import WordCloud
+
+```
+
+## Topic modelling
+
+After performing the required steps to clean up the textual data, it is time to

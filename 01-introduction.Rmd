@@ -1,0 +1,30 @@
+---
+title: Introduction
+author: Chin Man KWAN
+chapter: 1
+in_context: True
+knit: iheiddown::chapter_pdf
+abstract: |
+  In this chapter, I'll introduce how to write basic text using markdown.
+  It is super simple, as you will see. You just write normal text,
+  but then indicate where you want certain formatting with some very basic 'markup'.
+output: iheiddown::chapter_pdf
+---
+
+\setcounter{chapter}{0}
+
+# Introduction {#intro}
+
+Asylum seekers, refugees and these two groups of vulnerable population's movements across national borders have become some of the most salient issues in the 21st Century, especially after the outbreak of the 2015 Refugee Crisis in Europe. A lot of academic researches have subsequently investigated how politics in the .
+
+Since the transfer of sovereignty from Britain to China in 1997, Hong Kong has witnessed increasing tension with its new sovereign owner. Until July 2020 when the HKSAR[^1] Government passed the National Security Law and the subsequent commencement of the large-scale suppression of the opposition camp such as the mass arrest of 53 pro-democracy activists in January 2021 [@bbcNationalSecurityLaw2021], protests against the authority of the HKSAR and Beijing Governments had occurred. Apart from the annual July 1 protest since 2003, the two most prominent political movements would be the 2014 Umbrella Movement and the more recent 2019 anti-extradition law protest which created considerable attention from other countries as well.
+
+[^1]: The abbreviation of the city's official name, the *Hong Kong Special Administrative Region.*
+
+This thesis thus aims to investigate ***how may the framing of asylum seekers in Hong Kong vary by news media outlets associated with different political camps, given each of them has considerably different definition of the city's national identity.*** This question is worth prompting for several reasons.
+
+Before moving on, it should be mentioned that I will use the words "asylum seekers", "refugees" and "non-refoulement claimants" interchangeably. It is true that difference exists between the definitions of asylum seekers and refugees[^2]. Nevertheless, since the above three terms are generally used to refer to the same group of population in Hong Kong who flee from their own countries to escape from persecution, treating these terms as synonyms in this context should better cover how this group of population is perceived by media outlets in different political camps. In fact, scholars researching on this issue often use the terms I listed without strictly differentiating their meanings (e.g. @vecchioAsylumSeekingGlobal2014a, @ngFramingIssueAsylum2019).
+
+[^2]: Formally speaking, *asylum seekers* refer to individuals who still have pending applications of their asylum status, whereas *refugees* refer to those who have gained recognition from the UN for being forced to flee from their countries due to threats on their personal securities [@ngCriminalizingInnocentsSocial2020].
+
+This thesis will proceed as follow. In section 2, I will review the literature on the theories about how the perception of national identity might affect attitudes towards immigration, how each major political camp in Hong Kong generally perceives the national identity of Hong Kong, and how each camp perceives asylum seekers. Section 3 provides an overview of the data collection process and methodology used to answer the research questions. Section 4 presents the result of the analysis, and section 5 concludes the findings as well as mention the implications of this thesis.

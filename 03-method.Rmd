@@ -1,0 +1,117 @@
+---
+title: Methods
+author: Chin Man KWAN
+chapter: 3
+in_context: True
+knit: iheiddown::chapter_pdf
+output: iheiddown::chapter_pdf
+---
+
+\setcounter{chapter}{2}
+
+# Methods {#methods}
+
+After reviewing both the theories of the impact of national identity on xenophobia as well as how political camps in Hong Kong imagine the city's national identity, how could we know the possible associations between each camp's definition of the city's national identity and its attitude towards asylum seekers who are mainly not ethnic Chinese? This section will discuss the strategy of answering this question.
+
+## Research questions
+
+Based on the aforementioned theories that a stronger emphasis on the ethnic elements of national identity is correlated with a more negative attitude towards immigrants, how each political camp in Hong Kong perceives the city's national identity and asylum seekers and also previous research on this topic [@ngFramingIssueAsylum2019] , two questions could be prompted in the following analysis:
+
+> Q~1~: In general, what were the most prevalent topics co-mentioned with news reports on asylum seekers in Hong Kong in 2019?
+>
+> Q~2~: How do news media outlets associated with different political ideologies differed on the topics to focus on while reporting on asylum seekers in Hong Kong?
+
+## Data collection
+
+I will study news media reports on asylum seekers and non-refoulement claimants in Hong Kong by local mass media during the year of 2019. Specifically, media publishing in **Chinese** in printed format will be included in the data[^1]. For the retrieval of the relevant newspaper articles, I will rely on the *WiseNews* database[^2] which can fetch news articles with search keywords published in the Greater China region. While it would have been more ideal to also include online news media into the dataset as @leeChangingPoliticalEconomy2018 mentions that they have become quite prominent in the 2010s for providing counter-narratives to the mainstream media often co-opted by the Chinese Government, WiseNews does not directly provide the texts of online media news article and thus requires additional steps of web scrapping which are, unfortunately, beyond the author's capacity by the time of writing. That being said, including only the printed news media during 2019 would still cover 16 of the well-known news media with associations to different political camps according to the survey on media credibility by the Chinese University of Hong Kong [@cuhkPublicEvaluationMedia2020] , not to mention the list asked in the survey is not exhaustive about all the printed media outlets. In other words, just searching for printed news media outlets could still allow me to discover the topics of asylum seekers covered by some of the most widely consumed news media with various perspectives.
+
+[^1]: The full list of the included newspaper outlets is provided in *table 2*.
+
+[^2]: I would like to thank my friend in Hong Kong helping me gain access to the database, which would otherwise have been extremely difficult.
+
+Admittedly, including only Chinese-language news media omits how asylum seekers are represented by English-language media in Hong Kong (e.g. the South China Morning Post) and thus constitutes to a major limitation of this study. Moreover, due to the fact that I will be using natural language processing (more on this later) to analyse the content and topics of the media reports, my sole focus on textual content of the media reports means discarding graphical and (if also published online) audio-visual materials accompanied in a given news report. Nevertheless, analysing just the textual content of the media reports should still yield a considerable amount of information about the representation of asylum seekers in Hong Kong by media outlets linked to different political camps, since after all a major proportion of the content in news reports are represented textually.
+
+The reason for choosing to collect media reports published in 2019 is because it was when the Anti-Extradition Law Amendment protest first broke out in June and then lasted for several months, a period when one can argue the manifestation of political ideologies should be the most salient for all the political camps. This should indeed be the case for both the pro-democracy camp whose supporters participated in several large-scale protests and sometimes even engaged in numerous violent clashes with the Hong Kong police to oppose a law that would have permitted extradition of fugitives to mainland China, and the pro-Beijing camp whose authority was once again immensely challenged after the 2014 Umbrella Movement. Accordingly, it would be interesting to investigate whether the issue of asylum seekers still remained its salience and was reported in similar manners given the co-occurrence of another arguably more salient political event (i.e. the anti-Extradition Law protests), as compared to when the issue first had become prominent back in 2016. Specifically, analysing newspaper articles in 2019 provides an opportunity to observe whether and how asylum seekers in Hong Kong might be represented by the media in tandem with major political events.
+
+As for classifying which political camps each media outlet belongs to, I will rely on the literature exploring how politics affects Hong Kong's media outlets, while complementing the categorisation with additional research if needed. To this end, I consulted the articles by @fongInbetweenLiberalAuthoritarianism2017 and @leeChangingPoliticalEconomy2018 on the development of post-1997 Hong Kong's media industry, of which they have documented the co-optation of some media outlets in Hong Kong by the Chinese Government (e.g. the major shareholders holding positions in such as Chinese People's Political Consultative Conference) among other phenomena. Building on the concept of "allocative control" (p.11) by @leeChangingPoliticalEconomy2018 about media outlet owners having the ultimate decision on the personnel and resources at the newsroom's disposal for reporting news which could lead to self-censorship of the frontline journalists, I will code those media outlets whose owners have been affiliated with the official Chinese and/or Hong Kong Government organisations as belonging to the pro-Beijing camp. As for those media owners with less apparent links with the Chinese or Hong Kong Governments, I will decide the classification according to whether the owners are known to be affiliated with a certain political camp and how a given media outlet is perceived for its political stance. Those outlets without apparent political stances are labelled as "neutral". *Table 3.1* is the resulting classification scheme. Note that due to the medium of publication of localist news media being almost exclusively online, none of the outlets in that camp was included in the data.
+
++------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Associated political camp                                                                            | Media outlets                                                                                                                                        |
++======================================================================================================+======================================================================================================================================================+
+| Pro-Beijing camp (directly owned by the Liaision Office or the HKSAR Government)                     | Wen Wei Po, Hong Kong Government News, Hong Kong Commercial Daily, Ta Kung Pao                                                                       |
++------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Pro-Beijing Camp (owners affiliated with political institutions on mainland China/ HKSAR Government) | Oriental Daily News, Sing Tao Daily, Sing Pao, Headline Daily, Hong Kong Economic Journal, Hong Kong Economic Times, am730, Sky Post, HK01 Newspaper |
++------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Pro-Democracy camp                                                                                   | Apple Daily, Kung Kao Po                                                                                                                             |
++------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Localist camp                                                                                        | N/A                                                                                                                                                  |
++------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Neutral                                                                                              | Metro Daily, Ming Pao Daily News                                                                                                                     |
++------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Classification of the associated political camp of media outlets in Hong Kong included into the sample, source: @fongInbetweenLiberalAuthoritarianism2017; @leeChangingPoliticalEconomy2018; author's own research
+
+To search for relevant media reports on WiseNews, I will refer to the keywords used by @ngFramingIssueAsylum2019 which are related to asylum seekers, such as terms directly describing this group of population (e.g. refugees, South Asians) or policies related to asylum seeking in Hong Kong (e.g. non-refoulement claim, immigration paper). Table 3.2 lists all the Chinese terms used for searching the relevant news articles on WiseNews and their meanings in English.
+
++----------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------+
+| Original terms in Chinese pinyin | Literal meaning in English                                     | Notes                                                                                    |
++==================================+================================================================+==========================================================================================+
+| mian3 qian3fan3 sheng1qing3      | Non-refoulement claim(ant)                                     |                                                                                          |
++----------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------+
+| ku4xing2 sheng1qing3             | Torture claim(ant)                                             |                                                                                          |
++----------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------+
+| fei1fa3 ru4jing4, ren2she2       | Illegal immigration, Human snake (alias of illegal immigrants) | Excluded illegal immigration from mainland China                                         |
++----------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------+
+| xun2qiu2 bi4hu4                  | Asylum seeking                                                 | Excluded asylum seekers *outside of* Hong Kong                                           |
++----------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------+
+| nan4min2                         | Refugee                                                        | Excluded refugees *outside of* Hong Kong and Hong Kong activists seeking refuge overseas |
++----------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------+
+| nan2ya4                          | South Asian                                                    | Articles about the South Asian region are excluded.                                      |
++----------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------+
+| xing2 jie1 zhi3                  | Immigration paper                                              | Documents issued by the Immigration Department to non-refoulement claimants.             |
++----------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------+
+
+: Translation of the keywords used to search for media reports on WiseNews
+
+Lastly, while there certainly exist other alternatives for gauging whether the perception of the national identity of Hong Kong in different political camps might affect the attitudes towards asylum seekers, my choice to analyse news media articles is a function of both practical constraints as well as this data source's distinct advantage. Constraint-wise, due to the promulgation of the National Security Law in July 2020 and the HKSAR Government's repression of the pro-democracy camp, directly collecting
+
+## Preprocessing
+
+Since my research objective is to identify the topics of news reports on non-refoulement claimants in Hong Kong by media outlets in different political camps in 2019 with thousands of articles in my dataset, it will be extremely time- and resource-consuming to hand code all the articles, and the development and use of manual coding schemes are likely to be influenced by human biases [@laverExtractingPolicyPositions2003] . Accordingly, I will rely on techniques from natural language processing (NLP), a sub-field of machine learning which can perform scalable text analysis over a large corpus of documents (or in this case news articles). Specifically, I will perform topic modelling which aims to identify groups of words that co-appear often in the corpus of the collected news articles. Here I will briefly mention the process from data preparation to finding the topics of the articles.
+
+In order to transform the news articles into a format that can be understood by computers for further processing, I will first need to perform tokenisation (or separating the texts into words). To this end, the *jieba* module [@junyiJieba2021] which is specifically designed for segmenting Chinese texts accurately will be useful. As for transforming the tokenised texts into document-term matrix, I will rely on the *sklearn* @pedregosaScikitlearnMachineLearning2011 module which offers numerous options for creating such matrices depending on the subsequent modelling steps, such as simply counting how many times a word appears in a given document (`CountVectorizer`) or the term-frequency inverse-document-frequency (TF-IDF) matrix (`TfidfVectorizer`) which also takes into account of in how many documents a word appears out of all the documents in the corpus. To ensure better topic extraction results, I will also remove stop words, punctuations and hyper-links of the texts while also adding words related to Hong Kong politics (the list is scraped from @elgarteoHKPolDictHongKong2021) and asylum seekers into the dictionary for better tokenisation.
+
+## Modelling
+
+It is also worth discussing what models of topic extraction should be used. In general, there are three models used to find latent topics from textual data, namely, *latent Dirichlet allocation* (LDA), *non-negative matrix factorisation* (NMF) and singular value decomposition (SVD). I will briefly mention the distinct characteristics of each of the three models below.
+
+To begin with, SVD differs from the other models since it aims less to find topics whose content altogether point to a coherent theme than to look for components summarising as much information as possible of the documents, with the first few components usually containing the most proportion of information [@stevensExploringTopicCoherence2012]. Indeed, the `scikit-learn` documentation [@pedregosaScikitlearnMachineLearning2011] states that SVD is essentially a variation of *Principal Component Analysis,* except that SVD can work on sparse matrices (i.e. document-term matrices).
+
+By contrast, LDA, a model based on the Bayes theorem, finds the probability distribution ($beta$) of words in each topic (governed by the prior distribution $eta$) as well as the probability distribution ($theta$) of the topics in each document (governed by the prior distribution $alpha$) after a specific amount of latent topics were specified [@pedregosaScikitlearnMachineLearning2011; @stevensExploringTopicCoherence2012]. Since both $beta$ and $theta$ are probability distributions, it means that the summed probabilities of each document belonging to the topics and each word belonging to all the topics should both be 1. Moreover, the topics that LDA look for emphasise on coherency rather than how much information could be summarised unlike SVD.
+
+Lastly, NMF also decomposes a corpus of documents but requires that the input matrix contain no negative values [@stevensExploringTopicCoherence2012]. Moreover, NMF decomposes the original document-term matrix into two parts, one of word by topic (*W*) and another of document by topic (*H*), whose product can approximately reconstruct the original matrix instead of modelling *W* and *H* in probabilistic terms [@pedregosaScikitlearnMachineLearning2011].
+
+So which model(s) should be used? The experiment by @stevensExploringTopicCoherence2012 offers some insights on the questions, as they discover that NMF and LDA perform better in finding topics which are semantically coherent than SVD. Since my research objective is finding out how media outlets in different political camps may focus on what topics while reporting on asylum seekers in Hong Kong, it would be better to use LDA and NMF which can extract coherent topics. Again, `sklearn` offers both the **`LatentDirichletAllocation`** and `NMF` classes for implementing these two models.
+
+Questions:
+
+1.  How to judge if the inferred models by the algorithms make sense?
+
+    -   Using both numeric metrics and inspecting the words grouped into each topic to see if they altogether convey a coherent theme
+
+        -   Numeric metrics alone may not be enough for judging whether the pre-set number of topics for the model to identify is "good" (e.g. @soltoffTopicModeling2021 ) and sometimes may even not correlate with topic interpretability [@stevensExploringTopicCoherence2012]
+        -   Potential metrics: the UMASS metric which judges the coherence of a topic by the co-occurence of the words in each topic over the entire corpus of documents, which can be used to compare performance across different topic models [@stevensExploringTopicCoherence2012]
+
+    -   Or should I use the decomposed parts of the documents as independent variables and see how well they can predict from which political camp's media outlets a given article comes from? i.e. this is an extrinsic way of validating the topics generated by seeing how well they can distinguish between media outlets from different political camps
+
+What will be included in the results part:
+
+1.  Some exploratory data analysis (e.g. distribution of the length of the news articles, how many entries were published by each outlet and political caomp in 2019)
+
+2.  The first modelling: finding the topics over the entire corpus of news articles in 2019
+
+    -   I will try both LDA and NMF first, and then decide which model's results should be used for interpretation and further investigation according to their performance on the UMASS metric as well as inspecting how the words in each topic actually point towards a common theme
+
+3.  Modelling the topics by political camp
+
+    -   Anecdotally, the majority of news articles on non-refoulement claimants in Hong Kong in 2019 were published by pro-Beijing media outlets (especially Oriental Daily News) as @ngFramingIssueAsylum2019 observe during mid-2015 to mid-2016. If at the end there is a huge imbalance of newspaper articles being published by pro-Beijing news media, then I will binarise the classification of the outlets into either pro-Beijing or non pro-Beijing (which encompasses both pro-democracy and neutral media outlets).

@@ -40,7 +40,7 @@ def make_df(metadata, news_text):
 
 
 news_articles_all = pd.DataFrame()
-news_text = glob.glob(r"news_articles/*.txt")
+news_text = glob.glob(r'news_articles/*.txt')
 
 for file in news_text:
     parsed_file_metadata, parsed_file_text = parse_text(file)
@@ -76,4 +76,4 @@ neutral = set(['Ming Pao Daily News', 'Metro Daily'])
 polit_camp_dict = {newspaper: 'Pro-democracy' if newspaper in pro_democracy else 'Neutral' if newspaper in neutral else 'Pro-Beijing' for newspaper in news_articles_all.Newspaper.unique()}
 news_articles_all['Political_camp'] = news_articles_all.Newspaper.map(
     polit_camp_dict)
-news_articles_all.to_csv('all_news_articles.csv', encoding='utf-8')
+news_articles_all.to_csv('all_news_articles.csv', encoding='utf-8-sig')

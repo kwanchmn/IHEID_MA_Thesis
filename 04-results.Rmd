@@ -9,11 +9,12 @@ output: iheiddown::chapter_pdf
 
 \setcounter{chapter}{3}
 
-```{r setup}
+```{r python_setup}
 library(reticulate)
 ```
 
 ```{python results_modules}
+import warnings
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -24,27 +25,7 @@ import re
 from itertools import chain
 pd.set_option('display.max_columns', None)
 sns.set_theme(context='paper')
-```
-
-```{python nlp_setup}
-# Utility function for reading text files which contain the words required for preprocessing
-def read_text(path, output=None):
-  with open(path, 'r', encoding='utf-8') as file:
-    text = file.readlines()
-    text = (word.replace('\n', '') for word in text)
-    return text
-
-# Creating stop word list
-stop_words_cantonese = read_text('Coding/text_cleaning/cantonese_stopwords.txt')
-punctuations = (punc for punc in zhon.hanzi.punctuation)
-stop_words_full = set(word for word in chain(stop_words_cantonese, punctuations))
-```
-
-```{python adding_proper_words_to_dict, include=FALSE}
-# Words of Hong Kong politics
-hk_politics_words = read_text('Coding/HKPolDict-master/merged.txt')
-for word in hk_politics_words:
-  jieba.add_word(word)
+warnings.filterwarnings(category=FutureWarning, action = 'ignore')
 ```
 
 ```{python import_dataset}
@@ -139,13 +120,126 @@ article_length_summary = all_news_articles[['Title_length', 'Raw_article_length'
 knitr::kable(py$article_length_summary, col.names = c("Title", "Raw main text"), caption="Summary statistics of the word counts of the news articles' titles and main texts")
 ```
 
-## The most common words in the news articles
-
-```{python}
-from wordcloud import WordCloud
-
-```
-
 ## Topic modelling
 
-After performing the required steps to clean up the textual data, it is time to
+After performing some EDA on the raw dataset, it is time to perform the preprocessing steps required for topic modelling with LDA and NMF. 
+
+```{python read_text_function}
+def read_text(path, output=None):
+  with open(path, 'r', encoding='utf-8') as file:
+    text = file.readlines()
+    text = [word.replace('\n', '') for word in text]
+    return text
+```
+
+```{python adding_words_to_dict, include=FALSE}
+hk_politics_words = read_text('Coding/HKPolDict-master/merged.txt') # Hong Kong politics
+asylum_seeker_words = read_text('Coding/Asylum_seeker_words.txt') # Asylum seekers
+for word in chain(hk_politics_words, asylum_seeker_words):
+  jieba.add_word(word)
+```
+
+```{python text_cleaning}
+# Creating the stop word list
+stop_words_cantonese = read_text('Coding/text_cleaning/cantonese_stopwords.txt')
+punctuations = [punc for punc in zhon.hanzi.punctuation]
+stop_words_full = list(set(word for word in chain(stop_words_cantonese, punctuations)))
+```
+
+```{python checking_parentheses_content, eval=FALSE}
+parents = all_news_articles['Text'].apply(lambda row: re.findall(r'(\（.+?\）)', row))
+parent_word_list = []
+for line in parents:
+  for word in line:
+    parent_word_list.append(word)
+parent_word_list = sorted(parent_word_list, key = lambda x: len(x), reverse=True)
+```
+
+After running the LDA and NMF models with different numbers of pre-specified topics to be discovered, we can see that  
+
+```{python topic_modelling_setup}
+# Modules
+from sklearn.pipeline import Pipeline
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.decomposition import LatentDirichletAllocation, NMF
+
+# tokenizer
+def tokenize_zh(doc):
+  return jieba.cut(doc)
+
+# Preprocessor
+def preprocessor_zh(doc):
+  regex_punctuation = r"[\d+\s+\n\t]|[\s+\.\!\/_,$%^*(+\"\']+|[+——！，。？、~@#￥%……&*（）]+|[【】╮╯▽╰╭★→「」]+|[！，❤。～《》：（）【】「」？”“；：、]"
+  return re.sub(regex_punctuation, "", doc)
+
+# Extracting the news article texts
+news_text = all_news_articles.Text
+```
+
+```{python lda_perplexity_test}
+lda_count = CountVectorizer(preprocessor=preprocessor_zh, 
+                                            tokenizer=tokenize_zh, 
+                                            stop_words=stop_words_full, 
+                                            min_df=0.02)
+lda_count_matrix = lda_count.fit_transform(news_text)
+lda_perplexity = {}
+
+for i in range(1, 21):
+  lda_model = LatentDirichletAllocation(n_components=i, random_state=1, max_iter=100)
+  _ = lda_model.fit(lda_count_matrix)
+  lda_perplexity[f"Topic(s): {i}"] = lda_model.perplexity(lda_count_matrix)
+```
+
+```{python perplexity_plot}
+sns.lineplot(x=lda_perplexity.keys(), y=lda_perplexity.values())
+sns.scatterplot(x=lda_perplexity.keys(), y=lda_perplexity.values())
+plt.gca().set(title="Perplexity score of LDA by number of topics", xlabel='Number of topics', ylabel='perplexity score', xticklabels=np.arange(1,21))
+plt.tight_layout()
+plt.show()
+plt.clf()
+```
+
+```{python nmf_beta_divergence_test}
+nmf_tfidf = TfidfVectorizer(preprocessor=preprocessor_zh, 
+                            tokenizer=tokenize_zh, 
+                            stop_words=stop_words_full, 
+                            min_df=0.02)
+nmf_term_matrix = nmf_tfidf.fit_transform(news_text)
+nmf_beta_divergence = {}
+
+for i in range(1, 21):
+  nmf_model = NMF(n_components=i, max_iter=1000)
+  _ = nmf_model.fit(nmf_term_matrix)
+  nmf_beta_divergence[f"Topics(s): {i}"] = nmf_model.reconstruction_err_
+```
+
+```{python nmf_beta_plot}
+sns.lineplot(x=nmf_beta_divergence.keys(), y=nmf_beta_divergence.values())
+sns.scatterplot(x=nmf_beta_divergence.keys(), y=nmf_beta_divergence.values())
+plt.gca().set(title='Beta divergence of NMF model by number of topics', xlabel='Number of topics', ylabel='Beta divergence score', xticklabels=np.arange(1,21))
+plt.tight_layout()
+plt.show()
+plt.clf()
+```
+
+```{python function_extract_topic_words}
+def topic_words(model, vectorizer, top_n_words):
+  vocabulary = vectorizer.get_feature_names()
+  for idx, topic in enumerate(model.components_):
+    print(f"\nTopic {idx + 1}: ")
+    print(" ".join([vocabulary[i] for i in topic.argsort()[:-top_n_words - 1: -1]]))
+```
+
+```{python lda_topics_words}
+lda_topics = LatentDirichletAllocation(n_components=10, random_state=1, max_iter=100)
+_ = lda_topics.fit(lda_count_matrix)
+topic_words(lda_topics, lda_count, 20)
+```
+
+```{python nmf_topic_words}
+nmf_topics = NMF(n_components=10, max_iter=1000)
+_ = nmf_topics.fit(nmf_term_matrix)
+topic_words(nmf_topics, nmf_tfidf, 20)
+```
+
+

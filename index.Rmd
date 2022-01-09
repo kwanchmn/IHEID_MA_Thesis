@@ -3,7 +3,7 @@
 ## Metadata       ##
 ####################
 doctitle: |
-  When central-periphral relations intersect with asylum seeking regime: how media outlets belonging to different political camps may report on asylum seekers in Hong Kong
+  When central-peripheral relations intersect with the asylum-seeking regime: how media outlets from different political camps report on asylum seekers in Hong Kong
 firstnames: Chin Man
 lastnames: Kwan
 thesisno: 12345

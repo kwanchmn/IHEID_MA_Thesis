@@ -17,10 +17,10 @@ os.chdir(master_directory)
 
 
 def read_txt(path):
-  with open(path, "r", encoding="utf-8") as txt:
-    file = txt.readlines()
-    file = [word.strip("\n") for word in file]
-    return file
+    with open(path, "r", encoding="utf-8") as txt:
+        file = txt.readlines()
+        file = [word.strip("\n") for word in file]
+        return file
 
 
 # Creating traditional Chinese stop word list
@@ -50,19 +50,22 @@ word_tag_dict = dict(zip(word_file_list, word_tag_list))
 # Adding words to the dictionary
 
 for doc, pos in word_tag_dict.items():
-  for word in doc:
-    jieba.add_word(word, tag=pos)
+    for word in doc:
+        jieba.add_word(word, tag=pos)
 
 # Adding asylum-seeker-related words to the dictionary
 asylum_seeker_words = read_txt("Asylum_seeker_words.txt")
 
 for word in asylum_seeker_words:
-  jieba.add_word(word, tag="nz")
+    jieba.add_word(word, tag="nz")
 
 # Removing digits, punctuations and spaces in the text
+
+
 def preprocess(doc):
-  regex = r"[\d+\s+\n\t]|[\s+\.\!\/_,$%^*(+\"\']+|[+——！，。？、~@#￥%……&*（）]+|[【】╮╯▽╰╭★→「」]+|[！，❤。～《》：（）【】「」？”“；：、]"
-  return re.sub(regex, "", doc)
+    regex = r"[\d+\s+\n\t]|[\s+\.\!\/_,$%^*(+\"\']+|[+——！，。？、~@#￥%……&*（）]+|[【】╮╯▽╰╭★→「」]+|[！，❤。～《》：（）【】「」？”“；：、]"
+    return re.sub(regex, "", doc)
+
 
 # Trying to tokenise an article
 news = ["""假難民濫用免遣返聲請程序禍港多年，不但拖延留港打黑工及作奸犯科，更連累本港於過去7個財政年度枉花60億元公帑。港府為打擊假難民問題，提出的《2021年入境（修訂）條例》草案已於今年4月獲立法會通過，在5大範疇針對性推出最少10招改善免遣返聲請安排，包括防止假難民拖延留港、改善酷刑聲請上訴委員會的程序、加強羈留、加快遣返及從源頭堵截假難民等，相關法例將於下月1日起生效。有學者認為，今次修例如「曙光」一樣，展示保安局及入境處杜絕假難民問題的決心。""",
@@ -75,7 +78,8 @@ news_df = pd.DataFrame(news, columns=["news"])
 
 # Now using jieba with sklearn as the tokenizer
 def tokenize_zh(doc):
-  return jieba.cut(doc)
+    return jieba.cut(doc)
+
 
 # BoW
 count = CountVectorizer(tokenizer=tokenize_zh,

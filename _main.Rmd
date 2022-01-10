@@ -1,4 +1,126 @@
 ---
+####################
+## Metadata       ##
+####################
+doctitle: |
+  When central-peripheral relations intersect with the asylum-seeking regime: how media outlets from different political camps report on asylum seekers in Hong Kong
+firstnames: Chin Man
+lastnames: Kwan
+thesisno: 12345
+phd: false # Or: false for Masters
+department: The International Relations/Political Science Department
+degreedate: January 2022
+supervisor: Prof. Sungmin Rho
+secondreader: Prof. Ravinder Bhavnani
+# examiner: Aragorn II Elessar # only required if PhD; otherwise delete or comment out
+# This is the YAML (YAML Ain't Markup Language) header that includes 
+# metadata used to produce the document. 
+# Be careful with spacing in this header!
+# Two spaces at the start of the line create indentation,
+# which embeds the parameter in a hierarchy.
+
+####################
+## Front Matter   ##
+####################
+dedication: For my loved ones #If you'd prefer to not include a Dedication, for example, simply delete the section entirely, or silence them (add # before each line). 
+resume: | # otherwise known as the abstract
+  `r paste(readLines("front-matter/_abstract.Rmd"), collapse = '\n  ')`
+acknowledgements: |
+  `r paste(readLines("front-matter/_acknowledgements.Rmd"), collapse = '\n  ')`
+abbreviations: "front-matter/abbreviations" # path to .tex file with abbreviations
+toc-depth: 6 # depth of heading to include in table of contents
+lof: true # list of figures in front matter?
+lot: true # list of tables in front matter?
+mini-toc: false  # mini-table of contents at start of each chapter? (this just prepares it; you must also add \minitoc after the chapter titles)
+mini-lot: false  # mini-list of tables by start of each chapter?
+mini-lof: false  # mini-list of figures by start of each chapter?
+
+####################
+## Bibliography   ##
+####################
+bibliography: bib/references.bib #Set your bibliography file here.
+bibliography-heading-in-pdf: References
+bib-style: authoryear # See https://www.overleaf.com/learn/latex/biblatex_citation_styles for a list of the commonly used built-in citations styles of biblatex.
+bib-sorting: nyt #See https://www.overleaf.com/learn/latex/Articles/Getting_started_with_BibLaTeX for different bibliography sorting options.
+citeall: true #Set this to true if you want all elements in your .bib file to appear in your bibliography (i.e. all R-packages you used).
+
+#####################
+## PDF Formatting  ##
+#####################
+draft: true # add DRAFT mark in the footer and line numbering?
+page-layout: oneside #'oneside' for PDF output (equal margins), 
+# or 'twoside' for two-sided binding (mirror margins and blank pages) 
+hidelinks: false #if false, the PDF output highlights clickable links with a colored border 
+# you will probably want to set this to true for PDF version you wish to physically print
+knit: iheiddown::thesis_pdf
+#####################
+## Output Options  ##
+#####################
+output: iheiddown::thesis_pdf
+link-citations: true
+documentclass: book
+---
+
+# examiner: Aragorn II Elessar # only required if PhD; otherwise delete or comment out
+
+Placeholder
+
+
+## Metadata       ##
+## Front Matter   ##
+## Bibliography   ##
+## PDF Formatting  ##
+## Output Options  ##
+
+<!--chapter:end:index.Rmd-->
+
+
+# Introduction {#intro}
+
+Placeholder
+
+
+
+<!--chapter:end:01-introduction.Rmd-->
+
+
+# Literature Review {#theory}
+
+Placeholder
+
+
+## Theories
+### What is national identity?
+### Impact of conceptions of national identity on attitudes towards immigrants
+### Chineseness in Hong Kong
+## Empirics
+### How do different political camps in Hong Kong perceive national identity?
+#### The pro-Beijing camp
+#### The pro-Democracy camp (or pan-democrats)
+#### The localist camp
+### Asylum seekers in Hong Kong
+#### Hong Kong's policy regime
+#### Responses by political camps
+
+<!--chapter:end:02-theory.Rmd-->
+
+
+# Methods {#methods}
+
+Placeholder
+
+
+## Hypotheses
+## Data collection
+## Modelling
+## Operationalisation
+### Main independent variable
+### Dependent variable
+### Control variables
+
+<!--chapter:end:03-method.Rmd-->
+
+---
 title: Results
 author: Chin Man KWAN
 chapter: 4
@@ -142,7 +264,9 @@ article_length_summary = news_df[['Title_length', 'Raw_article_length']].describ
 knitr::kable(py$article_length_summary, col.names = c("Title", "Raw main text"), caption="Summary statistics of the word counts of the news articles' titles and main texts")
 ```
 
-## Sentiment analysis
+## Sentiment analysis[^1]
+
+[^1]: The code for implementing all the steps in this section will be available in the appendix.
 
 ### Preprocessing
 
@@ -170,11 +294,11 @@ def quarter(x):
     return "Q3"
   else:
     return "Q4"
-news_df["Quarter"] = pd.Categorical(news_df.Month.apply(quarter))
+news_df["Quarter"] = news_df.Month.apply(quarter)
 news_df.drop(columns="Month", inplace=True)
 
-# Dummy encoding the categorical columns
-# news_df = pd.get_dummies(news_df, columns=["Political_camp", "Quarter"], drop_first=True)
+# Dummy encoding the categorical columsn
+news_df = pd.get_dummies(news_df, columns=["Political_camp", "Quarter"], drop_first=True)
 
 ```
 
@@ -182,8 +306,8 @@ Next step is to transform both the titles and main texts of the articles into te
 
 ```{python joining_title_and_text}
 news_df["Article"] = news_df.Title.str.cat(news_df.Text, sep=" ")
-news_df.set_index('Title', inplace=True)  # For indexing each article in the term-document matrix later
-news_df.drop(columns=["Text"], inplace=True)
+title_series = news_df.Title  # For indexing each article in the term-document matrix later
+news_df.drop(columns=["Title", "Text"], inplace=True)
 ```
 
 ```{python read_text_function}
@@ -207,20 +331,7 @@ punctuations = [punc for punc in zhon.hanzi.punctuation]
 stop_words_full = list(set(word for word in chain(stop_words_cantonese, punctuations)))  # Concatenating the two lists of stop words and punctuation
 ```
 
-### Training the model
-
-After the above preprocessing steps which created additional features as well as formatted the dataset to be inputs for the machine learning model, it is time to train a model that adequately predicts the relations between the features and the sentiment of the articles before finding out the importance of the political camp as the main independent variable. Note that numerical features (i.e. other than the dummy-encoded columns of `Political_camp` and `Quarter`) are standardised to facilitate model convergence, meaning these variables will be centred at 0 so that all of them are on the same scale.
-
-```{python train_and_test}
-from sklearn.model_selection import train_test_split
-X = news_df.drop(columns="Sentiment")
-y = news_df.Sentiment
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y, random_state=1)
-```
-
-Since the dataset has only around 550 observations, it is quite likely that the model will overfit if I directly use the term-document matrix as the input which contain thousands of columns of tokens as features. Consequently, I will use a dimensionality reduction technique called non-negative matrix factorisation (NMF) decomposes the original term-document matrix into two matrices. According to @stevensExploringTopicCoherence2012 (p.953), the matrix denoted as *H* which captures the weight of each topic (as columns) in each document (as rows) of the corpus can help summarise the information of the articles and then be used as the input features of the models.
-
-I set the number of latent topics (`n_components`) as 10 for the NMF model, and this is decided based on figure 4.4 which plots the reconstruction error measuring the difference of the values between the original TF-IDF matrix and the reconstructed version after NMF. Although there are certainly other valid choices of the number of latent topics to be discovered by NMF, `10` appears to be a reasonable choice for the compromise between finding out a wide variety of topics in the corpus and not fitting too much in the noise of the data.
+Since the dataset has only around 550 observations, it is quite likely that the model will overfit if I directly use the term-document matrix as the input which contain thousands of columns as features (with each column corresponding to a token). Consequently, I will use a dimensionality reduction technique called non-negative matrix factorisation (NMF) decomposes the original term-document matrix into two matrices. According to \@stevensExploringTopicCoherence2012 (p.953), the two matrices generated by NMF, named *W* and *H*,
 
 ```{python tokeniser_setup}
 # tokenizer
@@ -233,215 +344,209 @@ def preprocessor_zh(doc):
   return re.sub(regex_punctuation, "", doc)
 ```
 
-```{python, fig.cap="Elbow plot of the reconstruction error of NMF as a function of the number of pre-specified latent topics"}
+```{python tfidf_nmf}
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import NMF
 
 # Creating the tfidf matrix
 tfidf_vec = TfidfVectorizer(min_df = 0.02, preprocessor=preprocessor_zh, tokenizer=tokenize_zh, stop_words=stop_words_full)
-X_train_tfidf = tfidf_vec.fit_transform(X_train.Article)
+tfidf_matrix = tfidf_vec.fit_transform(news_df.Article)
 
-# Plotting the reconstruction error according to the number of latent topics
-reconstruct_error = []
-for i in range(1, 16):
-  nmf = NMF(n_components=i, max_iter=500, random_state=1)
-  articles_nmf = nmf.fit_transform(X_train_tfidf)
-  reconstruct_error.append(nmf.reconstruction_err_)
+# Let's set n_components as 10 for nmf for now
+nmf_10 = NMF(n_components=10, max_iter=500, random_state=1)
+articles_nmf = nmf_10.fit_transform(tfidf_matrix)
 
-ax = sns.lineplot(x=np.arange(1, 16), y=reconstruct_error)
-ax.set(xlabel="Number of latent topics", ylabel="Reconstruction error", xticks=np.arange(1, 16))
-plt.show()
-plt.clf()
+# Using NMF to reduce dimensionality
+# reconstruct_error = []
+# for i in range(1, 16):
+#   nmf = NMF(n_components=i, max_iter=500, random_state=1)
+#   articles_nmf = nmf.fit_transform(tfidf_matrix)
+#   reconstruct_error.append(nmf.reconstruction_err_)
+# 
+# sns.lineplot(x=np.arange(1, 16), y=reconstruct_error)
+# plt.show()
+# plt.clf()
 
-# Let's set n_components as 11 for nmf for now
-nmf_11 = NMF(n_components=11, max_iter=500, random_state=1)
-X_train_nmf = nmf_11.fit_transform(X_train_tfidf)
 ```
 
-In order to make the latent topics generated by the NMF model be named more intuitive, I will inspect the most prominent words linked to each latent topic and then decide a term to sum up the content. Overall, the ten topics generated by NMF are more or less semantically coherent and can be summed up concisely. I will create a DataFrame from the document-topic matrix (`articles_nmf`) and then concatenate it to the main DataFrame (`news_df`).
+In order to make the latent features generated by the NMF model more intuitive, I will inspect the words that are
 
 ```{python inspecting_topic_words}
 def topic_words(model, vectorizer, top_n_words):
   vocabulary = vectorizer.get_feature_names()
   for idx, topic in enumerate(model.components_):
-    print(f"\nTopic {idx}: ")
+    print(f"\nTopic {idx + 1}: ")
     print(" ".join([vocabulary[i] for i in topic.argsort()[:-top_n_words - 1: -1]]))
 
-topic_words(nmf_11, tfidf_vec, 30)
+topic_words(nmf_10, tfidf_vec, 20)
 ```
 
-```{python latent_topic_df}
-topics_list = ["Crimes", "Non-refoulement policy", "Drugs", "Public security", "Illegal labour", "Illegal immigration", "Murder", "South Asian settlements", "Robbery", "Illegal gambling"]
-articles_topic_df = pd.DataFrame(articles_nmf, index=news_df.index, columns=topics_list)
+```{python final_dataframe_concatenation}
+
 ```
 
-```{python concatenating_DataFrame}
-news_df_final = pd.concat([news_df, articles_topic_df], axis=1)
-news_df_final.drop(columns="Article", inplace=True)
+### Training the model
 
-# To demostrate the type of the features 
-news_df_final.info()
+```{python train_and_test}
+from sklearn.model_selection import train_test_split
+
 ```
 
 ```{python evaluation_metrics}
-from sklearn.model_selection import cross_val_score 
-from sklearn.metrics import log_loss
-def evaluate_model(model, model_name: str, X_train=X_train, X_test=X_test, y_train=y_train, y_test=y_test):
-  cv_log_loss = np.mean(-cross_val_score(model, X_train, y_train, cv=10, scoring="neg_log_loss"))
-  y_pred_proba = model.predict_proba(X_test)
-  test_log_loss = log_loss(y_test, y_pred_proba)
-  print(f"Performance of the {model_name}: cross validation log loss is {cv_log_loss}; log loss on the test set is {test_log_loss}.")
+from sklearn.metrics import log_loss, f1_score
+def evaluate_model():
 ```
 
-```{python preprocessing}
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
+```{python model_spec}
+from sklearn.linear_model import LogisticRegressionCV
+from sklearn.svm import SVC
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
 from sklearn.compose import ColumnTransformer
 
-# Instantiating preprocessor
-numeric_columns = [col for col in X.columns if X[col].dtype in ["int64", "float64"] and col != "Racial_label"]
-ohe_columns = ["Political_camp", "Quarter"]
-feature_preprocessor = ColumnTransformer([("standardiser", StandardScaler(), numeric_columns), 
-                                          ("onehotencode", OneHotEncoder(), ohe_columns)],
-                                          remainder='passthrough')
-_ = feature_preprocessor.fit(X_train)
+
+
 ```
 
-```{python baseline_models}
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.pipeline import Pipeline
-import xgboost as xgb
-from sklearn.utils.class_weight import compute_sample_weight
+<!-- ```{python lda_perplexity_test} -->
 
-# Logistic regression pipeline
-log_reg_baseline = Pipeline([("preprocess", feature_preprocessor), 
-                             ("log_reg", LogisticRegression(random_state=1,  
-                                                            class_weight="balanced"))])
-_ = log_reg_baseline.fit(X_train, y_train)
-evaluate_model(log_reg_baseline, "logistic regression")
+<!-- lda_perplexity = {} -->
 
-# SVM pipeline
-svm_baseline = Pipeline([("preprocess", feature_preprocessor), 
-                         ("svm", SVC(probability=True, class_weight="balanced", random_state=1))])
-_ = svm_baseline.fit(X_train, y_train)
-evaluate_model(svm_baseline, "support vector machine")
+<!-- for i in range(1, 21): -->
 
-# Random forest pipeline
-rf_baseline = Pipeline([("preprocess", feature_preprocessor), 
-                        ("rfc", RandomForestClassifier(class_weight="balanced", random_state=1))])
-_ = rf_baseline.fit(X_train, y_train)
-evaluate_model(rf_baseline, "random forest")
+<!--   lda_model = LatentDirichletAllocation(n_components=i, random_state=1, max_iter=50) -->
 
-# xgboost pipeline
-xgb_sample_weight = compute_sample_weight(class_weight="balanced", y=y_train)
-xgboost_baseline = Pipeline([("preprocess", feature_preprocessor), 
-                             ("xgb_clf", xgb.XGBClassifier(n_estimators=25,
-                                                           objective="multi:softprob",
-                                                           eval_metric="mlogloss",
-                                                           random_state=1, 
-                                                           use_label_encoder=False))])
-_ = xgboost_baseline.fit(X_train, 
-                         y_train, 
-                         xgb_clf__sample_weight=xgb_sample_weight)
-evaluate_model(xgboost_baseline, "XGBoost")
+<!--   _ = lda_model.fit(lda_count_matrix) -->
+
+<!--   lda_perplexity[f"Topic(s): {i}"] = lda_model.perplexity(lda_count_matrix) -->
+
+<!-- ``` -->
+
+<!-- ```{python perplexity_plot} -->
+
+<!-- sns.lineplot(x=lda_perplexity.keys(), y=lda_perplexity.values()) -->
+
+<!-- sns.scatterplot(x=lda_perplexity.keys(), y=lda_perplexity.values()) -->
+
+<!-- plt.gca().set(title="Perplexity score of LDA by number of topics", xlabel='Number of topics', ylabel='perplexity score', xticklabels=np.arange(1,21)) -->
+
+<!-- plt.tight_layout() -->
+
+<!-- plt.show() -->
+
+<!-- plt.clf() -->
+
+<!-- ``` -->
+
+<!-- ```{python nmf_beta_divergence_test} -->
+
+<!-- nmf_tfidf = TfidfVectorizer(preprocessor=preprocessor_zh, -->
+
+<!--                             tokenizer=tokenize_zh, -->
+
+<!--                             stop_words=stop_words_full, -->
+
+<!--                             min_df=0.02) -->
+
+<!-- nmf_term_matrix = nmf_tfidf.fit_transform(news_text) -->
+
+<!-- nmf_beta_divergence = {} -->
+
+<!-- for i in range(1, 21): -->
+
+<!--   nmf_model = NMF(n_components=i, max_iter=1000) -->
+
+<!--   _ = nmf_model.fit(nmf_term_matrix) -->
+
+<!--   nmf_beta_divergence[f"Topics(s): {i}"] = nmf_model.reconstruction_err_ -->
+
+<!-- ``` -->
+
+<!-- ```{python nmf_beta_plot} -->
+
+<!-- sns.lineplot(x=nmf_beta_divergence.keys(), y=nmf_beta_divergence.values()) -->
+
+<!-- sns.scatterplot(x=nmf_beta_divergence.keys(), y=nmf_beta_divergence.values()) -->
+
+<!-- plt.gca().set(title='Beta divergence of NMF model by number of topics', xlabel='Number of topics', ylabel='Beta divergence score', xticklabels=np.arange(1,21)) -->
+
+<!-- plt.tight_layout() -->
+
+<!-- plt.show() -->
+
+<!-- plt.clf() -->
+
+<!-- ``` -->
+
+<!--chapter:end:04-results.Rmd-->
+
+---
+title: Conclusion
+author: Author
+chapter: 5
+in_context: False
+knit: iheiddown::chapter_pdf
+output: iheiddown::chapter_pdf
+---
+
+\setcounter{chapter}{4}
+
+# Conclusion {#conclusion}
+
+In conclusion, it is found that at least in 2019, the political camp of media outlets was associated with their attitudes towards asylum seekers in Hong Kong. Specifically,
+
+## How might the instigation of the National Security Law affect the public discourse on asylum seekers in Hong Kong?
+
+Just a year after the anti-extradition law protest had started and once again mobilised a huge section of Hong Kong's society to oppose , the HKSAR Government promulgated the National Security Law in July 2020 which
+
+As mentioned before, the opposition's political influence has been greatly crippled since the promulgation of the National Security Law in July 2020. With the conclusion of the recent 2021 Legislative Council election after an overhaul of the electoral system which essentially gatekeeps candidacy only to the "patriots" [@lau2021], Hong Kong's legislature, once a political venue where opposition parties could access political resources and advocate alternative policy discourses,
+
+Even in the media
+
+Alternative media such as Apple Daily and Stand News were also forced to shut down in 2021 due to the
+
+<!--chapter:end:05-conclusion.Rmd-->
+
+# Appendix: The Echoes of the Code{-}
+
+```{=latex}
+\markboth{Appendix}{Appendix}
 ```
 
-Judging from the log loss in test set, it seems that random forest and xgboost perform relatively better.
+The goal of this appendix is to echo the code you used in your thesis for a greater sense of transparency and replicability of your research. 
+Note that `ref.labels` can be set to any label. 
+Hence, you can filter the code you want replicated in the appendix by setting labels to the desired code chunks in the various chapters. 
+See [this excellent resource](https://bookdown.org/yihui/rmarkdown-cookbook/code-appendix.html) for more information.
 
-```{python tuning_xgb}
-from hyperopt import fmin, hp, tpe, Trials
 
-xgb_space = {
-  "xgb_clf__n_estimators": hp.quniform("xgb_clf__n_estimators", 10, 200, 5),
-  "xgb_clf__max_depth": hp.quniform("xgb_clf__max_depth", 2, 8, 1), 
-  "xgb_clf__learning_rate": hp.uniform("xgb_clf__learning_rate", 0.01, 0.3),
-  "xgb_clf__gamma": hp.uniform("xgb_clf__gamma", 0.1, 10),
-  "xgb_clf__min_child_weight": hp.quniform("xgb_clf__min_child_weight", 1, 10, 1),
-  "xgb_clf__subsample": hp.quniform("xgb_clf__subsample", 0.5, 0.9, 0.01),
-  "xgb_clf__colsample_bytree": hp.quniform("xgb_clf__colsample_bytree", 0.5, 0.9, 0.01),
-  "xgb_clf__reg_lambda": hp.quniform("xgb_clf__reg_lambda", 1, 100, 1)
-}
+This might be particularly useful when you perform model selection to output intermediary steps here instead of in the code to avoid cluttering your report. 
 
-xgboost_pipeline = Pipeline([("preprocess", feature_preprocessor), 
-                             ("xgb_clf", xgb.XGBClassifier(objective="multi:softprob",
-                                                           eval_metric="mlogloss",
-                                                           random_state=1, 
-                                                           use_label_encoder=False))])
-
-def xgb_objective(params):
-  xgb_params = {
-  "xgb_clf__n_estimators": int(params["xgb_clf__n_estimators"]), 
-  "xgb_clf__max_depth": int(params["xgb_clf__max_depth"]),
-  "xgb_clf__learning_rate": params["xgb_clf__learning_rate"],
-  "xgb_clf__gamma": params["xgb_clf__gamma"],
-  "xgb_clf__min_child_weight": int(params["xgb_clf__min_child_weight"]),
-  "xgb_clf__subsample": params["xgb_clf__subsample"],
-  "xgb_clf__colsample_bytree": params["xgb_clf__colsample_bytree"],
-  "xgb_clf__reg_lambda": params["xgb_clf__reg_lambda"]}
-  loss = np.mean(- cross_val_score(xgboost_pipeline.set_params(**xgb_params), X_train, y_train, cv=10, scoring="neg_log_loss"))
-  return loss
-
-xgb_trials = Trials()
-best_xgb_params = fmin(xgb_objective, xgb_space, algo=tpe.suggest, max_evals=1000, rstate=np.random.seed(1), trials=xgb_trials)
+```{r get-labels, echo = FALSE}
+labs <- knitr::all_labels()
+labs <- setdiff(labs, c("setup", "get-labels"))
 ```
 
-```{python}
-best_xgb_params['xgb_clf__max_depth'] = int(best_xgb_params['xgb_clf__max_depth'])
-best_xgb_params['xgb_clf__n_estimators'] = int(best_xgb_params['xgb_clf__n_estimators'])
-xgb_best_pipeline = Pipeline([("preprocess", feature_preprocessor), 
-                              ("xgb_clf", xgb.XGBClassifier(objective="multi:softprob",
-                                                           eval_metric="mlogloss",
-                                                           random_state=1, 
-                                                           use_label_encoder=False))]).set_params(**best_xgb_params)
-_ = xgb_best_pipeline.fit(X_train, 
-                          y_train, 
-                          xgb_clf__sample_weight=xgb_sample_weight, 
-                          xgb_clf__eval_set=[(feature_preprocessor.transform(X_test), y_test)], 
-                          xgb_clf__early_stopping_rounds=best_xgb_params['xgb_clf__n_estimators']/10, 
-                          xgb_clf__verbose=False)
-evaluate_model(xgb_best_pipeline, "XGBoost with optimal hyperparameters")
+```{r all-code, ref.label=labs, eval=FALSE}
 ```
 
-```{python tuning_rfc}
+# Appendix: The Echoes of the Code redux{-}
 
-# 
-# rfc_space = {
-#   "rfc__n_estimators": hp.quniform("rfc__n_estimators", 10, 200, 10), 
-#   "rfc__max_depth": hp.quniform("rfc__max_depth", 2, 32, 1),
-#   "rfc__min_sample_split": hp.quniform("rfc__min_sample_split", 5, 25, 5), 
-#   "rfc__min_samples_leaf": hp.quniform("rfc__min_samples_leaf", 5, 25, 5)
-# }
-# 
-# def rfc_objective(params):
-#   rfc_params = {
-#     "rfc__n_estimators": int(params["rfc__n_estimators"]),
-#     "rfc__max_depth": int(params["rfc__max_depth"]),
-#     "rfc__min_sample_split": params["rfc__min_sample_split"],
-#     "rfc__min_samples_leaf": params["rfc__min_samples_leaf"]
-#   }
-#   loss = np.mean(- cross_val_score(rf_baseline, X_train, y_train, cv=5, scoring="neg_log_loss"))
-#   return loss
-# 
-# rf_trials = Trials()
-# rf_best_params = fmin(rfc_objective, rfc_space, algo=tpe.suggest, max_evals=1000, rstate=np.random.seed(1), trials=rf_trials)
+Add as many appendices as you like.
+
+<!--chapter:end:98-appendices.Rmd-->
+
+`r if(!knitr:::is_latex_output()) '# References {-}'`
+
+<!-- 
+You don't really need to alter this chapter unless you want to change the name of the bibliography section 
+to 'Bibliography', 'Literature', or something similar.
+Any references included in the chapters will be printed here automatically.
+-->
+
+<!-- This quiet code chunk serves as a custom style for the reference section and adds a custom header. Don't change it unless you really want to. -->
+```{=latex}
+\markboth{References}{References}
 ```
 
-```{python tuning_logit}
-from sklearn.model_selection import GridSearchCV
-logit_params = {
-  "log_reg__penalty": ["l2", "l1"],
-  "log_reg__C": [1e-5, 1e-4, 1e-3, 1e-2, 1e-1, 1, 10, 100]
-}
-
-log_reg_pipeline = Pipeline([("preprocess", feature_preprocessor), 
-                             ("log_reg", LogisticRegression(random_state=1,  
-                                                            class_weight="balanced", 
-                                                            max_iter=1000, 
-                                                            solver="liblinear"))])
-
-logit_grid_cv = GridSearchCV(log_reg_pipeline, logit_params, scoring="neg_log_loss")
-_ = logit_grid_cv.fit(X_train, y_train)
-evaluate_model(logit_grid_cv, "the optimal logistic regression")
-```
+<!--chapter:end:99-references.Rmd-->
 

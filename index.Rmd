@@ -77,4 +77,16 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
 library(reticulate)
 ```
 
-The issue of refugees and asylum seekers have ignited a lot of attention and debates in the 21st century, particularly so after the 2015 European refugee crisis. In the academia, a great deal of effort has been contributed to understanding how the public's and/or policy-makers' perceptions towards asylum seekers and
+It could be said that one of the most salient challenges facing the world in the 21st Century is the massive movement of refugees and asylum seekers across national borders, particularly so after the 2015 Refugee Crisis in Europe (or more specifically, the European Union). Political scientists have spent a lot of efforts to inquire the relationship between identity politics and the attitudes towards immigrants (of which asylum seekers are a subgroup) of the public and policymakers, with a considerable amount of work focusing on the European context (e.g. [@borzelEuroSchengenCrises2018; @nouryIdentityPoliticsPopulism2020\]). Being one of the most easily accessed and popular means of acquiring information about affairs of the world, the media is acknowledged to be potentially influential on how the public may perceive asylum seekers \[@cooperMediaCoverageRefugees2017; @mckayAnyOneThese2011; @ngFramingIssueAsylum2019].
+
+Just as the 2015 European Refugee Crisis has , . Even though Hong Kong is never a signatory of the 1951 Refugee Convention and thus is not obligated to host refugees within its territory, the Government still has to provide refuge to those who flee from their countries of origin due to
+
+My inspiration for writing on this topic comes from several sources. For starters, .
+
+Furthermore, I would like to take the opportunity of researching on this important topic to test whether machine learning
+
+The process of the research for this thesis was quite long and not without difficulties. First of all, given the vast volume of literature related to asylum seekers based on numerous perspectives and levels of analysis, it was quite easy to often get lost. In the end, I decided to focus on the literature of how the definition of national identity may affect the perceptions towards immigrants (of which asylum seekers are a subgroup) because the political division in Hong Kong is arguably more defined based on how the identity of Hong Kong citizens should be defined, even though it is equally valid to classify the political parties according to the more conventional left-right dimensions [@maPoliticalPartiesElections2012].
+
+The data collection and preprocessing part also took quite a considerable amount of time. Apart from only filtering out relevant news articles about non-refoulement claimants published by newspapers in 2019, the messy nature of text data also required a lot of steps to transform them into a format suitable for being model inputs. The fact that the data set did not have
+
+As much as there are numerous performant machine learning models available nowadays, the result will not be very meaningful if the data quality is not optimal.

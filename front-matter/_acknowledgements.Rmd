@@ -1,9 +1,19 @@
-I would like to take this opportunity to thank all the people who have offered enormous support to me throughout my study at the Graduate Institute. First of all, my parents, Mr. Lam Cheong KWAN and Ms. Suk Yee TAM, have always supported me in every moment of my life. Without them I would not have been able to be who I am today. 
+Throughout the writing of my thesis and my study at the Graduate Institute, I am very grateful to have received an enormous amount of support and assistance.
 
-Next, my friends have also brought a lot of joy throughout my study at the Institute over the last two years. My cohort in the Department definitely 
+Starting with my thesis, I would like to thank my supervisor, Professor Sungmin Rho, who has provided invaluable and timely feedback on how I should proceed with my research, especially when at times I was stuck at how to proceed. Also my deepest gratitude to Professor Ravinder Bhavnani for agreeing to be my second reader.
 
+I would also like to thank all the professors and teaching assistants at the IRPS department for all of the amazing courses they have taught. I have surely come across a lot of stimulating and intriguing topics and perspectives throughout the courses I have taken. Particularly, I had never expected that I would discover my interest in data science.
+
+No matter it is emotional support during stressful times or academic support towards each other on a variety of subjects, it would have been a much more difficult academic journey for me without the support from my cohort at the IRPS programme. Hope we can all hang out together one day.
+
+On a personal level, my beloved parents have offered their unlimited support to me throughout my study at the Institute and my life in general. Without them I would not have been able to be who I am today. My friends back in Hong Kong whom I have known since high school have never ceased to be an amazing companionship even if we are now living in two different continents. I have also known some of the most agreeable friends at the Institute, and they have always cheered me up in times of difficulty.
+
+Lastly, to whoever is reading this thesis, thank you for spending your time on doing so. I hope it will be worth your time, and you will enjoy it.
+
+```{=tex}
 \begin{flushright}
 Chin Man KWAN \\
 Graduate Institute, Geneva \\
 10 January 2022
 \end{flushright}
+```

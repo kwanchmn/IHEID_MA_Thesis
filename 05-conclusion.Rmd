@@ -1,8 +1,8 @@
 ---
 title: Conclusion
-author: Author
+author: Chin Man KWAN
 chapter: 5
-in_context: False
+in_context: True
 knit: iheiddown::chapter_pdf
 output: iheiddown::chapter_pdf
 ---
@@ -13,12 +13,14 @@ output: iheiddown::chapter_pdf
 
 In conclusion, it is found that at least in 2019, the political camp of media outlets was associated with their attitudes towards asylum seekers in Hong Kong. Specifically,
 
+-   I will sum up the findings after editing the main sections
+
 ## How might the instigation of the National Security Law affect the public discourse on asylum seekers in Hong Kong?
 
-Just a year after the anti-extradition law protest had started and once again mobilised a huge section of Hong Kong's society to oppose , the HKSAR Government promulgated the National Security Law in July 2020 which
+Just a year after the anti-extradition law protest had started and once again mobilised a huge section of Hong Kong's society against the authority, the HKSAR Government promulgated the National Security Law in July 2020 which aims to tighten the control over the political landscape of Hong Kong. As a result, non-pro-Beijing forces have witnessed their political influence being severely restricted, both in official institutions and the society. Even though the Legislative Council had been one of the few avenues where pro-democracy activists and politicians could run for office (despite lacking substantive authority to participate in policymaking by proposing bills), with the conclusion of the recent 2021 Legislative Council election after an overhaul of the electoral system which essentially permits candidacy only to the "patriots" loyal to the Beijing and HKSAR Governments [@lauPatriotsOnlyHong2021], the door for pro-democracy camp to advocate alternative political discourses has been shut. This means when pro-Beijing lawmakers propose non-binding bills to combat the so-called "fake refugee" problems as Holden Chow did back in 2016 [@chengLegislatureRejectsLawmaker2016], such bills will very unlikely be opposed by others, and the voting results on the however unbinding bills may then be used by the Government to justify more stringent measures against non-refoulement claimants.
 
-As mentioned before, the opposition's political influence has been greatly crippled since the promulgation of the National Security Law in July 2020. With the conclusion of the recent 2021 Legislative Council election after an overhaul of the electoral system which essentially gatekeeps candidacy only to the "patriots" [@lau2021], Hong Kong's legislature, once a political venue where opposition parties could access political resources and advocate alternative policy discourses,
+Even the presence of alternative media which strive to provide an alternative narrative of news contrary to the state-coopted mainstream media as @leeChangingPoliticalEconomy2018 describes may not be the case anymore. In June 2021, the flagship pro-democracy newspaper *Apple Daily* was forced to shut down after the HKSAR Government had frozen the media outlet's asset under the pretext of violating the National Security Law [@tanAppleDailyHong2021]. Just days before the year 2021 ended, the popular pro-democracy online media *Stand News* had to shut down as well after the Hong Kong police raided its office and arrested senior staff [@ngHongKongProdemocracy2021], followed by the closure of another online pro-democracy news outlets days after [@HongKongProdemocracy2022]. It is likely that more alternative media may be pressured to defunct in the future as well due to the threat from the National Security Law, and this implies that alternative discourses will exist in the media industry of Hong Kong. Consequently, since the pro-Beijing camp media in general are more hostile to non-refoulement claimants, it is likely that Hong Kong's media landscape will be dominated by more negative rhetoric towards asylum seekers in the city given that pro-democracy outlets are now finding increasing difficulties to operate without running into legal repercussion.
 
-Even in the media
+With two major channels of formulating and propagating political discourses being shut off, it can be expected that the pro-Beijing camp will face much less counter-discourse from the oppositions while attempting to frame certain issues, including on the status and legitimacy of non-refoulement claimants. As the study by \@boomgaardenHowNewsContent2009 shows, the tone of how asylum seekers are reported in news media is negatively associated with the public attitude towards asylum seekers in later periods, meaning that more pejorative coverage of refugees by the media may cause the public to be more averse towards this group of vulnerable population, and the effect of negative news coverage may become even more salient when the levels of immigration and asylum seeking applications are perceived to be high.
 
-Alternative media such as Apple Daily and Stand News were also forced to shut down in 2021 due to the
+In short, the gradual decrease of

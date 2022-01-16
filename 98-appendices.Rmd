@@ -3,7 +3,6 @@
 ```{=latex}
 \markboth{Appendix}{Appendix}
 ```
-
 The goal of this appendix is to echo the code you used in your thesis for a greater sense of transparency and replicability of your research. Note that `ref.labels` can be set to any label. Hence, you can filter the code you want replicated in the appendix by setting labels to the desired code chunks in the various chapters. See [this excellent resource](https://bookdown.org/yihui/rmarkdown-cookbook/code-appendix.html) for more information.
 
 This might be particularly useful when you perform model selection to output intermediary steps here instead of in the code to avoid cluttering your report.
@@ -20,13 +19,22 @@ labs <- setdiff(labs, c("setup", "get-labels"))
 
 Add as many appendices as you like.
 
-```{python tuning_xgb, eval=FALSE, echo=TRUE}
-from hyperopt import fmin, hp, tpe, Trials
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE, eval=FALSE, message=FALSE)
+```
 
+Below is the codes for setting up the hyper-parameter tuning grid for the XGBoost model. Note that the results from `hyperopt` may differ due to the stochastic nature of the search space defined for Bayesian Optimisation.
+
+```{python tuning_xgb}
+from hyperopt import fmin, hp, tpe, Trials
+from sklearn.metrics import make_scorer, f1_score
+import xgboost as xgb
+
+# Setting up the hyper-parameter grid
 xgb_space = {
   "n_estimators": hp.quniform("n_estimators", 10, 50, 5),
-  "max_depth": hp.quniform("max_depth", 2, 6, 1), 
-  "learning_rate": hp.quniform("learning_rate", 0.01, 0.3, 0.01),
+  "max_depth": hp.quniform("max_depth", 2, 8, 1), 
+  "learning_rate": hp.quniform("learning_rate", 0.01, 0.5, 0.01),
   "gamma": hp.quniform("gamma", 0.1, 10, 0.1),
   "min_child_weight": hp.quniform("min_child_weight", 1, 10, 1),
   "subsample": hp.quniform("subsample", 0.5, 0.9, 0.1),
@@ -34,6 +42,7 @@ xgb_space = {
   "reg_lambda": hp.quniform("reg_lambda", 1, 100, 1)
   }
 
+# Defining the objective function
 def xgb_objective(params):
   xgboost_clf = xgb.XGBClassifier(objective="multi:softmax",
                                   eval_metric="mlogloss",
@@ -49,28 +58,46 @@ def xgb_objective(params):
   "colsample_bytree": params["colsample_bytree"],
   "reg_lambda": params["reg_lambda"]
   }
-  loss = np.mean(- cross_val_score(xgboost_clf.set_params(**xgb_params), X_train_final, y_train, cv=five_fold_cv, scoring="neg_log_loss"))
+  loss = 1 - np.mean(cross_val_score(xgboost_clf.set_params(**xgb_params), X_train_final, y_train, cv=five_fold_cv, scoring=make_scorer(f1_score, average="macro")))  # This means 1 - f1_score because the function fmin minimises the loss
   return loss
 
+# Searching for optimal hyper-parameters
 xgb_trials = Trials()
-best_xgb_params = fmin(xgb_objective, xgb_space, algo=tpe.suggest, max_evals=500, rstate=np.random.seed(1), trials=xgb_trials)
-
+best_xgb_params = fmin(xgb_objective, xgb_space, algo=tpe.suggest, max_evals=1000, rstate=np.random.seed(1), trials=xgb_trials)
 ```
 
-```{python nmf_topic_word_list, eval=FALSE, echo=TRUE}
-{python inspecting_topic_words}
-# Defining a function to extract the most prominent words in each topic
-def topic_words(model, vectorizer, top_n_words):
-  vocabulary = vectorizer.get_feature_names()
-  for idx, topic in enumerate(model.components_):
-    print(f"\nTopic {idx}: ")
-    print(" ".join([vocabulary[i] for i in topic.argsort()[:-top_n_words - 1: -1]]))
+```{python}
+# from sklearn.model_selection import cross_val_score, StratifiedKFold
+# from sklearn.metrics import classification_report
 
-# Extracting the 30 most prominent words in each topic
-_ = topic_words(nmf_10, tfidf_vec, 30)  # the output is shown in the figure below
+# Utility function for evaluating the model's performance in cross validation and test set in terms of log loss
+# def evaluate_model_f1(model, model_name: str, cv=five_fold_cv, X_train=X_train_final, X_test=X_test_final, y_train=y_train, y_test=y_test):
+#   y_pred = model.predict(X_test)
+#   cv_f1_score = np.mean(cross_val_score(model, X_train, y_train, cv=cv, scoring=make_scorer(f1_score, average="macro")))
+#   test_f1_score = f1_score(y_test, y_pred, average="macro")
+#   return {"5-fold cv f1 score": cv_f1_score, "Test set f1 score": test_f1_score}
+
+# Setting the appropriate data types of some hyper-parameters
+best_xgb_params["n_estimators"]= int(best_xgb_params["n_estimators"])
+best_xgb_params["max_depth"] = int(best_xgb_params["max_depth"])
+
+# Fitting the model
+xgb_tuned = xgb.XGBClassifier(objective="multi:softprob",
+                                  eval_metric="mlogloss",
+                                  random_state=1,
+                                  use_label_encoder=False).set_params(**best_xgb_params)
+_ = xgb_tuned.fit(X_train_final,
+                  y_train,
+                  sample_weight=xgb_sample_weight,
+                  eval_set=[(X_test_final, y_test)],
+                  early_stopping_rounds=5,
+                  verbose=0)
+
+# Evaluating the tuned model
+print(evaluate_model_f1(xgb_tuned, "Tuned xgboost"))
+print(classification_report(y_test, xgb_tuned.predict(X_test_final)))
+
+# To save the model locally. un-comment the below lines of code
+import pickle
+pickle.dump(xgb_tuned, open("xgb_clf_tuned_II.pkl", "wb"))
 ```
-
-```{r, fig.cap="Word list of each of the topics generated by the NMF model", out.width="100%"}
-knitr::include_graphics("nmf_topic_words_list.png")
-```
-

@@ -1,0 +1,1051 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% IHEID CHAPTER TEMPLATE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% PAGE LAYOUT
+% Pass this in from YAML
+\documentclass[a4paper, oneside]{report}
+\usepackage[includehead,hmargin={3.1cm, 3.1cm}, vmargin={2.5cm,2.7cm}, headsep=.8cm,footskip=1.2cm]{geometry}
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{15pt}
+\fancyhf{} % clear the header and footers
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter. #1}{\thechapter. #1}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection. #1}} 
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[LO]{\emph{\leftmark}}
+
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\emph{\thepage}}}
+
+% This adds a "DRAFT" footer to every normal page.  (The first page of each chapter is not a "normal" page.)
+\fancyfoot[C]{\emph{DRAFT: \today}}
+\fancyfoot[R]{\emph{\thepage}}
+
+%%%%% FONTS
+\RequirePackage[T1]{fontenc} % requires XeLatex or LuaTex (remove to use pdfLaTex)
+%\RequirePackage[utf8]{inputenc} % ignored when using XeLaTex or LuaTex (uncomment when using pdfLaTex)
+\RequirePackage{microtype} % this makes fonts almost imperceptibly smoother
+\RequirePackage{fontspec} % requires XeLatex or LuaTex (remove to use pdfLaTex)
+% For the headings we will use Helvetica
+\RequirePackage{helvet}
+\usepackage[immediate]{silence}
+\WarningFilter[temp]{latex}{Command} % silence the warning
+\usepackage{sectsty}
+\DeactivateWarningFilters[temp] % So nothing unrelated gets silenced
+\allsectionsfont{\sffamily}
+% For the main text and equations we will use Baskerville and Palatino
+\RequirePackage{mathpazo}
+\RequirePackage{baskervald}
+% For formatting code or package names, we will use Lucida Console
+\RequirePackage{zi4}
+% Enable strikethrough
+\usepackage[normalem]{ulem}
+
+% This highlights (in blue) corrections marked with (for words) \mccorrect{blah} or (for whole
+% paragraphs) \begin{mccorrection} . . . \end{mccorrection}.  This can be useful for sending a PDF of
+% your corrected thesis to your examiners for review.  Turn it off, and the blue disappears.
+% 
+% UL 30 Nov 2018 pandoc puts lists in 'tightlist' command when no space between bullet points in Rmd file
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+ 
+%UL 15 Oct 2019, enable link highlighting to be turned off from YAML
+% \usepackage[dvipsnames]{color}
+% \usepackage[colorlinks=true,pdfpagelabels,hidelinks=false]{hyperref}
+\RequirePackage[colorlinks=true,linkcolor=red,
+citecolor=red,filecolor=red,urlcolor=black]{hyperref} % uses IHEID red for external links
+% \hypersetup{citecolor=red}
+
+%%%%% BIBLIOGRAPHY SETUP
+% Note that your bibliography will require some tweaking depending on your department, preferred format, etc.
+% The options included below are just very basic "sciencey" and "humanitiesey" options to get started.
+% If you've not used LaTeX before, I recommend reading a little about biblatex/biber and getting started with it.
+% If you're already a LaTeX pro and are used to natbib or something, modify as necessary.
+% Either way, you'll have to choose and configure an appropriate bibliography format...
+
+% The science-type option: numerical in-text citation with references in order of appearance.
+% \usepackage[style=numeric-comp, sorting=none, backend=biber, doi=false, isbn=false]{biblatex}
+% \newcommand*{\bibtitle}{References}
+
+% The humanities-type option: author-year in-text citation with an alphabetical works cited.
+% \usepackage[style=authoryear, sorting=nyt, backend=biber, maxcitenames=2, useprefix, doi=false, isbn=false]{biblatex}
+% \newcommand*{\bibtitle}{Works Cited}
+
+%UL 3 Dec 2018: set this from YAML in index.Rmd
+% % \usepackage[style=numeric-comp, sorting=none, backend=biber, doi=, isbn=false]{biblatex}
+% \newcommand*{\bibtitle}{References}
+% 
+% This makes the bibliography left-aligned (not 'justified') and slightly smaller font.
+% \renewcommand*{\bibfont}{\raggedright\small}
+
+% Change this to the name of your .bib file (usually exported from a citation manager like Zotero or EndNote).
+% \addbibresource{bib/references.bib}
+
+% Uncomment this if you want equation numbers per section (2.3.12), instead of per chapter (2.18):
+%\numberwithin{equation}{subsection}
+
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{cslreferences}%
+  {\setlength{\parindent}{0pt}%
+  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces}%
+  {\par}
+  
+
+%%%%% THESIS / TITLE PAGE INFORMATION
+% Everybody needs to complete the following:
+\title{Conclusion}
+\author{Chin Man KWAN}
+
+% JEM: Lengths for single spacing (ie separate abstract, captions), front matter (abstract,
+%   acknowledgements, table of contents, etc), and main body text.
+\newlength{\singlebaselineskip}
+\newlength{\frontmatterbaselineskip}
+\newlength{\textbaselineskip}
+
+\setlength{\singlebaselineskip}{\baselineskip}
+\setlength{\frontmatterbaselineskip}{17pt plus1pt minus1pt}
+\setlength{\textbaselineskip}{22pt plus2pt}
+
+%
+% Environments
+%
+
+% Managing minitoc for chapters
+% \usepackage[nohints,tight]{minitoc} 
+% 	\setcounter{minitocdepth}{2} 
+% 	% Generates mini tables of contents per chapter
+% 	
+% % JEM: The following fixes minitoc to not be multiple-spaced.
+% \makeatletter
+% \let\oldmtc@verse\mtc@verse
+% \renewcommand{\mtc@verse}[1]{\oldmtc@verse{#1}\setlength{\baselineskip}{\z@}}
+% \makeatother
+	
+% For the abbreviations
+\usepackage{enumitem}
+\newlist{abbrv}{itemize}{1}
+\setlist[abbrv,1]{label=,labelwidth=1in,align=parleft,itemsep=0.1\baselineskip,leftmargin=!}
+
+\usepackage{nicefrac}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{textcomp}
+
+\usepackage{longtable} 
+	% Allows tables to span multiple pages (this package must be called before hyperref)
+
+\usepackage[font=small,labelfont=bf]{caption} 
+	% Nicer captions
+
+\usepackage{multicol,multirow,array} 
+	% Used to make multiple columns for the indices and for creating columns that span multiple rows in tables
+
+\usepackage{rotating} 
+	% To allow tables in landscape mode
+
+\usepackage{booktabs} 
+	% For better looking tables
+
+\usepackage{pdfpages} 
+	% Allows multi-page pdfs to be inserted as graphics
+	
+\usepackage{graphicx}
+\graphicspath{{../figures/}{_bookdown_files/}}
+
+\usepackage{xfrac}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT HERE  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\maketitle
+
+
+
+\tableofcontents
+
+%%%%% CHOOSE YOUR LINE SPACING HERE
+% This is the official option.  Use it for your submission copy and library copy:
+\setlength{\textbaselineskip}{22pt plus2pt}
+% This is closer spacing (about 1.5-spaced) that you might prefer for your personal copies:
+%\setlength{\textbaselineskip}{18pt plus2pt minus1pt}
+
+% You can set the spacing here for the roman-numbered pages (acknowledgements, table of contents, etc.)
+\setlength{\frontmatterbaselineskip}{17pt plus1pt minus1pt}
+
+% UL: You can set the general paragraph spacing here - I've set it to 2pt (was 0) so
+% it's less claustrophobic
+\setlength{\parskip}{2pt plus 1pt}
+
+% Leave this line alone; it gets things started for the real document.
+\setlength{\baselineskip}{\textbaselineskip}
+
+%%%%% CHAPTERS
+% Add or remove any chapters you'd like here, by file name (excluding '.tex'):
+\flushbottom
+
+% all your chapters and appendices will appear here
+\hypertarget{examiner-aragorn-ii-elessar-only-required-if-phd-otherwise-delete-or-comment-out}{%
+\chapter{examiner: Aragorn II Elessar \# only required if PhD; otherwise
+delete or comment
+out}\label{examiner-aragorn-ii-elessar-only-required-if-phd-otherwise-delete-or-comment-out}}
+
+Placeholder
+
+\hypertarget{metadata}{%
+\section{Metadata}\label{metadata}}
+
+\hypertarget{front-matter}{%
+\section{Front Matter}\label{front-matter}}
+
+\hypertarget{bibliography}{%
+\section{Bibliography}\label{bibliography}}
+
+\hypertarget{pdf-formatting}{%
+\section{PDF Formatting}\label{pdf-formatting}}
+
+\hypertarget{output-options}{%
+\section{Output Options}\label{output-options}}
+
+\hypertarget{intro}{%
+\chapter{Introduction}\label{intro}}
+
+Placeholder
+
+\hypertarget{theory}{%
+\chapter{Literature Review}\label{theory}}
+
+Placeholder
+
+\hypertarget{theories}{%
+\section{Theories}\label{theories}}
+
+\hypertarget{what-is-national-identity}{%
+\subsection{What is national
+identity?}\label{what-is-national-identity}}
+
+\hypertarget{impact-of-conceptions-of-national-identity-on-attitudes-towards-immigrants}{%
+\subsection{Impact of conceptions of national identity on attitudes
+towards
+immigrants}\label{impact-of-conceptions-of-national-identity-on-attitudes-towards-immigrants}}
+
+\hypertarget{chineseness-in-hong-kong}{%
+\subsection{Chineseness in Hong Kong}\label{chineseness-in-hong-kong}}
+
+\hypertarget{empirics}{%
+\section{Empirics}\label{empirics}}
+
+\hypertarget{how-do-different-political-camps-in-hong-kong-perceive-national-identity}{%
+\subsection{How do different political camps in Hong Kong perceive
+national
+identity?}\label{how-do-different-political-camps-in-hong-kong-perceive-national-identity}}
+
+\hypertarget{the-pro-beijing-camp}{%
+\subsubsection{The pro-Beijing camp}\label{the-pro-beijing-camp}}
+
+\hypertarget{the-pro-democracy-camp-or-pan-democrats}{%
+\subsubsection{The pro-Democracy camp (or
+pan-democrats)}\label{the-pro-democracy-camp-or-pan-democrats}}
+
+\hypertarget{the-localist-camp}{%
+\subsubsection{The localist camp}\label{the-localist-camp}}
+
+\hypertarget{asylum-seekers-in-hong-kong}{%
+\subsection{Asylum seekers in Hong
+Kong}\label{asylum-seekers-in-hong-kong}}
+
+\hypertarget{hong-kongs-policy-regime}{%
+\subsubsection{Hong Kong's policy
+regime}\label{hong-kongs-policy-regime}}
+
+\hypertarget{responses-by-political-camps}{%
+\subsubsection{Responses by political
+camps}\label{responses-by-political-camps}}
+
+\setcounter{chapter}{2}
+
+\hypertarget{methods}{%
+\chapter{Methods}\label{methods}}
+
+After reviewing both the theories of the impact of national identity on
+xenophobia as well as how political camps in Hong Kong imagine the
+city's national identity, how could we know the possible associations
+between each camp's definition of the city's national identity and its
+attitude towards asylum seekers who are mainly non-ethnic Chinese? This
+section will discuss the strategy of answering this question.
+
+\hypertarget{hypotheses}{%
+\section{Hypotheses}\label{hypotheses}}
+
+Based on the aforementioned literature in the previous section, I will
+formulate hypotheses to be tested and explain why I expect them to go in
+certain directions. The main hypothesis to be tested will be:
+
+\begin{quote}
+H\textsubscript{1}: Pro-Beijing media outlets are more likely to
+negatively portray asylum seekers than media outlets from other
+political camps.
+\end{quote}
+
+I expect the pro-Beijing camp news media to frame asylum seekers more
+negatively based on the literature on the relationship between national
+identity and xenophobia (e.g. Hjerm
+(\protect\hyperlink{ref-hjermNationalIdentityComparison1998}{1998}) and
+Heath and Tilley
+(\protect\hyperlink{ref-heathBritishNationalIdentity2005}{2005}) ) which
+states that a more ethnic-based conception of national identity is
+generally associated with a higher degree of xenophobia towards
+immigrants, of which asylum seekers is one of the (most vulnerable)
+subgroups of immigrants. Accordingly, since pro-Beijing politicians and
+officials (including the Chinese President \emph{Xi Jinping} himself)
+(\protect\hyperlink{ref-linMakeChinaGreat2021}{Lin and Jackson 2021})
+resort heavily to ethnic-based discourses for justifying Chineseness of
+the Hong Kong identity, pro-Beijing media outlets can be expected to
+hold more negative attitudes towards the mostly non-ethnic Chinese
+non-refoulement claimants. In particular, the pro-Beijing camp's
+emphasis on how Hong Kong citizens belong to the greater Chinese
+national identity based on shared ethnicity with mainland Chinese might
+lead to its affiliated media outlets to portray asylum seekers as a
+threat to society since their ethnic distinctiveness marks them as
+ever-being strangers of the family of the majority Chinese population as
+Erni (\protect\hyperlink{ref-erniWhoNeedsStrangers2012}{2012})
+describes.
+
+By contrast, since the pro-democracy camp focuses more on civic values
+(e.g.~civil liberties, the rule of law) while defining the Hong Kong
+identity, the non-Chineseness of asylum seekers should appear less
+threatening to the Hong Kong identity from the pro-democracy camp's
+point of view. Lastly, the localist camp's primary focus on the
+mainland-Hong-Kong division regarding the city's identity again prevents
+a clear direction for H\textsubscript{1} from being formulated
+beforehand.
+
+\hypertarget{data-collection}{%
+\section{Data collection}\label{data-collection}}
+
+I will study news media reports on asylum seekers and non-refoulement
+claimants in Hong Kong by local mass media during the year of 2019.
+Specifically, media publishing in \textbf{Chinese} in printed format
+will be included in the data\footnote{The full list of the included
+  newspaper outlets is provided in \emph{table 3.1}.}. For the retrieval
+of the relevant newspaper articles, I will rely on the \emph{WiseNews}
+database which can fetch news articles with search keywords published in
+Hong Kong\footnote{I would like to thank my friend in Hong Kong helping
+  me gain access to the database, which would otherwise have been
+  extremely difficult.}. While it would have been more ideal to also
+include online news media into the dataset as Lee
+(\protect\hyperlink{ref-leeChangingPoliticalEconomy2018}{2018}) mentions
+that they have become quite prominent in the 2010s for providing
+counter-narratives to the mainstream media which are often co-opted by
+the Chinese Government\footnote{It should be noted, however, that by the
+  very beginning of 2022, several online media outlets such as
+  \emph{Stand News} has defuncted after the flagship pro-Democracy
+  newspaper outlet \emph{Apple Daily} had dissolved in June 2021. The
+  implication of this phenomenon to the media's narrative on asylum
+  seekers in Hong Kong will be discussed further in the conclusion
+  section.}, WiseNews does not directly provide the texts of online
+media news article and thus requires additional steps of web scrapping
+which are, unfortunately, beyond the author's capacity by the time of
+writing. That being said, including only the printed news media during
+2019 would still cover 16 of the well-known news media with associations
+to different political camps according to the survey on media
+credibility by the Chinese University of Hong Kong
+(\protect\hyperlink{ref-cuhkPublicEvaluationMedia2020}{CUHK 2020}). In
+other words, just searching for printed news media outlets still allows
+me to discover whether the attitudes of reporting on asylum seekers by
+some of the most well-known and widely circulated media outlets in Hong
+Kong might be related to their political associations.
+
+The reason for choosing to collect media reports published in 2019 is
+because it was when the Anti-Extradition Law Amendment protest first
+broke out in June and then lasted for several months, a period when one
+can argue the manifestation of political ideologies should be the most
+salient for all the political camps. This should indeed be the case for
+both the pro-democracy camp whose supporters participated in several
+large-scale protests and sometimes even engaged in numerous violent
+clashes with the Hong Kong police to oppose a law that would have
+permitted extradition of fugitives to mainland China, and the
+pro-Beijing camp whose authority was once again immensely challenged
+after the 2014 Umbrella Movement. Accordingly, it would be interesting
+to investigate whether the issue of asylum seekers still remained its
+salience and was reported in similar manners given the co-occurrence of
+another arguably more salient political event (i.e.~the anti-Extradition
+Law protests), as compared to when the issue first had become prominent
+back in 2016. Specifically, analysing newspaper articles in 2019
+provides an opportunity to observe whether and how asylum seekers in
+Hong Kong might be represented by the media in tandem with major
+political events.
+
+It is worth discussing some of the limitations of using media reports as
+the data for this thesis. For starters, media reports do not necessarily
+reflect how individuals identifying with each political camp might
+perceive asylum seekers directly and might not be fit for investigating
+the causal mechanism of how definition of Hong Kong's national identity
+may cause a political camp to frame asylum seekers in particular ways.
+Despite these shortcomings, media reports can still adequately help
+prompt the hypothesis of whether depictions of asylum seekers in Hong
+Kong might be associated with their political camp's definition of the
+city's national identity. In fact, previous research about the framing
+of asylum seekers by mass media
+(\protect\hyperlink{ref-cooperMediaCoverageRefugees2017}{Cooper et al.
+2017}; \protect\hyperlink{ref-mckayAnyOneThese2011}{McKay, Thomas, and
+Warwick Blood 2011}; \protect\hyperlink{ref-ngFramingIssueAsylum2019}{I.
+Ng, Choi, and Chan 2019};
+\protect\hyperlink{ref-odohertyAsylumSeekersBoat2007}{O'Doherty and
+Lecouteur 2007}) point to its potential impact on affecting how the
+public may perceive the issue via being a major provider of related
+information, and sometimes these media reports may even serve to justify
+policymaking or reflect the government's position on the issue. Drawing
+from Fong
+(\protect\hyperlink{ref-fongInbetweenLiberalAuthoritarianism2017}{2017})
+and Lee (\protect\hyperlink{ref-leeChangingPoliticalEconomy2018}{2018}),
+the media industry in Hong Kong is quite remarked for their political
+stances, and quite a number of outlets have their owners being
+affiliated with the Chinese and/or HKSAR Governments. Therefore, reports
+published by media outlets should be able to reflect political camps'
+attitudes towards asylum seekers and, perhaps more importantly, the
+version of framing that they would like to persuade their readers to
+accept, thereby making them a suitable data source to test the
+hypotheses proposed above.
+
+Language-wise, including only Chinese-language news media omits how
+asylum seekers may be represented by English-language media in Hong Kong
+(e.g.~the South China Morning Post) and thus cannot investigate whether
+the representation of asylum seekers by media outlets to potential
+non-Chinese audience may also vary based on each outlet's political
+affiliation. Moreover, solely focusing on textual content of the media
+reports means discarding graphical and (if also published online)
+audio-visual materials accompanied in a given news report, which may
+contain additional information that are not observed in the texts of
+news articles. Nevertheless, analysing the textual content of the media
+reports should still yield a considerable amount of information about
+the representation of asylum seekers in Hong Kong by media outlets
+linked to different political camps, since after all a large proportion
+of the content in news reports are represented textually.
+
+To search for relevant media reports on WiseNews, I will refer to the
+keywords used by I. Ng, Choi, and Chan
+(\protect\hyperlink{ref-ngFramingIssueAsylum2019}{2019}) which refer to
+the group of population-in-interest. These terms can either be directly
+describing this group of population (e.g.~refugees, illegal immigrants)
+or policies related to asylum seeking (e.g.~non-refoulement claim,
+immigration paper). \emph{Table 3.1} lists all the Chinese terms used
+for searching the relevant news articles on WiseNews and their meanings
+in English. Additional notes are used for indicating whether some
+articles were omitted and why. The author also omitted articles only
+mentioning the keywords briefly throughout the main text which discusses
+issues not directly related to asylum seekers. As for the keywords
+``South Asian'', ``illegal immigration'' and ``human snake'', the author
+only included news entries fetched from these keywords if at least one
+of the other keywords directly referring to asylum seekers
+(i.e.~non-refoulement claim(ant), torture claim(ant), asylum seeking,
+refugee and immigration paper) co-appeared in either the title or main
+text. This is to ensure that the news articles in the dataset are
+obviously describing non-refoulement claimants in Hong Kong.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1809}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3404}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4787}}@{}}
+\caption{Translation of the keywords used to search for media reports on
+WiseNews}\tabularnewline
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+Original terms in Chinese pinyin
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Literal meaning in English
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Notes
+\end{minipage} \\
+\midrule
+\endfirsthead
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+Original terms in Chinese pinyin
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Literal meaning in English
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Notes
+\end{minipage} \\
+\midrule
+\endhead
+mian3 qian3fan3 sheng1qing3 & Non-refoulement claim(ant) & \\
+ku4xing2 sheng1qing3 & Torture claim(ant) & \\
+fei1fa3 ru4jing4, ren2she2 & Illegal immigration, human snake (alias of
+illegal immigrants) & Excluded illegal immigration from mainland
+China \\
+xun2qiu2 bi4hu4 & Asylum seeking & Excluded asylum seekers \emph{outside
+of} Hong Kong \\
+nan4min2 & Refugee & Excluded refugees \emph{outside of} Hong Kong and
+Hong Kong activists seeking refuge overseas \\
+nan2ya4 & South Asian & Articles about the South Asian region are
+excluded. \\
+xing2 jie1 zhi3 & Immigration paper & Documents issued by the
+Immigration Department to non-refoulement claimants. \\
+\bottomrule
+\end{longtable}
+
+\hypertarget{modelling}{%
+\section{Modelling}\label{modelling}}
+
+Since the period under study spans for the year 2019, the dataset
+contains almost 700 articles in total which would be extremely time- and
+resource-consuming to qualitatively analyse each article line by line,
+whereas only focusing on a small subset of the articles may risk losing
+generalisability. On the other hand, while it is true that using human
+coding (whether it be done by trained experts or crowd coding platforms)
+for sentiment analysis will be likely to yield the most accurate results
+as van Atteveldt, van der Velden, and Boukes
+(\protect\hyperlink{ref-vanatteveldtValiditySentimentAnalysis2021}{2021})
+have noted, doing so will be too resource-intensive for a master-level
+thesis, and this method may also fall short of reliability, i.e.~how
+other researchers may replicate the study if wanted. Despite some of the
+caveats listed by van Atteveldt, van der Velden, and Boukes
+(\protect\hyperlink{ref-vanatteveldtValiditySentimentAnalysis2021}{2021})
+(e.g.~accidentally identifying spurious relationships between variables,
+problem of overfitting) which can be remedied with corresponding
+solutions, I will use supervised machine learning to test the
+hypothesis. This means H\textsubscript{1} will be treated as a sentiment
+analysis problem which classifies the \emph{polarity} of the news
+articles (i.e.~whether they reported on asylum seekers \emph{positively,
+neutrally or negatively}). How the independent (both the media outlet's
+political camp and other controls) and dependent variables are
+operationalised and coded will be discussed in the next section, and for
+now I will talk about what kinds of tools and models will be used for
+the analysis.
+
+Starting with the models that will be used for the analysis, I will rely
+on some commonly used classification models. Candidate models include
+logistic regression, support vector machine (SVM), random forest and
+gradient boosting. Although van Atteveldt, van der Velden, and Boukes
+(\protect\hyperlink{ref-vanatteveldtValiditySentimentAnalysis2021}{2021})
+also mention that deep learning is another popular choice of machine
+learning model for sentiment analysis tasks, I did not use such a model
+for this paper due to the relatively small size of the dataset at hand
+as well as the difficulty of interpreting the features' impact on the
+dependent variable directly from neural network models. I will first run
+some baseline models with the default parameter settings of the models,
+and then select one for further tuning based on their performance on
+their \emph{f1 scores} (which measures the harmonic mean of
+\emph{precision} and \emph{recall})\footnote{Just a reminder, the
+  formula of calculating a model's F1 score is:
+  \(2\cdot\frac{\left(precision\cdot recall\right)}{\left(precision+recall\right)}\)
+  (\protect\hyperlink{ref-pedregosaScikitlearnMachineLearning2011}{Pedregosa
+  et al. 2011}).}. Using f1 score as the evaluation metric can better
+measure a model's performance when there is class imbalance in the
+dependent variable compared to metrics like accuracy and the ROC-AUC
+score.
+
+The model which obtains the overall highest f1 score will then be used
+for calculating the \emph{SHAP values} of the features
+(\protect\hyperlink{ref-lundbergSlundbergShap2022}{Lundberg 2022}) which
+evaluate how much impact each feature has on the model prediction when
+the features is at certain values versus at its baseline value. In
+essence, the higher the SHAP value of a feature, the higher its impact
+of the model's prediction.
+
+In order to pre-process the articles into suitable formats as machine
+learning model inputs, I will also transform the news articles into a
+term-document matrix which records the frequency of each word
+(i.e.~token) appearing in each article (i.e.~document). Instead of using
+a simple bag-of-word approach, I will use the term-frequency
+inverse-document-frequency (TF-IDF) matrix transformation which also
+considers in how many documents a word appears out of all the documents
+in the corpus. This is because words that appear too frequently across
+all the documents in the corpus may not convey much meaning of each
+doucment and thus should be treated as stop words. Due to the relatively
+small size of the dataset (with only around 550 articles), I will also
+adopt non-negative matrix factorisation (NMF) to reduce the
+dimensionality of the dataset to prevent overfitting. According to
+Stevens et al.
+(\protect\hyperlink{ref-stevensExploringTopicCoherence2012}{2012})
+(p.953), the matrix denoted as \emph{H} which captures the weight of
+each topic (as columns) in each document (as rows) of the corpus can
+help summarise the information of the articles in terms of which
+topic(s) they primarily focus on. Thus, I will use NMF to transform the
+TF-IDF matrix into another which summarises the news articles into a
+certain number of pre-defined latent topics (the exact number will be
+figured out in the \textbf{\emph{preprocessing}} section later), and
+then use this matrix as part of the inputs for the models.
+
+The majority of the implementation from data preprocessing, modelling to
+validation will be done via the \texttt{scikit-learn} package in Python
+(\protect\hyperlink{ref-pedregosaScikitlearnMachineLearning2011}{Pedregosa
+et al. 2011}), whereas the tokenisation of the Chinese-language news
+articles will be done by the \texttt{jieba} package which is designed
+for natural language processing in Chinese
+(\protect\hyperlink{ref-junyiJieba2021}{Junyi 2021}). For better
+tokenisation of the articles, I will also remove stop words,
+punctuations and hyper-links of the texts and add words related to Hong
+Kong politics (downloaded from elgarteo
+(\protect\hyperlink{ref-elgarteoHKPolDictHongKong2021}{2021})) and
+asylum seekers into the dictionary. As for the gradient boosting model,
+the \texttt{XGBoost} package
+(\protect\hyperlink{ref-chenXgboostExtremeGradient2015}{Chen et al.
+2015}) will be used since it is one of the most renowned machine
+learning models in data science, and it also offers a lot of options for
+tuning the model for better performance.
+
+\hypertarget{operationalisation}{%
+\section{Operationalisation}\label{operationalisation}}
+
+\hypertarget{main-independent-variable}{%
+\subsection{Main independent variable}\label{main-independent-variable}}
+
+Starting from the main independent variable which classifies the
+associated political camp of the media outlets, I will mainly refer to
+the literature exploring how Hong Kong's media industry is intertwined
+with politics and perform additional research when needed. I consulted
+the articles by Fong
+(\protect\hyperlink{ref-fongInbetweenLiberalAuthoritarianism2017}{2017})
+and Lee (\protect\hyperlink{ref-leeChangingPoliticalEconomy2018}{2018})
+on the development of post-1997 Hong Kong's media industry, of which
+they have documented the co-optation of Hong Kong media outlets by the
+Chinese Government (e.g.~the major shareholders holding positions in
+such as Chinese People's Political Consultative Conference). Building on
+the concept of ``allocative control'' (p.11) by Lee
+(\protect\hyperlink{ref-leeChangingPoliticalEconomy2018}{2018}) about
+media outlet owners having the ultimate decision on the personnel and
+resources at the newsroom's disposal for reporting news which may lead
+to self-censorship of the frontline journalists, I will code media
+outlets whose owners are affiliated with the official Chinese and/or
+Hong Kong Government organisations as belonging to the pro-Beijing camp.
+As for those media owners with less apparent links with the Chinese or
+Hong Kong Governments, I will decide the classification according to
+whether the owners are known to be affiliated with a certain political
+camp and how a given media outlet is perceived for its political stance.
+Media outlets without apparent political stances are labelled as
+``neutral''. \emph{Table 3.2} is the resulting classification scheme.
+Note that due to the medium of publication of localist news media being
+almost exclusively online, none of the outlets in that camp was included
+in the dataset. Therefore, it would not be possible to examine how the
+localist media outlets might report on asylum seekers and
+non-refoulement claimants in news articles.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4048}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5952}}@{}}
+\caption{Classification of the associated political camp of media
+outlets in Hong Kong included into the sample, source: Fong
+(\protect\hyperlink{ref-fongInbetweenLiberalAuthoritarianism2017}{2017});
+Lee (\protect\hyperlink{ref-leeChangingPoliticalEconomy2018}{2018});
+author's own research}\tabularnewline
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+Associated political camp
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Media outlets
+\end{minipage} \\
+\midrule
+\endfirsthead
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+Associated political camp
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Media outlets
+\end{minipage} \\
+\midrule
+\endhead
+Pro-Beijing camp (directly owned by the Liaison Office or the HKSAR
+Government) & Wen Wei Po, Hong Kong Government News, Hong Kong
+Commercial Daily, Ta Kung Pao \\
+Pro-Beijing Camp (owners affiliated with political institutions on
+mainland China/ HKSAR Government) & Oriental Daily News, Sing Tao Daily,
+Sing Pao, Headline Daily, Hong Kong Economic Journal, Hong Kong Economic
+Times, am730, Sky Post, HK01 Newspaper \\
+Pro-Democracy camp & Apple Daily, Kung Kao Po \\
+Localist camp & N/A \\
+Neutral & Metro Daily, Ming Pao Daily News \\
+\bottomrule
+\end{longtable}
+
+\hypertarget{dependent-variable}{%
+\subsection{Dependent variable}\label{dependent-variable}}
+
+As mentioned before, the dependent variable of H\textsubscript{1} will
+be the sentiment of the news articles towards asylum seekers in the
+polarities of \emph{positive}, \emph{neutral} and \emph{negative}. But
+how exactly should these three polarities mean in this context? Again
+referring to the literature can help devise a sound coding scheme.
+Drawing McKay, Thomas, and Warwick Blood
+(\protect\hyperlink{ref-mckayAnyOneThese2011}{2011}), Cooper et al.
+(\protect\hyperlink{ref-cooperMediaCoverageRefugees2017}{2017}) and I.
+Ng, Choi, and Chan
+(\protect\hyperlink{ref-ngFramingIssueAsylum2019}{2019}),
+\emph{positive} articles usually acclaim the person or event in concern,
+describe personal stories, report expert opinions without derogatory
+terms or depict refugees favourably, \emph{neutral} articles simply
+report an incident without an overt sentiment or opinion towards
+particular stakeholders and with little interpretation by the
+journalists, and \emph{negative} articles frame asylum seekers either as
+bringing problems to the host society or use inaccurate terms to
+delegitimise this group of population. I will follow these coding
+criteria for the polarities of the news articles in the dataset since
+these definitions suit the purpose of this study. The numerical
+representation of the polarities in the dataset will be as follows,
+namely, positive articles will be coded as \texttt{2}, neutral articles
+will be coded as \texttt{1}, and negative articles will be coded as
+\texttt{0}.
+
+For the context of Hong Kong about the ``incorrect'' terms and
+information used for describing asylum seekers, I will refer to expert
+opinions about whether descriptions of asylum seekers in Hong Kong are
+founded\footnote{A detailed discussion of the validity of the depiction
+  of asylum seekers in Hong Kong can be found in I. Ng
+  (\protect\hyperlink{ref-ngCriminalizingInnocentsSocial2020}{2020}) and
+  I. Ng, Choi, and Chan
+  (\protect\hyperlink{ref-ngFramingIssueAsylum2019}{2019}).}. For
+example, I. Ng, Choi, and Chan
+(\protect\hyperlink{ref-ngFramingIssueAsylum2019}{2019}) point out that
+the term ``fake/bogus refugees'' (\emph{jia3 nan4min2)} should be
+considered as both derogatory and inaccurate because those applying for
+non-refoulement claims are not automatically qualified as refugees while
+awaiting the final decisions of their applications. \emph{Therefore, the
+polarity of news articles in which the news media directly refers
+non-refoulement claimants as ``fake refugees'' in its reportage will be
+coded as negative, but the report should be coded at least as neutral
+instead if the news outlet is merely quoting someone who describes
+non-refoulement claimants as ``fake refugees''.} Furthermore, I. Ng
+(\protect\hyperlink{ref-ngCriminalizingInnocentsSocial2020}{2020})
+mentions that non-refoulement claimants are forced to be illegal
+immigrants by the policy design of the HKSAR Government so that this
+group of population can be excluded from social rights that legal
+residents enjoy. News articles equating non-refoulement claimants as
+illegal immigrants will thus also be coded as negative since such
+reportage is justifying the exclusion of non-refoulement claimants by
+resorting to their illegality that had been forced upon by the HKSAR
+Government.
+
+\hypertarget{control-variables}{%
+\subsection{Control variables}\label{control-variables}}
+
+I will also incorporate some control variables to see if the association
+between political camps and polarities of the news articles still
+remains significant afterwards. For starters, the time when the articles
+were published will be included as a control, though I will bin the
+twelve months into four evenly split quarters (\texttt{Quarter}) with
+the first quarter beginning in January and ending in March. Since 2019
+was also the year when one of the most large-scale and long-lasting
+pro-democracy protests broke out, It would be interesting to see how
+asylum seekers may be portrayed during the peak of the protest.
+Moreover, the presence of racial labels will be included as a control,
+since it is possible that more overtly racialised discourses may be
+associated with more negative sentiments towards asylum seekers in
+general according to the literature. This variable will be named
+\texttt{Racial\_label} in the dataset and will be binary, with
+\texttt{1} meaning there is presence of racial labels in the main text
+and \texttt{0} otherwise. Racial labels referring to both regional
+(e.g.~South Asia, Africa) and national (e.g.~the nationalities included
+in figure 2.2) will be counted. Lastly, the metadata of the news
+articles, namely the character counts of titles and main texts, will
+also be added to see if the lengths of the articles may be associated
+with the sentiment towards asylum seekers.
+
+\hypertarget{results}{%
+\chapter{Results}\label{results}}
+
+Placeholder
+
+\hypertarget{exploratory-data-analysis-eda}{%
+\section{Exploratory data analysis
+(EDA)}\label{exploratory-data-analysis-eda}}
+
+\hypertarget{how-does-the-number-of-news-articles-vary-by-political-camps-and-month}{%
+\subsection{How does the number of news articles vary by political camps
+and
+month?}\label{how-does-the-number-of-news-articles-vary-by-political-camps-and-month}}
+
+\hypertarget{polarities-of-the-news-articles}{%
+\subsection{Polarities of the news
+articles}\label{polarities-of-the-news-articles}}
+
+\hypertarget{presence-of-racial-labels}{%
+\subsection{Presence of racial labels}\label{presence-of-racial-labels}}
+
+\hypertarget{character-lengths-of-news-articles-and-titles}{%
+\subsection{Character lengths of news articles and
+titles}\label{character-lengths-of-news-articles-and-titles}}
+
+\hypertarget{sentiment-analysis}{%
+\section{Sentiment analysis}\label{sentiment-analysis}}
+
+\hypertarget{preprocessing}{%
+\subsection{Preprocessing}\label{preprocessing}}
+
+\hypertarget{training-the-model}{%
+\subsection{Training the model}\label{training-the-model}}
+
+\hypertarget{is-the-pro-beijing-camp-more-likely-to-portray-asylum-seekers-in-2019-more-negatively-than-other-outlets}{%
+\section{Is the pro-Beijing camp more likely to portray asylum seekers
+in 2019 more negatively than other
+outlets?}\label{is-the-pro-beijing-camp-more-likely-to-portray-asylum-seekers-in-2019-more-negatively-than-other-outlets}}
+
+\hypertarget{overall-magnitudes-of-shap-values-for-each-feature}{%
+\subsection{Overall magnitudes of SHAP values for each
+feature}\label{overall-magnitudes-of-shap-values-for-each-feature}}
+
+\hypertarget{shap-values-of-predicting-negative-news-articles}{%
+\subsection{SHAP values of predicting negative news
+articles}\label{shap-values-of-predicting-negative-news-articles}}
+
+\hypertarget{shap-values-of-predicting-neutral-news-articles}{%
+\subsection{SHAP values of predicting neutral news
+articles}\label{shap-values-of-predicting-neutral-news-articles}}
+
+\hypertarget{shap-values-of-predicting-positive-news-articles}{%
+\subsection{SHAP values of predicting positive news
+articles}\label{shap-values-of-predicting-positive-news-articles}}
+
+\hypertarget{discussion}{%
+\section{Discussion}\label{discussion}}
+
+\setcounter{chapter}{4}
+
+\hypertarget{conclusion}{%
+\chapter{Conclusion}\label{conclusion}}
+
+In conclusion, it is found that at least in 2019, the political camp of
+media outlets was associated with their attitudes towards asylum seekers
+in Hong Kong. Specifically,
+
+\begin{itemize}
+\tightlist
+\item
+  I will sum up the findings after editing the main sections
+\end{itemize}
+
+\hypertarget{how-might-the-instigation-of-the-national-security-law-affect-the-public-discourse-on-asylum-seekers-in-hong-kong}{%
+\section{How might the instigation of the National Security Law affect
+the public discourse on asylum seekers in Hong
+Kong?}\label{how-might-the-instigation-of-the-national-security-law-affect-the-public-discourse-on-asylum-seekers-in-hong-kong}}
+
+Just a year after the anti-extradition law protest had started and once
+again mobilised a huge section of Hong Kong's society against the
+authority, the HKSAR Government promulgated the National Security Law in
+July 2020 which aims to tighten the control over the political landscape
+of Hong Kong. As a result, non-pro-Beijing forces have witnessed their
+political influence being severely restricted, both in official
+institutions and the society. Even though the Legislative Council had
+been one of the few avenues where pro-democracy activists and
+politicians could run for office (despite lacking substantive authority
+to participate in policymaking by proposing bills), with the conclusion
+of the recent 2021 Legislative Council election after an overhaul of the
+electoral system which essentially permits candidacy only to the
+``patriots'' loyal to the Beijing and HKSAR Governments
+(\protect\hyperlink{ref-lauPatriotsOnlyHong2021}{Lau and Yam 2021}), the
+door for pro-democracy camp to advocate alternative political discourses
+has been shut. This means when pro-Beijing lawmakers propose non-binding
+bills to combat the so-called ``fake refugee'' problems as Holden Chow
+did back in 2016
+(\protect\hyperlink{ref-chengLegislatureRejectsLawmaker2016}{Cheng
+2016}), such bills will very unlikely be opposed by others, and the
+voting results on the however unbinding bills may then be used by the
+Government to justify more stringent measures against non-refoulement
+claimants.
+
+Even the presence of alternative media which strive to provide an
+alternative narrative of news contrary to the state-coopted mainstream
+media as Lee
+(\protect\hyperlink{ref-leeChangingPoliticalEconomy2018}{2018})
+describes may not be the case anymore. In June 2021, the flagship
+pro-democracy newspaper \emph{Apple Daily} was forced to shut down after
+the HKSAR Government had frozen the media outlet's asset under the
+pretext of violating the National Security Law
+(\protect\hyperlink{ref-tanAppleDailyHong2021}{Tan 2021}). Just days
+before the year 2021 ended, the popular pro-democracy online media
+\emph{Stand News} had to shut down as well after the Hong Kong police
+raided its office and arrested senior staff
+(\protect\hyperlink{ref-ngHongKongProdemocracy2021}{E. Ng and Pomfret
+2021}), followed by the closure of another online pro-democracy news
+outlets days after
+(\protect\hyperlink{ref-HongKongProdemocracy2022}{{``Hong {Kong}:
+{Pro-democracy} Website {Citizen News} Is Latest to Close''} 2022}). It
+is likely that more alternative media may be pressured to defunct in the
+future as well due to the threat from the National Security Law, and
+this implies that alternative discourses will exist in the media
+industry of Hong Kong. Consequently, since the pro-Beijing camp media in
+general are more hostile to non-refoulement claimants, it is likely that
+Hong Kong's media landscape will be dominated by more negative rhetoric
+towards asylum seekers in the city given that pro-democracy outlets are
+now finding increasing difficulties to operate without running into
+legal repercussion.
+
+With two major channels of formulating and propagating political
+discourses being shut off, it can be expected that the pro-Beijing camp
+will face much less counter-discourse from the oppositions while
+attempting to frame certain issues, including on the status and
+legitimacy of non-refoulement claimants. As the study by Boomgaarden and
+Vliegenthart
+(\protect\hyperlink{ref-boomgaardenHowNewsContent2009}{2009}) shows, the
+tone of how asylum seekers are reported in news media is negatively
+associated with the public attitude towards asylum seekers in later
+periods, meaning that more pejorative coverage of refugees by the media
+may cause the public to be more averse towards this group of vulnerable
+population, and the effect of negative news coverage may become even
+more salient when the levels of immigration and asylum seeking
+applications are perceived to be high.
+
+In short, the gradual decrease of
+
+\hypertarget{appendix-the-echoes-of-the-code}{%
+\chapter*{Appendix: The Echoes of the
+Code}\label{appendix-the-echoes-of-the-code}}
+\addcontentsline{toc}{chapter}{Appendix: The Echoes of the Code}
+
+Placeholder
+
+\markboth{References}{References}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-boomgaardenHowNewsContent2009}{}}%
+Boomgaarden, Hajo G., and Rens Vliegenthart. 2009. {``How News Content
+Influences Anti-Immigration Attitudes: {Germany},
+1993â\texteuro ``2005.''} \emph{European Journal of Political Research}
+48 (4): 516--42.
+
+\leavevmode\vadjust pre{\hypertarget{ref-chenXgboostExtremeGradient2015}{}}%
+Chen, Tianqi, Tong He, Michael Benesty, Vadim Khotilovich, Yuan Tang,
+and Hyunsu Cho. 2015. {``Xgboost: Extreme Gradient Boosting.''} \emph{R
+Package Version 0.4-2} 1 (4): 1--4.
+
+\leavevmode\vadjust pre{\hypertarget{ref-chengLegislatureRejectsLawmaker2016}{}}%
+Cheng, Kris. 2016. {``Legislature Rejects Lawmaker's Non-Binding Motion
+to Combat 'Bogus' Refugees.''} \emph{Hong Kong Free Press HKFP}.
+https://hongkongfp.com/2016/12/01/legislature-rejects-lawmakers-non-binding-motion-combat-bogus-refugees/.
+
+\leavevmode\vadjust pre{\hypertarget{ref-cooperMediaCoverageRefugees2017}{}}%
+Cooper, Samantha, Erin Olejniczak, Caroline Lenette, and Charlotte
+Smedley. 2017. {``Media Coverage of Refugees and Asylum Seekers in
+Regional {Australia}: {A} Critical Discourse Analysis.''} \emph{Media
+International Australia} 162 (1): 78--89.
+
+\leavevmode\vadjust pre{\hypertarget{ref-cuhkPublicEvaluationMedia2020}{}}%
+CUHK. 2020. {``Public {Evaluation} on {Media Credibility}.''}
+\emph{Centre for Communication and Public Opinion Survey}.
+https://ccpos.com.cuhk.edu.hk/public-evaluation-on-media-credibility/.
+
+\leavevmode\vadjust pre{\hypertarget{ref-elgarteoHKPolDictHongKong2021}{}}%
+elgarteo. 2021. {``{HKPolDict}: {Hong Kong} Politics Dictionary for Text
+Mining.''} \emph{GitHub}. https://github.com/elgarteo/HKPolDict.
+
+\leavevmode\vadjust pre{\hypertarget{ref-erniWhoNeedsStrangers2012}{}}%
+Erni, John Nguyet. 2012. {``Who Needs Strangers? {Un-imagining Hong Kong
+Chineseness}.''} \emph{Chinese Journal of Communication} 5 (1): 78--87.
+
+\leavevmode\vadjust pre{\hypertarget{ref-fongInbetweenLiberalAuthoritarianism2017}{}}%
+Fong, Brian. 2017. {``In-Between Liberal Authoritarianism and Electoral
+Authoritarianism: {Hong Kong}'s Democratization Under {Chinese}
+Sovereignty, 1997\textendash 2016.''} \emph{Democratization} 24 (4):
+724--50. \url{https://doi.org/10.1080/13510347.2016.1232249}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-heathBritishNationalIdentity2005}{}}%
+Heath, Anthony F., and James R. Tilley. 2005. {``British National
+Identity and Attitudes Towards Immigration.''} \emph{International
+Journal on Multicultural Societies} 7 (2): 119--32.
+
+\leavevmode\vadjust pre{\hypertarget{ref-hjermNationalIdentityComparison1998}{}}%
+Hjerm, Mikael. 1998. {``National Identity: {A} Comparison of {Sweden},
+{Germany} and {Australia}.''} \emph{Journal of Ethnic and Migration
+Studies} 24 (3): 451--69.
+
+\leavevmode\vadjust pre{\hypertarget{ref-HongKongProdemocracy2022}{}}%
+{``Hong {Kong}: {Pro-democracy} Website {Citizen News} Is Latest to
+Close.''} 2022. \emph{BBC News}, January.
+
+\leavevmode\vadjust pre{\hypertarget{ref-junyiJieba2021}{}}%
+Junyi, Sun. 2021. {``Jieba.''}
+
+\leavevmode\vadjust pre{\hypertarget{ref-lauPatriotsOnlyHong2021}{}}%
+Lau, Jessie, and Shui-yin Sharon Yam. 2021. {``{`{Patriots Only}'}:
+{Hong Kong}'s {New Election System} in {Action}.''} \emph{The Diplomat}.
+https://thediplomat.com/2021/11/patriots-only-hong-kongs-new-election-system-in-action/.
+
+\leavevmode\vadjust pre{\hypertarget{ref-leeChangingPoliticalEconomy2018}{}}%
+Lee, Francis LF. 2018. {``Changing Political Economy of the {Hong Kong}
+Media.''} \emph{China Perspectives} 2018 (2018/3): 9--18.
+
+\leavevmode\vadjust pre{\hypertarget{ref-linMakeChinaGreat2021}{}}%
+Lin, Cong, and Liz Jackson. 2021. {``Make {China} Great Again: {The}
+Blood-Based View of {Chineseness} in {Hong Kong}.''} \emph{Educational
+Philosophy and Theory} 53 (9): 907--19.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lundbergSlundbergShap2022}{}}%
+Lundberg, Scott. 2022. {``Slundberg/Shap.''}
+
+\leavevmode\vadjust pre{\hypertarget{ref-mckayAnyOneThese2011}{}}%
+McKay, Fiona H., Samantha L. Thomas, and R. Warwick Blood. 2011.
+{``"{Any} One of These Boat People Could Be a Terrorist for All We
+{Know}!" {Media} Representations and Public Perceptions of
+â\texteuro\texttildelow{{Boat People\^a}}\texteuro\texttrademark{{Arrivals}}
+in {Australia}.''} \emph{Journalism} 12 (5): 607--26.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ngHongKongProdemocracy2021}{}}%
+Ng, Edmond, and James Pomfret. 2021. {``Hong {Kong} Pro-Democracy {Stand
+News} Closes After Police Raids Condemned by {U}.{N}., {Germany}.''}
+\emph{Reuters}, December.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ngCriminalizingInnocentsSocial2020}{}}%
+Ng, Isabella. 2020. {``Criminalizing the Innocents: Social Exclusion of
+Asylum-Seekers and Refugees in {Hong Kong}.''} \emph{Journal of Asian
+Public Policy} 13 (3): 319--32.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ngFramingIssueAsylum2019}{}}%
+Ng, Isabella, Sharice Fungyee Choi, and Alex Lihshing Chan. 2019.
+{``Framing the {Issue} of {Asylum Seekers} and {Refugees} for {Tougher
+Refugee Policyâ}\texteuro ''a {Study} of the
+{Mediaâ}\texteuro\texttrademark s {Portrayal} in {Post-colonial Hong
+Kong}.''} \emph{Journal of International Migration and Integration} 20
+(2): 593--617. \url{https://doi.org/10.1007/s12134-018-0624-7}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-odohertyAsylumSeekersBoat2007}{}}%
+O'Doherty, Kieran, and Amanda Lecouteur. 2007. {``{`{Asylum}
+Seekers,'}{`boat People'} and {`Illegal Immigrants'}: {Social}
+Categorisation in the Media.''} \emph{Australian Journal of Psychology}
+59 (1): 1--12.
+
+\leavevmode\vadjust pre{\hypertarget{ref-pedregosaScikitlearnMachineLearning2011}{}}%
+Pedregosa, Fabian, Gaël Varoquaux, Alexandre Gramfort, Vincent Michel,
+Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer,
+Ron Weiss, and Vincent Dubourg. 2011. {``Scikit-Learn: {Machine}
+Learning in {Python}.''} \emph{The Journal of Machine Learning Research}
+12: 2825--30.
+
+\leavevmode\vadjust pre{\hypertarget{ref-stevensExploringTopicCoherence2012}{}}%
+Stevens, Keith, Philip Kegelmeyer, David Andrzejewski, and David
+Buttler. 2012. {``Exploring Topic Coherence over Many Models and Many
+Topics.''} In \emph{Proceedings of the 2012 Joint Conference on
+Empirical Methods in Natural Language Processing and Computational
+Natural Language Learning}, 952--61.
+
+\leavevmode\vadjust pre{\hypertarget{ref-tanAppleDailyHong2021}{}}%
+Tan, Yvette. 2021. {``Apple {Daily}: {The Hong Kong} Newspaper That
+Pushed the Boundary.''} \emph{BBC News}, June.
+
+\leavevmode\vadjust pre{\hypertarget{ref-vanatteveldtValiditySentimentAnalysis2021}{}}%
+van Atteveldt, Wouter, Mariken A. C. G. van der Velden, and Mark Boukes.
+2021. {``The {Validity} of {Sentiment Analysis}: {Comparing Manual
+Annotation}, {Crowd-Coding}, {Dictionary Approaches}, and {Machine
+Learning Algorithms}.''} \emph{Communication Methods and Measures} 15
+(2): 121--40. \url{https://doi.org/10.1080/19312458.2020.1869198}.
+
+\end{CSLReferences}
+
+
+%%%%% REFERENCES
+
+% JEM: Quote for the top of references (just like a chapter quote if you're using them).  Comment to skip.
+% \begin{savequote}[8cm]
+% The first kind of intellectual and artistic personality belongs to the hedgehogs, the second to the foxes \dots
+%   \qauthor{--- Sir Isaiah Berlin \cite{berlin_hedgehog_2013}}
+% \end{savequote}
+
+% \setlength{\baselineskip}{0pt} % JEM: Single-space References
+% 
+% {\renewcommand*\MakeUppercase[1]{#1}%
+% \printbibliography[heading=bibintoc,title={References}]}
+
+\end{document}

@@ -22,7 +22,7 @@ secondreader: Prof. Ravinder Bhavnani
 ####################
 ## Front Matter   ##
 ####################
-dedication: For my loved ones #If you'd prefer to not include a Dedication, for example, simply delete the section entirely, or silence them (add # before each line). 
+# dedication: For my loved ones # If you'd prefer to not include a Dedication, for example, simply delete the section entirely, or silence them (add # before each line). 
 resume: | # otherwise known as the abstract
   `r paste(readLines("front-matter/_abstract.Rmd"), collapse = '\n  ')`
 acknowledgements: |

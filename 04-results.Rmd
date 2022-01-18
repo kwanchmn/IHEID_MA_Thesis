@@ -44,33 +44,11 @@ After the data collection process, there were in total `r py$num_of_articles` ar
 
 ## Exploratory data analysis (EDA)
 
-### How does the number of news articles vary by political camps and month?
+### Number of news articles by month
 
-Starting with the number of articles by media outlets as shown in the left plot of figure 4.1, consistent with the study by @ngFramingIssueAsylum2019, Oriental Daily News continues to be the media outlet covering the most frequently on asylum seekers with 384 (or `r round(384/557 * 100, 2)`%) articles throughout 2019. By contrast, the second-most frequent publisher *Sing Tao Daily* only had 45 entries (or `r round(45/557 * 100, 2)`%) of the total number of articles published. Each of the other newspaper outlets only constituted to a small portion of news articles about non-refoulement claimants in 2019. Therefore, the issue of asylum seekers in Hong Kong still appeared to be the most salient for Oriental Daily News by 2019, evidenced by its unmatched volume of articles related to this topic vis-a-vis other media outlets.
+Starting with the number of articles by media outlets as shown in the left plot of figure 4.1, 
 
-On a higher level of political stance, the right plot of figure 4.1 indicates that largely due to the huge volume of articles by Oriental Daily News, the pro-Beijing camp dominated the coverage of asylum seekers in Hong Kong in 2019. Meanwhile, both neutral and pro-democracy newspaper outlets published similar amounts of articles throughout 2019, and both camps constituted to small proportions of the share of articles during the year. Even if we omitted the sheer volume of articles published by Oriental Daily News, the pro-Beijing media would still have `r 557-384` articles published altogether which was still considerably more than the quantity of articles by neutral and pro-democracy media outlets.
 
-```{python, fig.cap="News articles on asylum seekers in 2019 by news outlet (left) and political camp (right)"}
-fig, axes = plt.subplots(1,2)
-
-# Plotting by-outlet amount of articles
-articles_outlet = news_df.value_counts('Newspaper')
-sns.barplot(x=articles_outlet, y=articles_outlet.index, ax=axes[0])
-axes[0].set(xlabel='Number of articles (in base-10 log scale)', ylabel='', title='By newspaper', xscale="log")
-for idx, value in enumerate(articles_outlet):
-    axes[0].text(value + 5, idx + 0.2, value)
-
-# Plotting by-camp amount of articles
-sns.countplot(x='Political_camp', data=news_df, ax=axes[1])    
-axes[1].set(xlabel='', ylabel='Number of articles', title='By political camp')
-count_by_political_camp = news_df['Political_camp'].value_counts(sort=False)
-for idx, value in enumerate(count_by_political_camp):
-  axes[1].text(idx - 0.1, value + 5, value)
-axes[1].set_xticklabels(['Pro-Beijing', 'Neutral', 'Pro-democracy'], rotation=60)
-plt.tight_layout()
-plt.show()
-plt.clf()
-```
 
 It will also be intriguing to see how the number of articles might vary by month in 2019. As noted before, the anti-extradition law protest lasted mostly from June to November when numerous large-scale clashes between protesters and the police occurred. From figure 4.2, it appears that coincidentally, there were the fewest amounts of articles about asylum seekers published between August and November when some of the most intense clashes (notably the siege of the Hong Kong Polytechnic University in November 2019) took place.
 
@@ -542,11 +520,6 @@ shap.dependence_plot("Problem and solution", xgb_shap_values[2], X_train_final, 
 plt.tight_layout()
 plt.show()
 plt.clf()
-```
-
-```{python}
-pos_train_idx = y_train[y_train == 2].index
-pos_train_article = X_train.query("@X_train.index in @pos_train_idx")
 ```
 
 ## Discussion

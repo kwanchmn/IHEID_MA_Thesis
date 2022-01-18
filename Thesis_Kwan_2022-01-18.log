@@ -1,0 +1,1544 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.15)  18 JAN 2022 17:37
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Thesis_Kwan_2022-01-18.tex
+(./Thesis_Kwan_2022-01-18.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-12> (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count190
+\Gm@cntv=\count191
+\c@Gm@tempcnt=\count192
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2021/12/10 v3.0b Micro-typographical refinements (RS)
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count193
+)
+\MT@toks=\toks18
+\MT@count=\count194
+\MT@tempbox=\box50
+LaTeX Info: Redefining \leftprotrusion on input line 1010.
+LaTeX Info: Redefining \rightprotrusion on input line 1018.
+LaTeX Info: Redefining \textls on input line 1173.
+\MT@outer@kern=\dimen147
+LaTeX Info: Redefining \textmicrotypecontext on input line 1759.
+\MT@listname@count=\count195
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2021/12/10 v3.0b Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 234.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2021/12/10 v3.0b microtype main configuration file (RS)
+)) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/droid/droidserif.sty
+Package: droidserif 2019/06/20 Style file for Droid Serif.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count196
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-12 L3 programming layer (loader) 
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-01-12 L3 backend support: XeTeX
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count197
+\l__color_backend_stack_int=\count198
+\g__color_backend_stack_int=\count199
+\g__graphics_track_int=\count266
+\l__pdf_internal_box=\box51
+\g__pdf_backend_object_int=\count267
+\g__pdf_backend_annotation_int=\count268
+\g__pdf_backend_link_int=\count269
+))
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count270
+\l__fontspec_language_int=\count271
+\l__fontspec_strnum_int=\count272
+\l__fontspec_tmp_int=\count273
+\l__fontspec_tmpa_int=\count274
+\l__fontspec_tmpb_int=\count275
+\l__fontspec_tmpc_int=\count276
+\l__fontspec_em_int=\count277
+\l__fontspec_emdef_int=\count278
+\l__fontspec_strong_int=\count279
+\l__fontspec_strongdef_int=\count280
+\l__fontspec_tmpa_dim=\dimen148
+\l__fontspec_tmpb_dim=\dimen149
+\l__fontspec_tmpc_dim=\dimen150
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+Requested font "[DroidSerif-Regular.ttf]/OT" at 9.99997pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/truetype/ascender/droid/droidserif/DroidSerif-Regular.ttf
+Requested font "[DroidSerif-Regular.ttf]/OT" at 10.00003pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/truetype/ascender/droid/droidserif/DroidSerif-Regular.ttf
+Requested font "[DroidSerif-Italic.ttf]/OT:script=latn;language=dflt;" at 10.00003pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/truetype/ascender/droid/droidserif/DroidSerif-Italic.ttf
+Requested font "[DroidSerif-Bold.ttf]/OT:script=latn;language=dflt;" at 10.00003pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/truetype/ascender/droid/droidserif/DroidSerif-Bold.ttf
+Requested font "[DroidSerif-BoldItalic.ttf]/OT:script=latn;language=dflt;" at 10.00003pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/truetype/ascender/droid/droidserif/DroidSerif-BoldItalic.ttf
+Requested font "[DroidSerif-Regular.ttf]/OT:script=latn;language=dflt;" at 10.00003pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/truetype/ascender/droid/droidserif/DroidSerif-Regular.ttf
+
+Package fontspec Info: Font family 'droidserif' created for font 'DroidSerif'
+(fontspec)             with options
+(fontspec)             [Extension=.ttf,Ligatures=TeX,Scale=1,UprightFont={*-Regular},ItalicFont={*-Italic},SlantedFont={*-Regular},SlantedFeatures={FakeSlant=0.213},FontFace={m}{ui}{Font=*-Italic,FakeSlant=-0.213},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},FontFace={b}{sl}{Font=*-Bold,FakeSlant=0.213},FontFace={b}{ui}{Font=*-BoldItalic,FakeSlant=-0.213},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},BoldSlantedFont={*-Bold},BoldSlantedFeatures={FakeSlant=0.213},FontFace={bx}{ui}{Font=*-BoldItalic,FakeSlant=-0.213},NFSSFamily=droidserif].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (m/ui) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-Italic.ttf]/OT:script=latn;language=dflt;slant=-0.213;mapping=tex-text;"
+(fontspec)             -  (m/scui) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-Bold.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-BoldItalic.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-Bold.ttf]/OT:script=latn;language=dflt;slant=0.213;mapping=tex-text;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.: 
+(fontspec)             - (b/ui) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-BoldItalic.ttf]/OT:script=latn;language=dflt;slant=-0.213;mapping=tex-text;"
+(fontspec)             -  (b/scui) with NFSS spec.: 
+(fontspec)             - (bx/ui) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-BoldItalic.ttf]/OT:script=latn;language=dflt;slant=-0.213;mapping=tex-text;"
+(fontspec)             -  (bx/scui) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-Italic.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-Regular.ttf]/OT:script=latn;language=dflt;slant=0.213;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'fdr' created for font 'DroidSerif' with
+(fontspec)             options
+(fontspec)             [Extension=.ttf,Ligatures=TeX,Scale=1,UprightFont={*-Regular},ItalicFont={*-Italic},SlantedFont={*-Regular},SlantedFeatures={FakeSlant=0.213},FontFace={m}{ui}{Font=*-Italic,FakeSlant=-0.213},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},FontFace={b}{sl}{Font=*-Bold,FakeSlant=0.213},FontFace={b}{ui}{Font=*-BoldItalic,FakeSlant=-0.213},BoldFont={*-Bold},BoldItalicFont={*-BoldItalic},BoldSlantedFont={*-Bold},BoldSlantedFeatures={FakeSlant=0.213},FontFace={bx}{ui}{Font=*-BoldItalic,FakeSlant=-0.213},NFSSFamily=fdr].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (m/ui) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-Italic.ttf]/OT:script=latn;language=dflt;slant=-0.213;mapping=tex-text;"
+(fontspec)             -  (m/scui) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-Bold.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-BoldItalic.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-Bold.ttf]/OT:script=latn;language=dflt;slant=0.213;mapping=tex-text;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.: 
+(fontspec)             - (b/ui) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-BoldItalic.ttf]/OT:script=latn;language=dflt;slant=-0.213;mapping=tex-text;"
+(fontspec)             -  (b/scui) with NFSS spec.: 
+(fontspec)             - (bx/ui) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-BoldItalic.ttf]/OT:script=latn;language=dflt;slant=-0.213;mapping=tex-text;"
+(fontspec)             -  (bx/scui) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-Italic.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->s*[1]"[DroidSerif-Regular.ttf]/OT:script=latn;language=dflt;slant=0.213;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.: 
+
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Requested font "ec-lmr10" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/silence/silence.sty
+Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error messages
+\sl@Save=\count281
+\sl@StateNumber=\count282
+\sl@MessageCount=\count283
+\sl@Casualties=\count284
+\sl@Filter=\toks21
+\sl@Message=\toks22
+\sl@UnexpandedMessage=\toks23
+\sl@Mess@ge=\toks24
+\sl@WarningCount=\count285
+\sl@WarningNumber=\count286
+\sl@WarningCasualties=\count287
+\sl@TempBOW=\toks25
+\sl@BankOfWarnings=\toks26
+LaTeX Info: Redefining \GenericWarning on input line 433.
+\sl@ErrorCount=\count288
+\sl@ErrorNumber=\count289
+\sl@ErrorCasualties=\count290
+\sl@TempBOE=\toks27
+\sl@BankOfErrors=\toks28
+LaTeX Info: Redefining \GenericError on input line 601.
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/inconsolata/zi4.sty
+Package: zi4 2019/05/17 v1.12
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+\zifour@ocount=\count291
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box52
+\UL@hyphenbox=\box53
+\UL@skip=\skip58
+\UL@hook=\toks29
+\UL@height=\dimen151
+\UL@pe=\count292
+\UL@pixel=\dimen152
+\ULC@box=\box54
+Requested font "lasy6" scaled 1000
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
+Package: ulem 2019/11/18
+\ULdepth=\dimen153
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 149.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+)) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
+\FV@CodeLineNo=\count293
+\FV@InFile=\read2
+\FV@TabBox=\box55
+\c@FancyVerbLine=\count294
+\FV@StepNumber=\count295
+\FV@OutFile=\write3
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip59
+\fb@frw=\dimen154
+\fb@frh=\dimen155
+\FrameRule=\dimen156
+\FrameSep=\dimen157
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen158
+\Hy@linkcounter=\count296
+\Hy@pagecounter=\count297
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel languages
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count298
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count299
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen159
+Requested font "pzdr" at 0.00002pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count300
+\Field@Width=\dimen160
+\Fld@charsize=\dimen161
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring ON on input line 6094.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count301
+\c@Item=\count302
+\c@Hfootnote=\count303
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2021-06-07 v7.00m Hyperref driver for XeTeX
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\pdfm@box=\box56
+\c@Hy@AnnotLevel=\count304
+\HyField@AnnotCount=\count305
+\Fld@listcount=\count306
+\c@bookmark@seq@number=\count307
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip60
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count308
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count309
+\c@listtotal=\count310
+\c@listcount=\count311
+\c@liststart=\count312
+\c@liststop=\count313
+\c@citecount=\count314
+\c@citetotal=\count315
+\c@multicitecount=\count316
+\c@multicitetotal=\count317
+\c@instcount=\count318
+\c@maxnames=\count319
+\c@minnames=\count320
+\c@maxitems=\count321
+\c@minitems=\count322
+\c@citecounter=\count323
+\c@maxcitecounter=\count324
+\c@savedcitecounter=\count325
+\c@uniquelist=\count326
+\c@uniquename=\count327
+\c@refsection=\count328
+\c@refsegment=\count329
+\c@maxextratitle=\count330
+\c@maxextratitleyear=\count331
+\c@maxextraname=\count332
+\c@maxextradate=\count333
+\c@maxextraalpha=\count334
+\c@abbrvpenalty=\count335
+\c@highnamepenalty=\count336
+\c@lownamepenalty=\count337
+\c@maxparens=\count338
+\c@parenlevel=\count339
+\blx@tempcnta=\count340
+\blx@tempcntb=\count341
+\blx@tempcntc=\count342
+\blx@maxsection=\count343
+\blx@maxsegment@0=\count344
+\blx@notetype=\count345
+\blx@parenlevel@text=\count346
+\blx@parenlevel@foot=\count347
+\blx@sectionciteorder@0=\count348
+\blx@entrysetcounter=\count349
+\blx@biblioinstance=\count350
+\labelnumberwidth=\skip61
+\labelalphawidth=\skip62
+\biblabelsep=\skip63
+\bibitemsep=\skip64
+\bibnamesep=\skip65
+\bibinitsep=\skip66
+\bibparsep=\skip67
+\bibhang=\skip68
+\blx@bcfin=\read3
+\blx@bcfout=\write4
+\blx@langwohyphens=\language3
+\c@mincomprange=\count351
+\c@maxcomprange=\count352
+\c@mincompwidth=\count353
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count354
+\c@savedafterword=\count355
+\c@annotator=\count356
+\c@savedannotator=\count357
+\c@author=\count358
+\c@savedauthor=\count359
+\c@bookauthor=\count360
+\c@savedbookauthor=\count361
+\c@commentator=\count362
+\c@savedcommentator=\count363
+\c@editor=\count364
+\c@savededitor=\count365
+\c@editora=\count366
+\c@savededitora=\count367
+\c@editorb=\count368
+\c@savededitorb=\count369
+\c@editorc=\count370
+\c@savededitorc=\count371
+\c@foreword=\count372
+\c@savedforeword=\count373
+\c@holder=\count374
+\c@savedholder=\count375
+\c@introduction=\count376
+\c@savedintroduction=\count377
+\c@namea=\count378
+\c@savednamea=\count379
+\c@nameb=\count380
+\c@savednameb=\count381
+\c@namec=\count382
+\c@savednamec=\count383
+\c@translator=\count384
+\c@savedtranslator=\count385
+\c@shortauthor=\count386
+\c@savedshortauthor=\count387
+\c@shorteditor=\count388
+\c@savedshorteditor=\count389
+\c@labelname=\count390
+\c@savedlabelname=\count391
+\c@institution=\count392
+\c@savedinstitution=\count393
+\c@lista=\count394
+\c@savedlista=\count395
+\c@listb=\count396
+\c@savedlistb=\count397
+\c@listc=\count398
+\c@savedlistc=\count399
+\c@listd=\count400
+\c@savedlistd=\count401
+\c@liste=\count402
+\c@savedliste=\count403
+\c@listf=\count404
+\c@savedlistf=\count405
+\c@location=\count406
+\c@savedlocation=\count407
+\c@organization=\count408
+\c@savedorganization=\count409
+\c@origlocation=\count410
+\c@savedoriglocation=\count411
+\c@origpublisher=\count412
+\c@savedorigpublisher=\count413
+\c@publisher=\count414
+\c@savedpublisher=\count415
+\c@language=\count416
+\c@savedlanguage=\count417
+\c@origlanguage=\count418
+\c@savedoriglanguage=\count419
+\c@pageref=\count420
+\c@savedpageref=\count421
+\shorthandwidth=\skip69
+\shortjournalwidth=\skip70
+\shortserieswidth=\skip71
+\shorttitlewidth=\skip72
+\shortauthorwidth=\skip73
+\shorteditorwidth=\skip74
+\locallabelnumberwidth=\skip75
+\locallabelalphawidth=\skip76
+\localshorthandwidth=\skip77
+\localshortjournalwidth=\skip78
+\localshortserieswidth=\skip79
+\localshorttitlewidth=\skip80
+\localshortauthorwidth=\skip81
+\localshorteditorwidth=\skip82
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count422
+\c@textcitetotal=\count423
+\c@textcitemaxnames=\count424
+\c@biburlbigbreakpenalty=\count425
+\c@biburlbreakpenalty=\count426
+\c@biburlnumpenalty=\count427
+\c@biburlucpenalty=\count428
+\c@biburllcpenalty=\count429
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count430
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count431
+\c@bbx:relatedtotal=\count432
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+\singlebaselineskip=\skip83
+\frontmatterbaselineskip=\skip84
+\textbaselineskip=\skip85
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip86
+\enit@outerparindent=\dimen162
+\enit@toks=\toks30
+\enit@inbox=\box57
+\enit@count@id=\count433
+\enitdp@description=\count434
+)
+\enitdp@abbrv=\count435
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip87
+\L@UnitsRaiseTextstyle=\skip88
+\L@UnitsRaiseScriptstyle=\skip89
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip90
+For additional information on amsmath, use the `?' option.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks31
+\ex@=\dimen163
+)) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen164
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count436
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count437
+\leftroot@=\count438
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count439
+\DOTSCASE@=\count440
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box58
+\strutbox@=\box59
+\big@size=\dimen165
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count441
+\c@MaxMatrixCols=\count442
+\dotsspace@=\muskip21
+\c@parentequation=\count443
+\dspbrk@lvl=\count444
+\tag@help=\toks32
+\row@=\count445
+\column@=\count446
+\maxfields@=\count447
+\andhelp@=\toks33
+\eqnshift@=\dimen166
+\alignsep@=\dimen167
+\tagshift@=\dimen168
+\tagwidth@=\dimen169
+\totwidth@=\dimen170
+\lineht@=\dimen171
+\@envbody=\toks34
+\multlinegap=\skip91
+\multlinetaggap=\skip92
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip93
+\LTright=\skip94
+\LTpre=\skip95
+\LTpost=\skip96
+\LTchunksize=\count448
+\LTcapwidth=\dimen172
+\LT@head=\box60
+\LT@firsthead=\box61
+\LT@foot=\box62
+\LT@lastfoot=\box63
+\LT@gbox=\box64
+\LT@cols=\count449
+\LT@rows=\count450
+\c@LT@tables=\count451
+\c@LT@chunks=\count452
+\LT@p@ftn=\toks36
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen173
+\captionmargin@=\dimen174
+\captionwidth=\dimen175
+\caption@tempdima=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count453
+\c@continuedfloat=\count454
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count455
+\mult@box=\box65
+\multicol@leftmargin=\dimen180
+\c@unbalance=\count456
+\c@collectmore=\count457
+\doublecol@number=\count458
+\multicoltolerance=\count459
+\multicolpretolerance=\count460
+\full@width=\dimen181
+\page@free=\dimen182
+\premulticols=\dimen183
+\postmulticols=\dimen184
+\multicolsep=\skip97
+\multicolbaselineskip=\skip98
+\partial@page=\box66
+\last@line=\box67
+\maxbalancingoverflow=\dimen185
+\mult@rightbox=\box68
+\mult@grightbox=\box69
+\mult@firstbox=\box70
+\mult@gfirstbox=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\c@minrows=\count461
+\c@columnbadness=\count462
+\c@finalcolumnbadness=\count463
+\last@try=\dimen186
+\multicolovershoot=\dimen187
+\multicolundershoot=\dimen188
+\mult@nat@firstbox=\box108
+\colbreak@box=\box109
+\mc@col@check@num=\count464
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip99
+\multirow@cntb=\count465
+\multirow@dima=\skip100
+\bigstrutjot=\dimen189
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen190
+\ar@mcellbox=\box110
+\extrarowheight=\dimen191
+\NC@list=\toks37
+\extratabsurround=\skip101
+\backup@length=\skip102
+\ar@cellbox=\box111
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+)
+\Gin@req@height=\dimen192
+\Gin@req@width=\dimen193
+)
+\c@r@tfl@t=\count466
+\rotFPtop=\skip103
+\rotFPbot=\skip104
+\rot@float@box=\box112
+\rot@mess@toks=\toks38
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen194
+\lightrulewidth=\dimen195
+\cmidrulewidth=\dimen196
+\belowrulesep=\dimen197
+\belowbottomsep=\dimen198
+\aboverulesep=\dimen199
+\abovetopsep=\dimen256
+\cmidrulesep=\dimen257
+\cmidrulekern=\dimen258
+\defaultaddspace=\dimen259
+\@cmidla=\count467
+\@cmidlb=\count468
+\@aboverulesep=\dimen260
+\@belowrulesep=\dimen261
+\@thisruleclass=\count469
+\@lastruleclass=\count470
+\@thisrulewidth=\dimen262
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count471
+\calc@Bcount=\count472
+\calc@Adimen=\dimen263
+\calc@Bdimen=\dimen264
+\calc@Askip=\skip105
+\calc@Bskip=\skip106
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count473
+\calc@Cskip=\skip107
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen265
+\ESO@tempdimb=\dimen266
+)
+\AM@pagewidth=\dimen267
+\AM@pageheight=\dimen268
+\AM@fboxrule=\dimen269
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfpages/ppxetex.def
+File: ppxetex.def 2021/03/06 v0.5t Pdfpages driver for XeTeX (AM)
+)
+\pdfpages@includegraphics@status=\count474
+\AM@pagebox=\box113
+\AM@global@opts=\toks39
+\AM@pagecnt=\count475
+\AM@toc@title=\toks40
+\c@AM@survey=\count476
+\AM@templatesizebox=\box114
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2022-01-12 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen270
+\l__xtemplate_tmp_int=\count477
+\l__xtemplate_tmp_muskip=\muskip22
+\l__xtemplate_tmp_skip=\skip108
+)
+Package: xfrac 2022-01-12 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box115
+\l__xfrac_tmp_box=\box116
+\l__xfrac_denominator_bot_sep_dim=\dimen271
+\l__xfrac_numerator_bot_sep_dim=\dimen272
+\l__xfrac_numerator_top_sep_dim=\dimen273
+\l__xfrac_slash_left_sep_dim=\dimen274
+\l__xfrac_slash_right_sep_dim=\dimen275
+\l__xfrac_slash_left_muskip=\muskip23
+\l__xfrac_slash_right_muskip=\muskip24
+
+Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
+(xtemplate)             line 80.
+
+)
+\@quotelevel=\count478
+\@quotereset=\count479
+(./Thesis_Kwan_2022-01-18.aux (./front-matter/abbreviations.aux)
+
+LaTeX Warning: Label `fig:unnamed-chunk-18' multiply defined.
+
+
+LaTeX Warning: Label `fig:unnamed-chunk-20' multiply defined.
+
+
+LaTeX Warning: Label `fig:unnamed-chunk-22' multiply defined.
+
+)
+\openout1 = `Thesis_Kwan_2022-01-18.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 331.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 331.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead 
+* h-part:(L,W,R)=(88.2037pt, 421.10046pt, 88.2037pt)
+* v-part:(T,H,B)=(71.13188pt, 697.09262pt, 76.82234pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=421.10046pt
+* \textheight=662.33034pt
+* \oddsidemargin=15.93372pt
+* \evensidemargin=15.93372pt
+* \topmargin=-1.1381pt
+* \headheight=15.0pt
+* \headsep=22.76228pt
+* \topskip=10.0pt
+* \footskip=34.14322pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \microtypecontext on input line 331.
+Package microtype Info: Applying patch `item' on input line 331.
+Package microtype Info: Applying patch `toc' on input line 331.
+Package microtype Info: Applying patch `eqnum' on input line 331.
+Package microtype Info: Applying patch `footnote' on input line 331.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Modern Roman (RS)
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 331.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 331.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 331.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 331.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 331.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 331.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 331.
+LaTeX Font Info:    Redeclaring math accent \check on input line 331.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 331.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 331.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 331.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 331.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 331.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 331.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 331.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 331.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 331.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 331.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 331.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/phv/m/n on input line 331.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/zi4/m/n on input line 331.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 331.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 331.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/phv/b/n on input line 331.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/zi4/b/n on input line 331.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+)
+Package hyperref Info: Link coloring ON on input line 331.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count480
+)
+LaTeX Info: Redefining \ref on input line 331.
+LaTeX Info: Redefining \pageref on input line 331.
+LaTeX Info: Redefining \nameref on input line 331.
+(./Thesis_Kwan_2022-01-18.out) (./Thesis_Kwan_2022-01-18.out)
+\@outlinefile=\write5
+\openout5 = `Thesis_Kwan_2022-01-18.out'.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2022-01-12 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout4 = `Thesis_Kwan_2022-01-18.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Thesis_Kwan_2022-01-18.bbl' found.
+(./Thesis_Kwan_2022-01-18.bbl)
+Package biblatex Info: Reference section=0 on input line 331.
+Package biblatex Info: Reference segment=0 on input line 331.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+)
+File: figures//iheid.png Graphic file (type bmp)
+<figures//iheid.png>
+Requested font "ec-lmr12" at 14.4pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 342.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+Requested font "phvr8t" at 14.4pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Requested font "phvb8t" at 14.4pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
+Requested font "phvr8t" at 12.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
+Requested font "phvb8t" at 12.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
+Requested font "phvr8t" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
+Requested font "phvb8t" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
+[1
+
+] [1]
+Requested font "ec-lmr17" at 24.88pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
+Requested font "ec-lmbx12" at 24.88pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+Requested font "phvb8t" at 24.88pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
+[1
+
+
+
+
+] (./Thesis_Kwan_2022-01-18.toc
+Requested font "ec-lmbx10" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
+Requested font "[lmroman7-regular]:mapping=tex-text;" at 7.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf
+Requested font "[lmroman5-regular]:mapping=tex-text;" at 5.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf
+Requested font "cmex7" at 7.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+Requested font "cmex7" at 5.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+Requested font "msam10" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+Requested font "msam7" at 7.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+Requested font "msam5" at 5.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Requested font "msbm10" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+Requested font "msbm7" at 7.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+Requested font "msbm5" at 5.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+Requested font "ec-lmri10" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
+[2
+
+])
+\tf@toc=\write6
+\openout6 = `Thesis_Kwan_2022-01-18.toc'.
+
+[3] (./Thesis_Kwan_2022-01-18.lof)
+\tf@lof=\write7
+\openout7 = `Thesis_Kwan_2022-01-18.lof'.
+
+[4
+
+] [5] (./Thesis_Kwan_2022-01-18.lot)
+\tf@lot=\write8
+\openout8 = `Thesis_Kwan_2022-01-18.lot'.
+
+[6
+
+]
+\openout2 = `front-matter/abbreviations.aux'.
+
+(./front-matter/abbreviations.tex) [7
+
+
+] [1
+
+
+
+
+] [2] [3]
+Chapter 1.
+Requested font "ec-lmr17" at 20.74pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
+Requested font "ec-lmbx12" at 20.74pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+Requested font "phvb8t" at 20.74pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
+Requested font "ec-lmr7" at 7.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm
+Requested font "ec-lmr8" at 8.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
+Requested font "[lmroman8-regular]:mapping=tex-text;" at 8.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf
+Requested font "[lmroman6-regular]:mapping=tex-text;" at 6.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf
+Requested font "cmmi8" at 8.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+Requested font "cmmi6" at 6.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+Requested font "cmsy8" at 8.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+Requested font "cmsy6" at 6.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+Requested font "cmex8" at 8.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+Requested font "cmex7" at 6.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+Requested font "msam10" at 8.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+Requested font "msam7" at 6.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+Requested font "msbm10" at 8.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+Requested font "msbm7" at 6.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+Requested font "cmr8" at 8.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+Requested font "cmr6" at 6.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+Requested font "ec-lmr6" at 6.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
+[4
+
+]
+Requested font "ec-lmbxi10" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
+[5] [6]
+Chapter 2.
+Requested font "ec-lmbx12" at 14.4pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+Requested font "ec-lmr12" at 12.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
+Requested font "ec-lmbx12" at 12.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+[7
+
+]
+Requested font "ts1-lmr10" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmr' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+[8] [9] [10]
+Overfull \hbox (10.69048pt too wide) in paragraph at lines 582--583
+\T1/lmr/m/n/10 Given over 90% of the pop-u-la-tion be-ing eth-ni-cally Han Chi-nese by 2016 ([]Home_Affairs_Department
+ []
+
+[11] [12] [13] [14] [15] [16] [17] [18] [19]
+Requested font "ec-lmr9" at 9.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmr9.tfm
+Requested font "ec-lmbx9" at 9.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbx9.tfm
+[20] [21]
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-1-1.pdf>
+
+Overfull \hbox (48.6534pt too wide) in paragraph at lines 670--671
+ [][] 
+ []
+
+[22]
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-2-3.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-2-3.pdf>
+
+Overfull \hbox (48.6534pt too wide) in paragraph at lines 678--679
+ [][] 
+ []
+
+[23] [24]
+Overfull \hbox (2.9556pt too wide) in paragraph at lines 699--700
+\T1/lmr/m/n/10 Putting aside the lack of a clear ex-pec-ta-tion of the lo-cal-ist camp's at-ti-tude to-wards non-refoulement
+ []
+
+
+Overfull \hbox (5.69331pt too wide) in paragraph at lines 699--700
+\T1/lmr/m/n/10 claimants, it seems that draw-ing from pre-lim-i-nary ev-i-dence, how the pro-Beijing and pro-democracy
+ []
+
+[25] [26] [27]
+Chapter 3.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 728.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/inconsolata/t1zi4.fd
+File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 8.0pt on input line 728.
+Requested font "t1-zi4r-0" at 8.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/inconsolata/t1-zi4r-0.tfm
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zi4' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+[28
+
+] [29] [30] [31] [32] [33]
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 10.0pt on input line 797.
+Requested font "t1-zi4r-0" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/inconsolata/t1-zi4r-0.tfm
+[34]
+Requested font "ec-lmri8" at 8.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmri8.tfm
+[35]
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-3-5.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-3-5.pdf>
+
+Overfull \hbox (48.6534pt too wide) in paragraph at lines 844--845
+ [][] 
+ []
+
+[36] [37] [38] [39] [40]
+Chapter 4.
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-4-1.pdf>
+
+Overfull \hbox (48.6534pt too wide) in paragraph at lines 889--890
+ [][] 
+ []
+
+[41
+
+] [42]
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-7-1.pdf>
+
+Overfull \hbox (48.6534pt too wide) in paragraph at lines 926--927
+ [][] 
+ []
+
+[43] [44]
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-8-3.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-8-3.pdf>
+
+Overfull \hbox (48.6534pt too wide) in paragraph at lines 937--938
+ [][] 
+ []
+
+[45]
+LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
+(Font)              scaled to size 10.0pt on input line 981.
+Requested font "t1-zi4b-0" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/inconsolata/t1-zi4b-0.tfm
+[46]
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 991.
+
+LaTeX Font Info:    Font shape `T1/zi4/m/it' will be
+(Font)              scaled to size 10.0pt on input line 995.
+LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 1004.
+(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
+File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
+(Font)              scaled to size 10.0pt on input line 1004.
+Requested font "ts1-zi4r" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/inconsolata/ts1-zi4r.tfm
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zi4' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-11-1.pdf>
+
+Overfull \hbox (48.6534pt too wide) in paragraph at lines 1031--1032
+ [][] 
+ []
+
+[47]
+File: figures/nmf_topic_words_list.png Graphic file (type bmp)
+<figures/nmf_topic_words_list.png>
+[48] [49]
+Missing character: There is no — ("2014) in font ec-lmri10!
+[50] [51]
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-16-1.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-16-1.pdf>
+[52] [53]
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-17-3.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-17-3.pdf>
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-18-5.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-18-5.pdf>
+[54]
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-18-6.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-18-6.pdf>
+[55]
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-19-9.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-19-9.pdf>
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-20-11.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-20-11.pdf>
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-20-12.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-20-12.pdf>
+[56] [57] [58]
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-21-15.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-21-15.pdf>
+[59]
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-22-17.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-22-17.pdf>
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-22-18.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-22-18.pdf>
+[60] [61]
+Overfull \hbox (185.53894pt too wide) in paragraph at lines 1215--1215
+[]\T1/zi4/m/it/10 ##   File "C:\Users\kenji\ANACON~1\envs\py_397\lib\site-packages\matplotlib\backends\backend_qt.py", line 455, in _draw_idle[] 
+ []
+
+
+Overfull \hbox (160.28894pt too wide) in paragraph at lines 1215--1215
+[]\T1/zi4/m/it/10 ##   File "C:\Users\kenji\ANACON~1\envs\py_397\lib\site-packages\matplotlib\backends\backend_agg.py", line 436, in draw[] 
+ []
+
+
+Overfull \hbox (125.28894pt too wide) in paragraph at lines 1215--1215
+[]\T1/zi4/m/it/10 ##   File "C:\Users\kenji\ANACON~1\envs\py_397\lib\site-packages\matplotlib\artist.py", line 73, in draw_wrapper[] 
+ []
+
+
+Overfull \hbox (125.28894pt too wide) in paragraph at lines 1215--1215
+[]\T1/zi4/m/it/10 ##   File "C:\Users\kenji\ANACON~1\envs\py_397\lib\site-packages\matplotlib\artist.py", line 50, in draw_wrapper[] 
+ []
+
+
+Overfull \hbox (95.28894pt too wide) in paragraph at lines 1215--1215
+[]\T1/zi4/m/it/10 ##   File "C:\Users\kenji\ANACON~1\envs\py_397\lib\site-packages\matplotlib\figure.py", line 2803, in draw[] 
+ []
+
+
+Overfull \hbox (210.53894pt too wide) in paragraph at lines 1215--1215
+[]\T1/zi4/m/it/10 ##   File "C:\Users\kenji\ANACON~1\envs\py_397\lib\site-packages\matplotlib\image.py", line 132, in _draw_list_compositing_images[] 
+ []
+
+
+Overfull \hbox (125.28894pt too wide) in paragraph at lines 1215--1215
+[]\T1/zi4/m/it/10 ##   File "C:\Users\kenji\ANACON~1\envs\py_397\lib\site-packages\matplotlib\artist.py", line 50, in draw_wrapper[] 
+ []
+
+
+Overfull \hbox (115.28894pt too wide) in paragraph at lines 1215--1215
+[]\T1/zi4/m/it/10 ##   File "C:\Users\kenji\ANACON~1\envs\py_397\lib\site-packages\matplotlib\axes\_base.py", line 3046, in draw[] 
+ []
+
+
+Overfull \hbox (205.53894pt too wide) in paragraph at lines 1215--1215
+[]\T1/zi4/m/it/10 ##   File "C:\Users\kenji\ANACON~1\envs\py_397\lib\site-packages\matplotlib\axes\_base.py", line 2984, in _update_title_position[] 
+ []
+
+
+Overfull \hbox (155.53894pt too wide) in paragraph at lines 1215--1215
+[]\T1/zi4/m/it/10 ##   File "C:\Users\kenji\ANACON~1\envs\py_397\lib\site-packages\matplotlib\axis.py", line 2232, in get_ticks_position[] 
+ []
+
+
+Overfull \hbox (160.53894pt too wide) in paragraph at lines 1215--1215
+[]\T1/zi4/m/it/10 ##   File "C:\Users\kenji\ANACON~1\envs\py_397\lib\site-packages\matplotlib\axis.py", line 1937, in _get_ticks_position[] 
+ []
+
+File: Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-23-21.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-18_files/figure-latex/unnamed-chunk-23-21.pdf>
+[62] [63] [64]
+Chapter 5.
+[65
+
+] [66] [67] [68
+
+] [69
+
+]
+
+LaTeX Font Warning: Font shape `TS1/zi4/m/it' undefined
+(Font)              using `TS1/zi4/m/n' instead
+(Font)              for symbol `textquotesingle' on input line 1328.
+
+[70] [71]
+Requested font "ec-lmcsc10" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
+[72
+
+]
+Missing character: There is no – ("2013) in font ec-lmr10!
+Missing character: There is no – ("2013) in font ec-lmr10!
+[73]
+Overfull \hbox (54.61906pt too wide) in paragraph at lines 1375--1375
+\T1/lmr/m/n/10 https://webcache.googleusercontent.com/search?q=cache:zyvAUu3wlSoJ:https://www.legco.gov.hk/yr16- 
+ []
+
+[74] [75]
+Missing character: There is no — ("2014) in font ec-lmri10!
+[76]
+Missing character: There is no ： ("FF1A) in font ec-lmri10!
+[77] (./Thesis_Kwan_2022-01-18.aux (./front-matter/abbreviations.aux))
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `Thesis_Kwan_2022-01-18.out' has not changed.
+(rerunfilecheck)             Checksum: 60C841B64434B6D9669D6FA9D15A731F;10962.
+Package logreq Info: Writing requests to 'Thesis_Kwan_2022-01-18.run.xml'.
+\openout1 = `Thesis_Kwan_2022-01-18.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 26999 strings out of 478189
+ 548987 string characters out of 5853131
+ 1340885 words of memory out of 5000000
+ 47144 multiletter control sequences out of 15000+600000
+ 550139 words of font info for 94 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 88i,12n,117p,3002b,5603s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Thesis_Kwan_2022-01-18.pdf (86 pages).

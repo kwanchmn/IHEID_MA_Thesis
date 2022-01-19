@@ -6,7 +6,7 @@ I would also like to thank all the professors and teaching assistants at the IRP
 
 No matter it is emotional support during stressful times or academic support towards each other on a variety of subjects, it would have been a much more difficult academic journey for me without the support from my cohort at the IRPS programme. Hope we can all hang out together one day.
 
-I also express my deepest gratitude towards the developers of all the packages I used in this thesis. Without them, I would not have been able to complete my analysis. They will always be indispensable for my data science toolbox.
+I also express my deepest gratitude towards the developers of all the packages I used in this thesis. Without them, I would not have been able to complete my analysis. They will always be indispensable for my data science toolbox. Also a big thank you to the developers of the `iheiddown` package which helped enormously in formatting my thesis.
 
 On a personal level, my beloved parents have offered their unlimited support to me throughout my study at the Institute and my life in general. Without them I would not have been able to be who I am today. My friends back in Hong Kong whom I have known since high school have never ceased to be an amazing companionship even if we are now living in two different continents. I have also known some of the most agreeable friends at the Institute, and they have always cheered me up in times of difficulty.
 

@@ -15,7 +15,7 @@ output: iheiddown::chapter_pdf
 
 # Introduction {#intro}
 
-Asylum seekers, defined by @amnestyinternationalRefugeesAsylumseekersMigrants2022 as individuals who are forced to flee from their home countries due to threats of persecutions and human rights violations, has become one of the most salient socio-political issues
+Asylum seekers, defined by @amnestyinternationalRefugeesAsylumseekersMigrants2022 as individuals who are forced to flee from their home countries due to threats of persecutions and human rights violations, has become one of the most salient socio-political issues in the 21st Century, especially after the 2015 European refugee crisis which has then sparked off . Just as
 
 Despite having their presence recorded annually since 2005 [@immigrationdepartmentEnforcementStatisticsNonrefoulement2021], Given the extremely small number of non-refoulement claimants, the issue of asylum seeking regime in Hong Kong hadn't gained much attention until early 2016, after a senior Immigration Department official's accusation of the USM being abused during a TV interview in October 2015 and the subsequent propagation of two fabricated WhatsApp audios alleging asylum seekers as perpetrators of robberies and homicides in the New Territories district [@ngFramingIssueAsylum2019] . Soon afterwards, coverage of asylum seekers by newspaper media has increased, with two pro-Beijing newspapers named *The Sun* (which ceased publication in April 2016) and *Oriental Daily* contributing to the largest proportion of articles which depict this group of vulnerable population as a source of social problems (e.g. committing crimes) which warrant stringent measures like detention camps as solutions [@ngFramingIssueAsylum2019].
 

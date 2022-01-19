@@ -11,9 +11,15 @@ output: iheiddown::chapter_pdf
 
 # Conclusion {#conclusion}
 
-To recap, I used XGBoost to build a multiclass classification model to investigate whether the sentiments (in the polarities of *negative, neutral and positive)* of the printed newspaper articles about non-refoulement claimants in Hong Kong varies according to the political camp that an outlet is affiliated with. It is found that after accounting for the content of the news articles (such as the more dominant themes within a reportage) and other data of the articles (e.g. the length of the main text and whether racial labels were present), pro-Beijing newspaper outlets are both less likely to publish positive articles and more likely to write negative articles on asylum seekers in Hong Kong vis-a-vis outlets with other political affiliations.
+To recap, I used XGBoost to build a multiclass classification model to investigate whether the sentiments (in the polarities of *negative, neutral and positive)* of the printed newspaper articles about non-refoulement claimants in Hong Kong may vary according to a newspaper's affiliated political camp. Because of the pro-Beijing camp's
 
-## Limitations
+It is found that after accounting for the content of the news articles (such as the dominant topics in a reportage) and other data of the articles (e.g. the length of the main text and whether racial labels were present), pro-Beijing newspaper outlets are both less likely to publish positive articles and more likely to write negative articles on asylum seekers in Hong Kong when compared to outlets with other political affiliations. While most of the topics
+
+Besides the analysis results which aim to enrich the literature on media's portrayal of non-refoulement claimants in Hong Kong, to a large extent this study also
+
+How can the case of Hong Kong on the
+
+## Limitations and future research directions
 
 Admittedly, this study suffers from a few limitations. First and foremost, because the articles included in the dataset did not cover online news media, the entries only included those published by printed newspapers in Hong Kong. Had I been able to scrap online news articles, it would have been possible to
 

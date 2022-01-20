@@ -12,12 +12,12 @@ Hypothesis
 Analysis
 - [x] 	Put figure 4.1 right after table 3.1
 - [x] 	Helpful to discuss pro-democracy news outlets, e.g. how Apple Daily can operate and non-pro-Beijing in general (many ppl read Apple Daily, closure attracted foreign media)
-- [ ] 	Add translation for figure 4.5?
 
 Summary of results 
 - [x] 	Ambivalence of problem and solution, may be discussed with multiple angles 
 - [x] 	Also higher variance for positive class prediction
-- [ ] 	Much smaller size of pro-democracy outlets, extract of articles between two camps (Very different)
+- [x] 	Much smaller size of pro-democracy outlets, extract of articles between two camps (Very different)
 
 Conclusion
 - [ ] Negative narrative may actually translate to more hostility against non-refoulement claimants in the future
+

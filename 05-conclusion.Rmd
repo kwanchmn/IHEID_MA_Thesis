@@ -19,9 +19,13 @@ Besides the analysis results which aim to enrich the literature on media's portr
 
 How can the case of Hong Kong on the
 
-## Limitations and future research directions
+## Limitations
 
 Admittedly, this study suffers from a few limitations. First and foremost, because the articles included in the dataset did not cover online news media, the entries only included those published by printed newspapers in Hong Kong. Had I been able to scrap online news articles, it would have been possible to
+
+## Future research directions
+
+In terms of methodology, future research on analysing the reportage
 
 ## How might the instigation of the National Security Law affect the public discourse on asylum seekers in Hong Kong?
 

@@ -1,9 +1,9 @@
 Thesis final edit to do list:
 
 Literature review and introduction
-- [ ] 	Emphasis on current literature and what is lacking
-- [ ] 	Also think about the broader literature (e.g. how does ethnic and civic identities play)
-- [ ] 	A good case how polit. Division shape political identity in affecting asylum seekers
+- [x] 	Emphasis on current literature and what is lacking
+- [x] 	Also think about the broader literature (e.g. how does ethnic and civic identities play)
+- [x] 	A good case how polit. Division shape political identity in affecting asylum seekers
 
 Hypothesis
 - [x] 	More early for theory prediction of how political camps may respond according to national identity and theoretical expectation (before empirical evidence)

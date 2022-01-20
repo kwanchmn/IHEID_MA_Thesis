@@ -1,0 +1,32 @@
+Original:
+
+假難民嚴重威脅社區治安
+
+"""
+劉佩玉認為，目前的酷刑聲請問題亦會對香港的種族共融工作帶來極大負面影響，
+因為循酷刑聲請來港的部分假難民，在破壞社區治安、環境的同時，
+亦使在港少數族裔人士的形象大打折扣，而這部分在香港土生土長的少數族裔人士，
+許多都幾代人以香港為家，認同香港社會的價值觀，是良好市民，
+一旦他們被標籤化，社區內難免產生芥蒂、誤會，不利於社會和諧。
+"""
+
+Translation:
+
+Fake Refugees Seriously Threaten Community Security
+
+"""
+Liu Peiyu believes that the current problem of torture claims 
+will have a significant negative impact on Hong Kong's racial integration efforts.
+
+This is because some bogus refugees who came to Hong Kong under torture claims 
+have damaged the law and order and environment of the community. 
+At the same time, they are also greatly damaging the image 
+of the ethnic minorities in Hong Kong.
+
+Many of these ethnic minorities, who were born and raised in Hong Kong, 
+have called Hong Kong home for several generations, 
+identify with the values of Hong Kong society, and are good citizens.
+Once they are stigmatized, 
+it is inevitable that the community will have misunderstandings and misconceptions, 
+which is not conducive to social harmony.
+"""

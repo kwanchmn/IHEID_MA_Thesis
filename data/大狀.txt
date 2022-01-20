@@ -1,0 +1,36 @@
+Original:
+
+大狀：入境處對弱勢缺乏同情	
+
+"""
+【本報訊】曾收留斯諾登的香港三個難民家庭早前曾向港府申請酷刑聲請，全部被拒。
+其中獲加拿大批准難民身份的Vanessa在港生活近20年，她認為港府將申請庇護者當作香港的垃圾。
+在港難民沒有工作、沒有金錢、沒有希望和未來，有如生活在地獄之中。
+協助她的大律師田光譽（Robert Tibbo，圖）向《蘋果》稱，加拿大的難民篩選制度遠較香港透明和公平，
+形容香港是「種族主義、歧視、排斥和迫害的世界」。港府審查制度不透明田光譽向《蘋果》表示，
+Vanessa及其女兒在香港遭受歧視和邊緣化，她不被允許工作，
+亦沒有足夠的人道主義援助滿足其基本需求，其女兒更因膚色多次遭受種族歧視。
+"""
+
+Translation:
+
+Barristers: ImmD Lacks Compassion for the Disadvantaged	
+
+"""
+The three refugee families in Hong Kong who had taken in Snowden had applied 
+to the Hong Kong government for torture claims, all of which were rejected.
+
+One of them, Vanessa, who was granted refugee status by Canada, 
+has been living in Hong Kong for nearly 20 years, 
+and she thinks the Hong Kong government treats asylum seekers like trash.
+
+Refugees in Hong Kong have no jobs, no money, no hope or future, and are like living in hell.
+Robert Tibbo (pictured), the barrister who assisted her, 
+told Apple Daily that Canada's refugee screening system is far more transparent and fair than Hong Kong's.
+He described Hong Kong as "a world of racism, discrimination, exclusion and persecution. 
+
+The Hong Kong government's screening system is not transparent," Tibbo told The Apple.
+Vanessa and her daughter are discriminated against and marginalized in Hong Kong. She is not allowed to work,
+there is not enough humanitarian aid to meet her basic needs, 
+and her daughter has suffered repeated racial discrimination because of her skin color.
+"""

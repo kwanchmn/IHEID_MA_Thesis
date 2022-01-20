@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.15)  20 JAN 2022 23:57
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.15)  21 JAN 2022 00:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Thesis_Kwan_2022-01-20.tex
-(./Thesis_Kwan_2022-01-20.tex
+**Thesis_Kwan_2022-01-21.tex
+(./Thesis_Kwan_2022-01-21.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-12> (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
@@ -903,7 +903,7 @@ Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
 )
 \@quotelevel=\count478
 \@quotereset=\count479
-(./Thesis_Kwan_2022-01-20.aux
+(./Thesis_Kwan_2022-01-21.aux
 
 LaTeX Warning: Label `fig:unnamed-chunk-18' multiply defined.
 
@@ -914,7 +914,7 @@ LaTeX Warning: Label `fig:unnamed-chunk-20' multiply defined.
 LaTeX Warning: Label `fig:unnamed-chunk-22' multiply defined.
 
 )
-\openout1 = `Thesis_Kwan_2022-01-20.aux'.
+\openout1 = `Thesis_Kwan_2022-01-21.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 331.
 LaTeX Font Info:    ... okay on input line 331.
@@ -1063,9 +1063,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 331.
 LaTeX Info: Redefining \pageref on input line 331.
 LaTeX Info: Redefining \nameref on input line 331.
-(./Thesis_Kwan_2022-01-20.out) (./Thesis_Kwan_2022-01-20.out)
+(./Thesis_Kwan_2022-01-21.out) (./Thesis_Kwan_2022-01-21.out)
 \@outlinefile=\write5
-\openout5 = `Thesis_Kwan_2022-01-20.out'.
+\openout5 = `Thesis_Kwan_2022-01-21.out'.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1084,11 +1084,11 @@ Package biblatex Info: ... and expl3
 (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
-\openout4 = `Thesis_Kwan_2022-01-20.bcf'.
+\openout4 = `Thesis_Kwan_2022-01-21.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Thesis_Kwan_2022-01-20.bbl' found.
-(./Thesis_Kwan_2022-01-20.bbl)
+Package biblatex Info: ... file 'Thesis_Kwan_2022-01-21.bbl' found.
+(./Thesis_Kwan_2022-01-21.bbl)
 Package biblatex Info: Reference section=0 on input line 331.
 Package biblatex Info: Reference segment=0 on input line 331.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1151,7 +1151,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 
-] (./Thesis_Kwan_2022-01-20.toc
+] (./Thesis_Kwan_2022-01-21.toc
 Requested font "ec-lmbx10" at 10.0pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
 Requested font "[lmroman7-regular]:mapping=tex-text;" at 7.0pt
@@ -1197,17 +1197,17 @@ Requested font "ec-lmri10" at 10.0pt
 
 ])
 \tf@toc=\write6
-\openout6 = `Thesis_Kwan_2022-01-20.toc'.
+\openout6 = `Thesis_Kwan_2022-01-21.toc'.
 
-[3] (./Thesis_Kwan_2022-01-20.lof [4
+[3] (./Thesis_Kwan_2022-01-21.lof [4
 
 ])
 \tf@lof=\write7
-\openout7 = `Thesis_Kwan_2022-01-20.lof'.
+\openout7 = `Thesis_Kwan_2022-01-21.lof'.
 
-[5] (./Thesis_Kwan_2022-01-20.lot)
+[5] (./Thesis_Kwan_2022-01-21.lot)
 \tf@lot=\write8
-\openout8 = `Thesis_Kwan_2022-01-20.lot'.
+\openout8 = `Thesis_Kwan_2022-01-21.lot'.
 
 [6
 
@@ -1285,16 +1285,16 @@ Requested font "ec-lmr9" at 9.0pt
 Requested font "ec-lmbx9" at 9.0pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbx9.tfm
 [22] [23]
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-1-1.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-1-1.pdf>
 
 Overfull \hbox (48.6534pt too wide) in paragraph at lines 679--680
  [][] 
  []
 
 [24]
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-2-3.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-2-3.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-2-3.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-2-3.pdf>
 
 Overfull \hbox (48.6534pt too wide) in paragraph at lines 687--688
  [][] 
@@ -1318,8 +1318,8 @@ Chapter 3.
 Requested font "ec-lmbxi10" at 10.0pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
 [35] [36] [37]
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-3-5.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-3-5.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-3-5.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-3-5.pdf>
 
 Overfull \hbox (48.6534pt too wide) in paragraph at lines 853--854
  [][] 
@@ -1327,8 +1327,8 @@ Overfull \hbox (48.6534pt too wide) in paragraph at lines 853--854
 
 [38] [39] [40] [41] [42]
 Chapter 4.
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-4-1.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-4-1.pdf>
 
 Overfull \hbox (48.6534pt too wide) in paragraph at lines 894--895
  [][] 
@@ -1337,15 +1337,15 @@ Overfull \hbox (48.6534pt too wide) in paragraph at lines 894--895
 [43
 
 ] [44]
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-7-1.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-7-1.pdf>
 
 Overfull \hbox (48.6534pt too wide) in paragraph at lines 929--930
  [][] 
  []
 
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-8-3.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-8-3.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-8-3.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-8-3.pdf>
 
 Overfull \hbox (48.6534pt too wide) in paragraph at lines 940--941
  [][] 
@@ -1363,8 +1363,8 @@ Requested font "t1-zi4b-0" at 10.0pt
 LaTeX Font Info:    Font shape `T1/zi4/m/it' will be
 (Font)              scaled to size 10.0pt on input line 988.
 [48]
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-11-1.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-11-1.pdf>
 
 Overfull \hbox (48.6534pt too wide) in paragraph at lines 1011--1012
  [][] 
@@ -1390,48 +1390,49 @@ Overfull \hbox (0.33939pt too wide) in paragraph at lines 1090--1090
 
 Missing character: There is no — ("2014) in font ec-lmri10!
 [52] [53]
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-16-1.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-16-1.pdf>
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-17-3.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-17-3.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-16-1.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-16-1.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-17-3.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-17-3.pdf>
 [54] [55] [56]
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-18-5.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-18-5.pdf>
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-18-6.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-18-6.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-18-5.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-18-5.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-18-6.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-18-6.pdf>
 [57] [58]
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-19-9.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-19-9.pdf>
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-20-11.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-20-11.pdf>
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-20-12.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-20-12.pdf>
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-21-15.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-21-15.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-19-9.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-19-9.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-20-11.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-20-11.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-20-12.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-20-12.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-21-15.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-21-15.pdf>
 [59] [60] [61] [62]
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-22-17.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-22-17.pdf>
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-22-18.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-22-18.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-22-17.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-22-17.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-22-18.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-22-18.pdf>
 [63] [64] [65]
-File: Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-23-21.pdf Graphic file (type pdf)
-<use Thesis_Kwan_2022-01-20_files/figure-latex/unnamed-chunk-23-21.pdf>
+File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-23-21.pdf Graphic file (type pdf)
+<use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-23-21.pdf>
 [66] [67] [68]
 File: figures/settle_the_storm.png Graphic file (type bmp)
 <figures/settle_the_storm.png>
 
-Overfull \hbox (1104.51927pt too wide) in paragraph at lines 1197--1197
-[][] 
- []
-
-
-LaTeX Warning: Float too large for page by 82.37047pt on input line 1198.
+LaTeX Warning: Float too large for page by 21.0266pt on input line 1198.
 
 File: figures/community_security.png Graphic file (type bmp)
 <figures/community_security.png>
+
+LaTeX Warning: Float too large for page by 21.00275pt on input line 1204.
+
 [69] [70] [71]
 File: figures/refugee_personal_story.png Graphic file (type bmp)
 <figures/refugee_personal_story.png>
+
+LaTeX Warning: Float too large for page by 21.04462pt on input line 1210.
+
 [72] [73]
 Chapter 5.
 [74
@@ -1474,26 +1475,26 @@ Overfull \hbox (54.61906pt too wide) in paragraph at lines 1368--1368
 [83] [84] [85]
 Missing character: There is no — ("2014) in font ec-lmri10!
 Missing character: There is no ： ("FF1A) in font ec-lmri10!
-[86] [87] (./Thesis_Kwan_2022-01-20.aux)
+[86] [87] (./Thesis_Kwan_2022-01-21.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `Thesis_Kwan_2022-01-20.out' has not changed.
+Package rerunfilecheck Info: File `Thesis_Kwan_2022-01-21.out' has not changed.
 (rerunfilecheck)             Checksum: 7C83B3BB5B806C3880853D028D120452;12646.
-Package logreq Info: Writing requests to 'Thesis_Kwan_2022-01-20.run.xml'.
-\openout1 = `Thesis_Kwan_2022-01-20.run.xml'.
+Package logreq Info: Writing requests to 'Thesis_Kwan_2022-01-21.run.xml'.
+\openout1 = `Thesis_Kwan_2022-01-21.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  27054 strings out of 478189
  550506 string characters out of 5853131
- 1341308 words of memory out of 5000000
+ 1341326 words of memory out of 5000000
  47204 multiletter control sequences out of 15000+600000
  550139 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  88i,12n,117p,2376b,5605s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis_Kwan_2022-01-20.pdf (95 pages).
+Output written on Thesis_Kwan_2022-01-21.pdf (95 pages).

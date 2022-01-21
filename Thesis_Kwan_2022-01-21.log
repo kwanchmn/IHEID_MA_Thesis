@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.15)  21 JAN 2022 19:24
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.15)  21 JAN 2022 19:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1432,55 +1432,37 @@ Chapter 5.
 ]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
-(Font)              using `T1/zi4/m/n' instead on input line 1250.
+(Font)              using `T1/zi4/m/n' instead on input line 1248.
 
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
-(Font)              scaled to size 10.0pt on input line 1251.
+(Font)              scaled to size 10.0pt on input line 1249.
 Requested font "t1-zi4b-0" at 10.0pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/inconsolata/t1-zi4b-0.tfm
 LaTeX Font Info:    Font shape `T1/zi4/m/it' will be
-(Font)              scaled to size 10.0pt on input line 1262.
+(Font)              scaled to size 10.0pt on input line 1260.
 [81
 
-]
-LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 1292.
-(c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
-File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
-)
-
-LaTeX Font Warning: Font shape `TS1/zi4/m/it' undefined
-(Font)              using `TS1/zi4/m/n' instead
-(Font)              for symbol `textquotesingle' on input line 1292.
-
-LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 1292.
-Requested font "ts1-zi4r" at 10.0pt
- -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/inconsolata/ts1-zi4r.tfm
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `zi4' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-[82] [83] [84
+] [82] [83
 
 ]
 Requested font "ec-lmcsc10" at 10.0pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 
-Overfull \hbox (54.61906pt too wide) in paragraph at lines 1339--1339
+Overfull \hbox (54.61906pt too wide) in paragraph at lines 1308--1308
 \T1/lmr/m/n/10 https://webcache.googleusercontent.com/search?q=cache:zyvAUu3wlSoJ:https://www.legco.gov.hk/yr16- 
  []
 
 Missing character: There is no – ("2013) in font ec-lmr10!
 Missing character: There is no – ("2013) in font ec-lmr10!
-[85] [86] [87]
-Overfull \hbox (12.63416pt too wide) in paragraph at lines 1339--1339
+[84] [85] [86]
+Overfull \hbox (12.63416pt too wide) in paragraph at lines 1308--1308
 \T1/lmr/m/n/10 %E6%9D%9C%E7%B5%95%E5%81%87%E9%9B%A3%E6%B0%91%E5%95%8F%E9%A1%8C- 
  []
 
-[88]
+[87]
 Missing character: There is no — ("2014) in font ec-lmri10!
 Missing character: There is no ： ("FF1A) in font ec-lmri10!
-[89] [90] (./Thesis_Kwan_2022-01-21.aux)
+[88] [89] (./Thesis_Kwan_2022-01-21.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1494,12 +1476,12 @@ Package logreq Info: Writing requests to 'Thesis_Kwan_2022-01-21.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27055 strings out of 478189
- 550646 string characters out of 5853131
+ 27032 strings out of 478189
+ 550198 string characters out of 5853131
  1340690 words of memory out of 5000000
- 47205 multiletter control sequences out of 15000+600000
- 550139 words of font info for 94 fonts, out of 8000000 for 9000
+ 47186 multiletter control sequences out of 15000+600000
+ 549850 words of font info for 93 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 88i,12n,117p,2399b,5605s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 88i,12n,117p,2400b,5605s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis_Kwan_2022-01-21.pdf (98 pages).
+Output written on Thesis_Kwan_2022-01-21.pdf (97 pages).

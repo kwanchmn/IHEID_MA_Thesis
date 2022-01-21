@@ -60,7 +60,7 @@ def xgb_objective(params):
                                      X_train_final, y_train, 
                                      cv=five_fold_cv, 
                                      scoring=make_scorer(f1_score, 
-                                                         average="macro")))  # This means 1 - f1_score because the function fmin minimises the loss
+                                                         average="macro")))  
   return loss
 
 # Searching for optimal hyper-parameters

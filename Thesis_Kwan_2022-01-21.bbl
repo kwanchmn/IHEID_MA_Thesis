@@ -1,0 +1,2573 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{adintimeMostWidelyreadMagazine2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=18159cefcfe037f36e1b248426fd3262}{%
+           family={{Adintime}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{18159cefcfe037f36e1b248426fd3262}
+      \strng{fullhash}{18159cefcfe037f36e1b248426fd3262}
+      \strng{bibnamehash}{18159cefcfe037f36e1b248426fd3262}
+      \strng{authorbibnamehash}{18159cefcfe037f36e1b248426fd3262}
+      \strng{authornamehash}{18159cefcfe037f36e1b248426fd3262}
+      \strng{authorfullhash}{18159cefcfe037f36e1b248426fd3262}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Newspapers make us get closer to the world, to our society, or even to our daily life. It is one of the main sources for knowing what is happening around us. In this passage, we would like to present.}
+      \field{howpublished}{https://adintime.hk/en/blog/the-most-widely-read-magazine-and-newspaper-in-hong-kong--n96}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{The Most Widely-Read {{Magazine}} and {{Newspaper}} in {{Hong Kong}}}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\3ILP2W76\\the-most-widely-read-magazine-and-newspaper-in-hong-kong--n96.html
+      \endverb
+    \endentry
+    \entry{AmendingLawsReinforce2021}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.sb.gov.hk/eng/articles/articles\_2021\_01\_19.html}
+      \field{journaltitle}{Security Bureau}
+      \field{langid}{chinese}
+      \field{month}{1}
+      \field{title}{{Amending the laws to reinforce measures on non-refoulement claim, adding the Tai Tam Gap Correctional Institution as detention facility (Chinese only)}}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\NCP979B9\\articles_2021_01_19.html
+      \endverb
+    \endentry
+    \entry{bbcHongKongProtesters2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a61d00661142b2d5c6ab4e7fcf6d13c6}{%
+           family={BBC},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{fullhash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{bibnamehash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{authorbibnamehash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{authornamehash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{authorfullhash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The unrest follows a huge peaceful protest over a controversial extradition law.}
+      \field{chapter}{China}
+      \field{journaltitle}{BBC News}
+      \field{langid}{british}
+      \field{month}{7}
+      \field{shorttitle}{Hong {{Kong}}}
+      \field{title}{Hong {{Kong}}: {{Protesters}} Storm and Deface Parliament on Handover Anniversary}
+      \field{year}{2019}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\E5YLNT72\\world-asia-china-48821640.html
+      \endverb
+    \endentry
+    \entry{bbcNationalSecurityLaw2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a61d00661142b2d5c6ab4e7fcf6d13c6}{%
+           family={BBC},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{fullhash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{bibnamehash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{authorbibnamehash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{authornamehash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{authorfullhash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.bbc.com/news/world-asia-china-55555299}
+      \field{journaltitle}{BBC News}
+      \field{month}{1}
+      \field{title}{National Security Law: {{Hong Kong}} Rounds up 53 pro-Democracy Activists}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\8KUTCF5I\\world-asia-china-55555299.html
+      \endverb
+    \endentry
+    \entry{boomgaardenHowNewsContent2009}{article}{}
+      \name{author}{2}{}{%
+        {{hash=848ef277f22cfbc190615d7db64443ea}{%
+           family={Boomgaarden},
+           familyi={B\bibinitperiod},
+           given={Hajo\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=0b66ec576123a1c088c162bfda7b193b}{%
+           family={Vliegenthart},
+           familyi={V\bibinitperiod},
+           given={Rens},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{1f54bdd4110bd28fdee53ab2f27864ae}
+      \strng{fullhash}{1f54bdd4110bd28fdee53ab2f27864ae}
+      \strng{bibnamehash}{1f54bdd4110bd28fdee53ab2f27864ae}
+      \strng{authorbibnamehash}{1f54bdd4110bd28fdee53ab2f27864ae}
+      \strng{authornamehash}{1f54bdd4110bd28fdee53ab2f27864ae}
+      \strng{authorfullhash}{1f54bdd4110bd28fdee53ab2f27864ae}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{European Journal of Political Research}
+      \field{number}{4}
+      \field{shorttitle}{How News Content Influences Anti-Immigration Attitudes}
+      \field{title}{How News Content Influences Anti-Immigration Attitudes: {{Germany}}, 1993â\texteuro ``2005}
+      \field{volume}{48}
+      \field{year}{2009}
+      \field{pages}{516\bibrangedash 542}
+      \range{pages}{27}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\LVLQDZNN\\j.1475-6765.2009.01831.html
+      \endverb
+    \endentry
+    \entry{brownleeTrainTestSplitEvaluating2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=915af163e2107106fced5dd3164d9a8e}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The train-test split procedure is used to estimate the performance of machine learning algorithms when they are used to make [\ldots ]}
+      \field{howpublished}{https://machinelearningmastery.com/train-test-split-for-evaluating-machine-learning-algorithms/}
+      \field{journaltitle}{Machine Learning Mastery}
+      \field{langid}{american}
+      \field{month}{7}
+      \field{title}{Train-{{Test Split}} for {{Evaluating Machine Learning Algorithms}}}
+      \field{year}{2020}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\UQARFEFU\\train-test-split-for-evaluating-machine-learning-algorithms.html
+      \endverb
+    \endentry
+    \entry{chenXgboostExtremeGradient2015}{article}{}
+      \name{author}{6}{}{%
+        {{hash=48461ccdf50ba5a54e29a354aa734c0b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianqi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=399cf1aabecf0867957b50a0628a019a}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Tong},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9c63aa70433d165d24d07f6c715d0352}{%
+           family={Benesty},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3e8410ade8492482d690da62434787f5}{%
+           family={Khotilovich},
+           familyi={K\bibinitperiod},
+           given={Vadim},
+           giveni={V\bibinitperiod}}}%
+        {{hash=cee39f71272fa2c9f004d3adbc43dc73}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=65d58781ba579fe32c0e92e20df1d840}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Hyunsu},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a1b902110b26e322484f62946cb7718}
+      \strng{fullhash}{77b7dff20569bc50a635c53fe8afec69}
+      \strng{bibnamehash}{4a1b902110b26e322484f62946cb7718}
+      \strng{authorbibnamehash}{4a1b902110b26e322484f62946cb7718}
+      \strng{authornamehash}{4a1b902110b26e322484f62946cb7718}
+      \strng{authorfullhash}{77b7dff20569bc50a635c53fe8afec69}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{R package version 0.4-2}
+      \field{number}{4}
+      \field{shorttitle}{Xgboost}
+      \field{title}{Xgboost: Extreme Gradient Boosting}
+      \field{volume}{1}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\YRE2IDNU\\Chen et al. - 2015 - Xgboost extreme gradient boosting.pdf
+      \endverb
+    \endentry
+    \entry{chengLegislatureRejectsLawmaker2016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=51aa2937db349d1c0634bfa8c9d8283e}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Kris},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{51aa2937db349d1c0634bfa8c9d8283e}
+      \strng{fullhash}{51aa2937db349d1c0634bfa8c9d8283e}
+      \strng{bibnamehash}{51aa2937db349d1c0634bfa8c9d8283e}
+      \strng{authorbibnamehash}{51aa2937db349d1c0634bfa8c9d8283e}
+      \strng{authornamehash}{51aa2937db349d1c0634bfa8c9d8283e}
+      \strng{authorfullhash}{51aa2937db349d1c0634bfa8c9d8283e}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://hongkongfp.com/2016/12/01/legislature-rejects-lawmakers-non-binding-motion-combat-bogus-refugees/}
+      \field{journaltitle}{Hong Kong Free Press HKFP}
+      \field{langid}{british}
+      \field{month}{12}
+      \field{title}{Legislature Rejects Lawmaker's Non-Binding Motion to Combat 'bogus' Refugees}
+      \field{year}{2016}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\FMRDZS3J\\legislature-rejects-lawmakers-non-binding-motion-combat-bogus-refugees.html
+      \endverb
+    \endentry
+    \entry{chengNGOsHitBack2016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=51aa2937db349d1c0634bfa8c9d8283e}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Kris},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{51aa2937db349d1c0634bfa8c9d8283e}
+      \strng{fullhash}{51aa2937db349d1c0634bfa8c9d8283e}
+      \strng{bibnamehash}{51aa2937db349d1c0634bfa8c9d8283e}
+      \strng{authorbibnamehash}{51aa2937db349d1c0634bfa8c9d8283e}
+      \strng{authornamehash}{51aa2937db349d1c0634bfa8c9d8283e}
+      \strng{authorfullhash}{51aa2937db349d1c0634bfa8c9d8283e}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Chief Executive Leung chun-ying has said that, if necessary, the government may quit a United Nations convention on torture to block ``fake'' refugees from coming to Hong Kong.~Leung was speaking at a press conference on Wednesday following his 2016 Policy Address. China is a signatory of the UN Convention against Torture and Other Cruel, Inhuman [\ldots ]}
+      \field{howpublished}{https://hongkongfp.com/2016/01/14/ngos-hit-back-as-cy-says-govt-may-quit-un-torture-convention-to-block-fake-refugees/}
+      \field{journaltitle}{Hong Kong Free Press HKFP}
+      \field{langid}{british}
+      \field{month}{1}
+      \field{title}{{{NGOs}} Hit Back as {{CY}} Says Gov't May Quit {{UN}} Torture Convention to Block 'fake' Refugees}
+      \field{year}{2016}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\DLPINZ64\\ngos-hit-back-as-cy-says-govt-may-quit-un-torture-convention-to-block-fake-refugees.html
+      \endverb
+    \endentry
+    \entry{cheungDABPartySets2016}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=d4dced8712534a477a0d31fead10bd3c}{%
+           family={Cheung},
+           familyi={C\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=595c84cf851c843716b9f2770baf5f7b}{%
+           family={Grundy},
+           familyi={G\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{3eb20277a6df1409ea0163ba4a8517ed}
+      \strng{fullhash}{3eb20277a6df1409ea0163ba4a8517ed}
+      \strng{bibnamehash}{3eb20277a6df1409ea0163ba4a8517ed}
+      \strng{authorbibnamehash}{3eb20277a6df1409ea0163ba4a8517ed}
+      \strng{authornamehash}{3eb20277a6df1409ea0163ba4a8517ed}
+      \strng{authorfullhash}{3eb20277a6df1409ea0163ba4a8517ed}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://hongkongfp.com/2016/04/11/dab-party-sets-up-in-tsim-sha-tsui-calling-for-fake-refugees-to-be-put-in-camp-and-deported/}
+      \field{journaltitle}{Hong Kong Free Press HKFP}
+      \field{langid}{british}
+      \field{month}{4}
+      \field{title}{{{DAB}} Party Sets up in {{Tsim Sha Tsui}} Calling for 'fake' Refugees to Be Put in Camp and Deported}
+      \field{year}{2016}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\T7BCYGMH\\dab-party-sets-up-in-tsim-sha-tsui-calling-for-fake-refugees-to-be-put-in-camp-and-deported.html
+      \endverb
+    \endentry
+    \entry{cheungAllHongKong2020}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=9393b5f45a7bd19d6b20bbeee1fe1efc}{%
+           family={Cheung},
+           familyi={C\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a53ebc62651fc08aeeb3f5be834cdc11}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Lilian},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a49ffe8819fb1908ed74a4823747fe7}
+      \strng{fullhash}{7a49ffe8819fb1908ed74a4823747fe7}
+      \strng{bibnamehash}{7a49ffe8819fb1908ed74a4823747fe7}
+      \strng{authorbibnamehash}{7a49ffe8819fb1908ed74a4823747fe7}
+      \strng{authornamehash}{7a49ffe8819fb1908ed74a4823747fe7}
+      \strng{authorfullhash}{7a49ffe8819fb1908ed74a4823747fe7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{But the resignations for most legislators will take effect next month as they need time to sort out administrative matters.}
+      \field{chapter}{News}
+      \field{howpublished}{https://www.scmp.com/news/hong-kong/politics/article/3109574/all-hong-kong-opposition-lawmakers-quit-following-camps-vow}
+      \field{journaltitle}{South China Morning Post}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{All {{Hong Kong}} Opposition Lawmakers Quit over {{Beijing}} Resolution}
+      \field{year}{2020}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\NVQPC7CX\\all-hong-kong-opposition-lawmakers-quit-following-camps-vow.html
+      \endverb
+    \endentry
+    \entry{chunFuckChinesenessAmbiguities1996}{article}{}
+      \name{author}{1}{}{%
+        {{hash=36cc8ae1087ba7cbfdc54310bda1461f}{%
+           family={Chun},
+           familyi={C\bibinitperiod},
+           given={Allen},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{36cc8ae1087ba7cbfdc54310bda1461f}
+      \strng{fullhash}{36cc8ae1087ba7cbfdc54310bda1461f}
+      \strng{bibnamehash}{36cc8ae1087ba7cbfdc54310bda1461f}
+      \strng{authorbibnamehash}{36cc8ae1087ba7cbfdc54310bda1461f}
+      \strng{authornamehash}{36cc8ae1087ba7cbfdc54310bda1461f}
+      \strng{authorfullhash}{36cc8ae1087ba7cbfdc54310bda1461f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{01903659}
+      \field{journaltitle}{boundary 2}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{shorttitle}{Fuck {{Chineseness}}}
+      \field{title}{Fuck {{Chineseness}}: {{On}} the {{Ambiguities}} of {{Ethnicity}} as {{Culture}} as {{Identity}}}
+      \field{volume}{23}
+      \field{year}{1996}
+      \field{pages}{111}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/303809
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\PDP6HRWY\\Chun - 1996 - Fuck Chineseness On the Ambiguities of Ethnicity .pdf
+      \endverb
+    \endentry
+    \entry{cooperMediaCoverageRefugees2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=29acd51040d70cec5d4008d59b725edb}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={Samantha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b5f45903a96a2bf8daf3bc21bb45acc8}{%
+           family={Olejniczak},
+           familyi={O\bibinitperiod},
+           given={Erin},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9799e5eaca5082381457f7bae4944394}{%
+           family={Lenette},
+           familyi={L\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8a18ee93c42b25dc6de1e7d9df1127b7}{%
+           family={Smedley},
+           familyi={S\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage UK: London, England}%
+      }
+      \strng{namehash}{9222893a3531f871f4b7bafbed77dc4f}
+      \strng{fullhash}{c191a1aa9fac896acf8d0362ba603d56}
+      \strng{bibnamehash}{9222893a3531f871f4b7bafbed77dc4f}
+      \strng{authorbibnamehash}{9222893a3531f871f4b7bafbed77dc4f}
+      \strng{authornamehash}{9222893a3531f871f4b7bafbed77dc4f}
+      \strng{authorfullhash}{c191a1aa9fac896acf8d0362ba603d56}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Media International Australia}
+      \field{number}{1}
+      \field{shorttitle}{Media Coverage of Refugees and Asylum Seekers in Regional {{Australia}}}
+      \field{title}{Media Coverage of Refugees and Asylum Seekers in Regional {{Australia}}: {{A}} Critical Discourse Analysis}
+      \field{volume}{162}
+      \field{year}{2017}
+      \field{pages}{78\bibrangedash 89}
+      \range{pages}{12}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\7EIGADYQ\\1329878X16667832.html;C\:\\Users\\kenji\\Zotero\\storage\\QII3QPBP\\1329878X16667832.html
+      \endverb
+    \endentry
+    \entry{legislativecouncilHui4yi4Guo4cheng2Zheng4shi42016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=276be6292e6c5daeecb20f15f726b713}{%
+           family={Council},
+           familyi={C\bibinitperiod},
+           given={Legislative},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{276be6292e6c5daeecb20f15f726b713}
+      \strng{fullhash}{276be6292e6c5daeecb20f15f726b713}
+      \strng{bibnamehash}{276be6292e6c5daeecb20f15f726b713}
+      \strng{authorbibnamehash}{276be6292e6c5daeecb20f15f726b713}
+      \strng{authornamehash}{276be6292e6c5daeecb20f15f726b713}
+      \strng{authorfullhash}{276be6292e6c5daeecb20f15f726b713}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://webcache.googleusercontent.com/search?q=cache:zyvAUu3wlSoJ:https://www.legco.gov.hk/yr16-17/chinese/counmtg/hansard/cm20161201-translate-c.pdf+\&cd=8\&hl=zh-TW\&ct=clnk\&gl=ch}
+      \field{journaltitle}{Legislative Council}
+      \field{month}{12}
+      \field{title}{Hui4yi4 Guo4cheng2 Zheng4shi4 Ji4lu4}
+      \field{year}{2016}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\E77RPD6S\\search.html
+      \endverb
+    \endentry
+    \entry{cuhkPublicEvaluationMedia2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5f48fde8d794b18069b400091a07da77}{%
+           family={CUHK},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f48fde8d794b18069b400091a07da77}
+      \strng{fullhash}{5f48fde8d794b18069b400091a07da77}
+      \strng{bibnamehash}{5f48fde8d794b18069b400091a07da77}
+      \strng{authorbibnamehash}{5f48fde8d794b18069b400091a07da77}
+      \strng{authornamehash}{5f48fde8d794b18069b400091a07da77}
+      \strng{authorfullhash}{5f48fde8d794b18069b400091a07da77}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://ccpos.com.cuhk.edu.hk/public-evaluation-on-media-credibility/}
+      \field{journaltitle}{Centre for Communication and Public Opinion Survey}
+      \field{langid}{american}
+      \field{title}{Public {{Evaluation}} on {{Media Credibility}}}
+      \field{year}{2020}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\QWRSE59F\\public-evaluation-on-media-credibility.html
+      \endverb
+    \endentry
+    \entry{homeaffairsdepartmentDemographicsEthnicGroups2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c1cf92dc55433b6dabe118ac9a480db7}{%
+           family={Department},
+           familyi={D\bibinitperiod},
+           given={Home\bibnamedelima Affairs},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1cf92dc55433b6dabe118ac9a480db7}
+      \strng{fullhash}{c1cf92dc55433b6dabe118ac9a480db7}
+      \strng{bibnamehash}{c1cf92dc55433b6dabe118ac9a480db7}
+      \strng{authorbibnamehash}{c1cf92dc55433b6dabe118ac9a480db7}
+      \strng{authornamehash}{c1cf92dc55433b6dabe118ac9a480db7}
+      \strng{authorfullhash}{c1cf92dc55433b6dabe118ac9a480db7}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.had.gov.hk/rru/english/info/info\_dem.html}
+      \field{journaltitle}{Race Relations Unit}
+      \field{month}{1}
+      \field{title}{The {{Demographics}}: {{Ethnic Groups}}}
+      \field{year}{2018}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\3PU3JIZA\\info_dem.html
+      \endverb
+    \endentry
+    \entry{immigrationdepartmentEnforcementStatisticsNonrefoulement2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=60ed9e4d41d9a28951f48acbb91adf35}{%
+           family={Department},
+           familyi={D\bibinitperiod},
+           given={Immigration},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{60ed9e4d41d9a28951f48acbb91adf35}
+      \strng{fullhash}{60ed9e4d41d9a28951f48acbb91adf35}
+      \strng{bibnamehash}{60ed9e4d41d9a28951f48acbb91adf35}
+      \strng{authorbibnamehash}{60ed9e4d41d9a28951f48acbb91adf35}
+      \strng{authornamehash}{60ed9e4d41d9a28951f48acbb91adf35}
+      \strng{authorfullhash}{60ed9e4d41d9a28951f48acbb91adf35}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.immd.gov.hk/eng/facts/enforcement.html}
+      \field{journaltitle}{Immigration Department}
+      \field{title}{Enforcement | {{Statistics}} on {{Non-refoulement Claim}}}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\RG5QXIAI\\enforcement.html
+      \endverb
+    \endentry
+    \entry{immigrationdepartmentMakingClaimNonrefoulement2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=60ed9e4d41d9a28951f48acbb91adf35}{%
+           family={Department},
+           familyi={D\bibinitperiod},
+           given={Immigration},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{60ed9e4d41d9a28951f48acbb91adf35}
+      \strng{fullhash}{60ed9e4d41d9a28951f48acbb91adf35}
+      \strng{bibnamehash}{60ed9e4d41d9a28951f48acbb91adf35}
+      \strng{authorbibnamehash}{60ed9e4d41d9a28951f48acbb91adf35}
+      \strng{authornamehash}{60ed9e4d41d9a28951f48acbb91adf35}
+      \strng{authorfullhash}{60ed9e4d41d9a28951f48acbb91adf35}
+      \field{extraname}{3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.immd.gov.hk/eng/useful\_information/non-refoulement-making-claim.html}
+      \field{journaltitle}{Immigration Department}
+      \field{title}{Making a {{Claim}} for {{Non-refoulement Protection}} in {{Hong Kong}}}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\4V7HRXG6\\non-refoulement-making-claim.html
+      \endverb
+    \endentry
+    \entry{elgarteoHKPolDictHongKong2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f80e9760067322d63bd91bffc0fcbf88}{%
+           family={{elgarteo}},
+           familyi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{f80e9760067322d63bd91bffc0fcbf88}
+      \strng{fullhash}{f80e9760067322d63bd91bffc0fcbf88}
+      \strng{bibnamehash}{f80e9760067322d63bd91bffc0fcbf88}
+      \strng{authorbibnamehash}{f80e9760067322d63bd91bffc0fcbf88}
+      \strng{authornamehash}{f80e9760067322d63bd91bffc0fcbf88}
+      \strng{authorfullhash}{f80e9760067322d63bd91bffc0fcbf88}
+      \field{sortinit}{e}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://github.com/elgarteo/HKPolDict}
+      \field{journaltitle}{GitHub}
+      \field{title}{{{HKPolDict}}: {{Hong Kong}} Politics Dictionary for Text Mining}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\LEGDC538\\HKPolDict.html
+      \endverb
+    \endentry
+    \entry{erniWhoNeedsStrangers2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=398bed20d3e4388f1f6cc49e0e4aa59f}{%
+           family={Erni},
+           familyi={E\bibinitperiod},
+           given={John\bibnamedelima Nguyet},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{398bed20d3e4388f1f6cc49e0e4aa59f}
+      \strng{fullhash}{398bed20d3e4388f1f6cc49e0e4aa59f}
+      \strng{bibnamehash}{398bed20d3e4388f1f6cc49e0e4aa59f}
+      \strng{authorbibnamehash}{398bed20d3e4388f1f6cc49e0e4aa59f}
+      \strng{authornamehash}{398bed20d3e4388f1f6cc49e0e4aa59f}
+      \strng{authorfullhash}{398bed20d3e4388f1f6cc49e0e4aa59f}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Chinese Journal of Communication}
+      \field{number}{1}
+      \field{shorttitle}{Who Needs Strangers?}
+      \field{title}{Who Needs Strangers? {{Un-imagining Hong Kong Chineseness}}}
+      \field{volume}{5}
+      \field{year}{2012}
+      \field{pages}{78\bibrangedash 87}
+      \range{pages}{10}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\XZGT8ZG5\\17544750.2011.html
+      \endverb
+    \endentry
+    \entry{fongInbetweenLiberalAuthoritarianism2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bc2783ba5e0eb80cfab8163fd62e9c60}{%
+           family={Fong},
+           familyi={F\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc2783ba5e0eb80cfab8163fd62e9c60}
+      \strng{fullhash}{bc2783ba5e0eb80cfab8163fd62e9c60}
+      \strng{bibnamehash}{bc2783ba5e0eb80cfab8163fd62e9c60}
+      \strng{authorbibnamehash}{bc2783ba5e0eb80cfab8163fd62e9c60}
+      \strng{authornamehash}{bc2783ba5e0eb80cfab8163fd62e9c60}
+      \strng{authorfullhash}{bc2783ba5e0eb80cfab8163fd62e9c60}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1351-0347, 1743-890X}
+      \field{journaltitle}{Democratization}
+      \field{langid}{english}
+      \field{number}{4}
+      \field{shorttitle}{In-between Liberal Authoritarianism and Electoral Authoritarianism}
+      \field{title}{In-between Liberal Authoritarianism and Electoral Authoritarianism: {{Hong Kong}}'s Democratization under {{Chinese}} Sovereignty, 1997–2016}
+      \field{volume}{24}
+      \field{year}{2017}
+      \field{pages}{724\bibrangedash 750}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1080/13510347.2016.1232249
+      \endverb
+    \endentry
+    \entry{fongOneCountryTwo2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f534d08c6ac125ce80c88cf10ac411c5}{%
+           family={Fong},
+           familyi={F\bibinitperiod},
+           given={Brian\bibnamedelima CH},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{f534d08c6ac125ce80c88cf10ac411c5}
+      \strng{fullhash}{f534d08c6ac125ce80c88cf10ac411c5}
+      \strng{bibnamehash}{f534d08c6ac125ce80c88cf10ac411c5}
+      \strng{authorbibnamehash}{f534d08c6ac125ce80c88cf10ac411c5}
+      \strng{authornamehash}{f534d08c6ac125ce80c88cf10ac411c5}
+      \strng{authorfullhash}{f534d08c6ac125ce80c88cf10ac411c5}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Modern China}
+      \field{number}{5}
+      \field{shorttitle}{One Country, Two Nationalisms}
+      \field{title}{One Country, Two Nationalisms: {{Center-periphery}} Relations between {{Mainland China}} and {{Hong Kong}}, 1997–2016}
+      \field{volume}{43}
+      \field{year}{2017}
+      \field{pages}{523\bibrangedash 556}
+      \range{pages}{34}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\BHW9PGBX\\0097700417691470.html
+      \endverb
+    \endentry
+    \entry{FullTextConstitution2017}{misc}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{http://www.xinhuanet.com/english/special/2017-11/03/c\_136725945.htm}
+      \field{journaltitle}{Xinhua News}
+      \field{month}{11}
+      \field{title}{Full Text of {{Constitution}} of {{Communist Party}} of {{China}} - {{Xinhua}}}
+      \field{year}{2017}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\UDWB9R8X\\c_136725945.html
+      \endverb
+    \endentry
+    \entry{greenfeldNationalismNationalIdentity2007}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=fde5fac7d30d9dd4ec2e587f6ae31141}{%
+           family={Greenfeld},
+           familyi={G\bibinitperiod},
+           given={Liah},
+           giveni={L\bibinitperiod}}}%
+        {{hash=5edd43537f92fab2035e3d4cf8190014}{%
+           family={Eastwood},
+           familyi={E\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=428c46bc733f20d7ce6454a9590347dc}{%
+           family={Boix},
+           familyi={B\bibinitperiod},
+           given={Carles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1b0490bbee3b27b7729125f198b1b103}{%
+           family={Stokes},
+           familyi={S\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{6b207657e4a3d3a02df930edb35a2480}
+      \strng{fullhash}{6b207657e4a3d3a02df930edb35a2480}
+      \strng{bibnamehash}{6b207657e4a3d3a02df930edb35a2480}
+      \strng{authorbibnamehash}{6b207657e4a3d3a02df930edb35a2480}
+      \strng{authornamehash}{6b207657e4a3d3a02df930edb35a2480}
+      \strng{authorfullhash}{6b207657e4a3d3a02df930edb35a2480}
+      \strng{editorbibnamehash}{12ffe16d477a18029b925e239ed37150}
+      \strng{editornamehash}{12ffe16d477a18029b925e239ed37150}
+      \strng{editorfullhash}{12ffe16d477a18029b925e239ed37150}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The {{Oxford Handbook}} of {{Comparative Politics}}}
+      \field{edition}{1st}
+      \field{title}{Nationalism and {{National Identity}}: {{Definitional Issues}}}
+      \field{year}{2007}
+      \field{pages}{256\bibrangedash 273}
+      \range{pages}{18}
+    \endentry
+    \entry{heathBritishNationalIdentity2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a2fcdc15b8764949847776d7359f9c01}{%
+           family={Heath},
+           familyi={H\bibinitperiod},
+           given={Anthony\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=01153c66fcc45b3653c0e0884d975263}{%
+           family={Tilley},
+           familyi={T\bibinitperiod},
+           given={James\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{dfd0ec5e6676cf942106a1fb48338b93}
+      \strng{fullhash}{dfd0ec5e6676cf942106a1fb48338b93}
+      \strng{bibnamehash}{dfd0ec5e6676cf942106a1fb48338b93}
+      \strng{authorbibnamehash}{dfd0ec5e6676cf942106a1fb48338b93}
+      \strng{authornamehash}{dfd0ec5e6676cf942106a1fb48338b93}
+      \strng{authorfullhash}{dfd0ec5e6676cf942106a1fb48338b93}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal on Multicultural Societies}
+      \field{number}{2}
+      \field{title}{British National Identity and Attitudes towards Immigration}
+      \field{volume}{7}
+      \field{year}{2005}
+      \field{pages}{119\bibrangedash 132}
+      \range{pages}{14}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\84PDZY8X\\Heath and Tilley - 2005 - British national identity and attitudes towards im.pdf
+      \endverb
+    \endentry
+    \entry{hitchensOpinionChristianHeart2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ffc6babcf2876be21e965cec8a1d9434}{%
+           family={Hitchens},
+           familyi={H\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{ffc6babcf2876be21e965cec8a1d9434}
+      \strng{fullhash}{ffc6babcf2876be21e965cec8a1d9434}
+      \strng{bibnamehash}{ffc6babcf2876be21e965cec8a1d9434}
+      \strng{authorbibnamehash}{ffc6babcf2876be21e965cec8a1d9434}
+      \strng{authornamehash}{ffc6babcf2876be21e965cec8a1d9434}
+      \strng{authorfullhash}{ffc6babcf2876be21e965cec8a1d9434}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{They're only 12\% of the population, but their values incline them toward sacrifice.}
+      \field{chapter}{Opinion}
+      \field{issn}{0099-9660}
+      \field{journaltitle}{Wall Street Journal}
+      \field{langid}{american}
+      \field{month}{7}
+      \field{title}{Opinion | {{The Christian Heart}} of {{Hong Kong Activism}}}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\STPGXP5S\\the-christian-heart-of-hong-kong-activism-11625783689.html
+      \endverb
+      \keyw{activism,ACTIVISM,Apple Daily,beijing,BEIJING,c\&e executive news filter,C\&E Executive News Filter,catholic social teachings,CATHOLIC SOCIAL TEACHINGS,catholicism,CATHOLICISM,chinese communist party,CHINESE COMMUNIST PARTY,christianity,CHRISTIANITY,commentaries,Commentaries/Opinions,community,content types,Content Types,crime,Crime/Legal Action,democracy,DEMOCRACY,domestic politics,Domestic Politics,entertainment,factiva filters,Factiva Filters,general news,hong kong crackdown,HONG KONG CRACKDOWN,human rights,HUMAN RIGHTS,international relations,legal action,media,Media/Entertainment,national security law,NATIONAL SECURITY LAW,opinions,political,Political/General News,politics,Politics/International Relations,religion,Religion,society,Society/Community,SYND,WSJ-PRO-WSJ.com}
+    \endentry
+    \entry{hjermNationalIdentityComparison1998}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7b68b82c68474f2afc0ba9d53b5e6d97}{%
+           family={Hjerm},
+           familyi={H\bibinitperiod},
+           given={Mikael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{7b68b82c68474f2afc0ba9d53b5e6d97}
+      \strng{fullhash}{7b68b82c68474f2afc0ba9d53b5e6d97}
+      \strng{bibnamehash}{7b68b82c68474f2afc0ba9d53b5e6d97}
+      \strng{authorbibnamehash}{7b68b82c68474f2afc0ba9d53b5e6d97}
+      \strng{authornamehash}{7b68b82c68474f2afc0ba9d53b5e6d97}
+      \strng{authorfullhash}{7b68b82c68474f2afc0ba9d53b5e6d97}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journal of Ethnic and Migration Studies}
+      \field{number}{3}
+      \field{shorttitle}{National Identity}
+      \field{title}{National Identity: {{A}} Comparison of {{Sweden}}, {{Germany}} and {{Australia}}}
+      \field{volume}{24}
+      \field{year}{1998}
+      \field{pages}{451\bibrangedash 469}
+      \range{pages}{19}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\5YDMTBYX\\Hjerm - 1998 - National identity A comparison of Sweden, Germany.pdf;C\:\\Users\\kenji\\Zotero\\storage\\GRR9IAMG\\1369183X.1998.html
+      \endverb
+    \endentry
+    \entry{HongKongProdemocracy2022}{article}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{shorttitle}
+      \field{chapter}{China}
+      \field{journaltitle}{BBC News}
+      \field{langid}{british}
+      \field{month}{1}
+      \field{shorttitle}{Hong {{Kong}}}
+      \field{title}{Hong {{Kong}}: {{Pro-democracy}} Website {{Citizen News}} Is Latest to Close}
+      \field{year}{2022}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\95AN55TS\\world-asia-china-59824917.html
+      \endverb
+    \endentry
+    \entry{HongKongHuman2021}{misc}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The UN human rights office (OHCHR) on Thursday voiced deep concerns over the arrests of over 50 individuals under the new National Security Law in the Hong Kong Special Administrative Region, China, and called for their immediate release.}
+      \field{howpublished}{https://news.un.org/en/story/2021/01/1081552}
+      \field{journaltitle}{UN News}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{Hong {{Kong}}}
+      \field{title}{Hong {{Kong}}: {{UN}} Human Rights Office Urges Immediate Release of Arrested Activists}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\WBPTW8KD\\1081552.html
+      \endverb
+    \endentry
+    \entry{amnestyinternationalRefugeesAsylumseekersMigrants2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=16aa357a22986de37811920463f420d4}{%
+           family={International},
+           familyi={I\bibinitperiod},
+           given={Amnesty},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Amnesty International}%
+      }
+      \strng{namehash}{16aa357a22986de37811920463f420d4}
+      \strng{fullhash}{16aa357a22986de37811920463f420d4}
+      \strng{bibnamehash}{16aa357a22986de37811920463f420d4}
+      \strng{authorbibnamehash}{16aa357a22986de37811920463f420d4}
+      \strng{authornamehash}{16aa357a22986de37811920463f420d4}
+      \strng{authorfullhash}{16aa357a22986de37811920463f420d4}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.amnesty.org/en/what-we-do/refugees-asylum-seekers-and-migrants/}
+      \field{journaltitle}{Amnesty International}
+      \field{langid}{english}
+      \field{title}{Refugees, {{Asylum-seekers}} and {{Migrants}}}
+      \field{year}{2022}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\57KMCGW5\\refugees-asylum-seekers-and-migrants.html
+      \endverb
+    \endentry
+    \entry{junyiJieba2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b8ffaaf582a473696f39469605c4c2aa}{%
+           family={Junyi},
+           familyi={J\bibinitperiod},
+           given={Sun},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b8ffaaf582a473696f39469605c4c2aa}
+      \strng{fullhash}{b8ffaaf582a473696f39469605c4c2aa}
+      \strng{bibnamehash}{b8ffaaf582a473696f39469605c4c2aa}
+      \strng{authorbibnamehash}{b8ffaaf582a473696f39469605c4c2aa}
+      \strng{authornamehash}{b8ffaaf582a473696f39469605c4c2aa}
+      \strng{authorfullhash}{b8ffaaf582a473696f39469605c4c2aa}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{结巴中文分词}
+      \field{month}{12}
+      \field{title}{Jieba}
+      \field{year}{2021}
+    \endentry
+    \entry{kaedingRiseLocalismHong2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=04356843ee820e48430b67d61ab57a86}{%
+           family={Kaeding},
+           familyi={K\bibinitperiod},
+           given={Malte\bibnamedelima Philipp},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Johns Hopkins University Press}%
+      }
+      \strng{namehash}{04356843ee820e48430b67d61ab57a86}
+      \strng{fullhash}{04356843ee820e48430b67d61ab57a86}
+      \strng{bibnamehash}{04356843ee820e48430b67d61ab57a86}
+      \strng{authorbibnamehash}{04356843ee820e48430b67d61ab57a86}
+      \strng{authornamehash}{04356843ee820e48430b67d61ab57a86}
+      \strng{authorfullhash}{04356843ee820e48430b67d61ab57a86}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Democracy}
+      \field{number}{1}
+      \field{title}{The Rise of" Localism" in {{Hong Kong}}}
+      \field{volume}{28}
+      \field{year}{2017}
+      \field{pages}{157\bibrangedash 171}
+      \range{pages}{15}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\U3S9IAYW\\summary.html
+      \endverb
+    \endentry
+    \entry{kwanRiseCivicNationalism2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7005e6521c54c45b8bd6891fd37cd649}{%
+           family={Kwan},
+           familyi={K\bibinitperiod},
+           given={Justin\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7005e6521c54c45b8bd6891fd37cd649}
+      \strng{fullhash}{7005e6521c54c45b8bd6891fd37cd649}
+      \strng{bibnamehash}{7005e6521c54c45b8bd6891fd37cd649}
+      \strng{authorbibnamehash}{7005e6521c54c45b8bd6891fd37cd649}
+      \strng{authornamehash}{7005e6521c54c45b8bd6891fd37cd649}
+      \strng{authorfullhash}{7005e6521c54c45b8bd6891fd37cd649}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Contemporary Chinese Political Economy and Strategic Relations: An International Journal}
+      \field{number}{2}
+      \field{shorttitle}{The Rise of Civic Nationalism}
+      \field{title}{The Rise of Civic Nationalism: {{Shifting}} Identities in {{Hong Kong}} and {{Taiwan}}}
+      \field{volume}{2}
+      \field{year}{2016}
+      \field{pages}{941\bibrangedash 973}
+      \range{pages}{33}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\GDHXCBXR\\Kwan - 2016 - The rise of civic nationalism Shifting identities.pdf
+      \endverb
+    \endentry
+    \entry{kwongGrowthLocalismHong2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=aab5d9e4d85ec613955aa869c9cc4db6}{%
+           family={Kwong},
+           familyi={K\bibinitperiod},
+           given={Ying-ho},
+           giveni={Y\bibinithyphendelim h\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {French Centre for Research on Contemporary China}%
+      }
+      \strng{namehash}{aab5d9e4d85ec613955aa869c9cc4db6}
+      \strng{fullhash}{aab5d9e4d85ec613955aa869c9cc4db6}
+      \strng{bibnamehash}{aab5d9e4d85ec613955aa869c9cc4db6}
+      \strng{authorbibnamehash}{aab5d9e4d85ec613955aa869c9cc4db6}
+      \strng{authornamehash}{aab5d9e4d85ec613955aa869c9cc4db6}
+      \strng{authorfullhash}{aab5d9e4d85ec613955aa869c9cc4db6}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{China Perspectives}
+      \field{number}{2016/3}
+      \field{title}{The {{Growth}} of ``{{Localism}}'' in {{Hong Kong}}. {{A New Path}} for the {{Democracy Movement}}?}
+      \field{volume}{2016}
+      \field{year}{2016}
+      \field{pages}{63\bibrangedash 68}
+      \range{pages}{6}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\GJQKFUTB\\Kwong - 2016 - The Growth of “Localism” in Hong Kong. A New Path .pdf
+      \endverb
+    \endentry
+    \entry{lauPatriotsOnlyHong2021}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=562a2c8b72231728c6fda333f08f2687}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={Jessie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9a1b2fb6dc47cbeb1d92b474baf68ff0}{%
+           family={Yam},
+           familyi={Y\bibinitperiod},
+           given={Shui-yin\bibnamedelima Sharon},
+           giveni={S\bibinithyphendelim y\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{827ff319df51b3c5c9df27931fd6aae1}
+      \strng{fullhash}{827ff319df51b3c5c9df27931fd6aae1}
+      \strng{bibnamehash}{827ff319df51b3c5c9df27931fd6aae1}
+      \strng{authorbibnamehash}{827ff319df51b3c5c9df27931fd6aae1}
+      \strng{authornamehash}{827ff319df51b3c5c9df27931fd6aae1}
+      \strng{authorfullhash}{827ff319df51b3c5c9df27931fd6aae1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{howpublished}{https://thediplomat.com/2021/11/patriots-only-hong-kongs-new-election-system-in-action/}
+      \field{journaltitle}{The Diplomat}
+      \field{langid}{american}
+      \field{month}{12}
+      \field{shorttitle}{`{{Patriots Only}}'}
+      \field{title}{`{{Patriots Only}}': {{Hong Kong}}'s {{New Election System}} in {{Action}}}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\W2H9M76K\\patriots-only-hong-kongs-new-election-system-in-action.html
+      \endverb
+    \endentry
+    \entry{lauStateFormationEducation2013}{article}{}
+      \name{author}{1}{}{%
+        {{hash=19235236a4b5ff12e72e34bccbfcd222}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={Tracy},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{19235236a4b5ff12e72e34bccbfcd222}
+      \strng{fullhash}{19235236a4b5ff12e72e34bccbfcd222}
+      \strng{bibnamehash}{19235236a4b5ff12e72e34bccbfcd222}
+      \strng{authorbibnamehash}{19235236a4b5ff12e72e34bccbfcd222}
+      \strng{authornamehash}{19235236a4b5ff12e72e34bccbfcd222}
+      \strng{authorfullhash}{19235236a4b5ff12e72e34bccbfcd222}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Asian Survey}
+      \field{number}{4}
+      \field{shorttitle}{State Formation and Education in {{Hong Kong}}}
+      \field{title}{State Formation and Education in {{Hong Kong}}: Pro-{{Beijing}} Schools and National Education}
+      \field{volume}{53}
+      \field{year}{2013}
+      \field{pages}{728\bibrangedash 753}
+      \range{pages}{26}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\5WJ977CJ\\as.2013.53.4.html
+      \endverb
+    \endentry
+    \entry{lecoursEthnicCivicNationalism2000}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2b228c19c8290431bef64361424bcb0b}{%
+           family={Lecours},
+           familyi={L\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{2b228c19c8290431bef64361424bcb0b}
+      \strng{fullhash}{2b228c19c8290431bef64361424bcb0b}
+      \strng{bibnamehash}{2b228c19c8290431bef64361424bcb0b}
+      \strng{authorbibnamehash}{2b228c19c8290431bef64361424bcb0b}
+      \strng{authornamehash}{2b228c19c8290431bef64361424bcb0b}
+      \strng{authorfullhash}{2b228c19c8290431bef64361424bcb0b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Space and Polity}
+      \field{number}{2}
+      \field{shorttitle}{Ethnic and Civic Nationalism}
+      \field{title}{Ethnic and Civic Nationalism: {{Towards}} a New Dimension}
+      \field{volume}{4}
+      \field{year}{2000}
+      \field{pages}{153\bibrangedash 166}
+      \range{pages}{14}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\93ITKTX9\\Lecours - 2000 - Ethnic and civic nationalism Towards a new dimens.pdf;C\:\\Users\\kenji\\Zotero\\storage\\WDNAWCEM\\13562570020013672.html
+      \endverb
+    \endentry
+    \entry{leeChangingPoliticalEconomy2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8748defe06c43d9b56e3c930ad8d6d9b}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Francis\bibnamedelima LF},
+           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {French Centre for Research on Contemporary China}%
+      }
+      \strng{namehash}{8748defe06c43d9b56e3c930ad8d6d9b}
+      \strng{fullhash}{8748defe06c43d9b56e3c930ad8d6d9b}
+      \strng{bibnamehash}{8748defe06c43d9b56e3c930ad8d6d9b}
+      \strng{authorbibnamehash}{8748defe06c43d9b56e3c930ad8d6d9b}
+      \strng{authornamehash}{8748defe06c43d9b56e3c930ad8d6d9b}
+      \strng{authorfullhash}{8748defe06c43d9b56e3c930ad8d6d9b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{China Perspectives}
+      \field{number}{2018/3}
+      \field{title}{Changing Political Economy of the {{Hong Kong}} Media}
+      \field{volume}{2018}
+      \field{year}{2018}
+      \field{pages}{9\bibrangedash 18}
+      \range{pages}{10}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\3LVRYRNT\\Lee - 2018 - Changing political economy of the Hong Kong media.pdf;C\:\\Users\\kenji\\Zotero\\storage\\Z75CG7P3\\Lee - 2018 - Changing political economy of the Hong Kong media.pdf;C\:\\Users\\kenji\\Zotero\\storage\\BRXM4BKJ\\8009.html;C\:\\Users\\kenji\\Zotero\\storage\\FEFI4NNW\\8009.html
+      \endverb
+    \endentry
+    \entry{lerHighNumberUnique2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=58e8526a4b1ca99516cb2659a9dc1a75}{%
+           family={Ler},
+           familyi={L\bibinitperiod},
+           given={Wei\bibnamedelima Han},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{58e8526a4b1ca99516cb2659a9dc1a75}
+      \strng{fullhash}{58e8526a4b1ca99516cb2659a9dc1a75}
+      \strng{bibnamehash}{58e8526a4b1ca99516cb2659a9dc1a75}
+      \strng{authorbibnamehash}{58e8526a4b1ca99516cb2659a9dc1a75}
+      \strng{authornamehash}{58e8526a4b1ca99516cb2659a9dc1a75}
+      \strng{authorfullhash}{58e8526a4b1ca99516cb2659a9dc1a75}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{How high cardinality affects your CART performance and interpretation}
+      \field{howpublished}{https://towardsdatascience.com/high-number-of-unique-values-and-tree-based-models-c30167b63edd}
+      \field{journaltitle}{Towards Data Science}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{High Number of Unique Values and Tree Based Models}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\UREU3SFS\\high-number-of-unique-values-and-tree-based-models-c30167b63edd.html
+      \endverb
+    \endentry
+    \entry{lewin-epsteinNationalIdentityXenophobia2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3735ad3ad74a5bac0f1a131c26604f75}{%
+           family={{Lewin-Epstein}},
+           familyi={L\bibinitperiod},
+           given={Noah},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d839dbccc4c58a7073b007d5b65eb8cd}{%
+           family={Levanon},
+           familyi={L\bibinitperiod},
+           given={Asaf},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f080bfa85d85a3568e3a18168d720ba7}
+      \strng{fullhash}{f080bfa85d85a3568e3a18168d720ba7}
+      \strng{bibnamehash}{f080bfa85d85a3568e3a18168d720ba7}
+      \strng{authorbibnamehash}{f080bfa85d85a3568e3a18168d720ba7}
+      \strng{authornamehash}{f080bfa85d85a3568e3a18168d720ba7}
+      \strng{authorfullhash}{f080bfa85d85a3568e3a18168d720ba7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal on Multicultural Societies}
+      \field{number}{2}
+      \field{title}{National Identity and Xenophobia in an Ethnically Divided Society}
+      \field{volume}{7}
+      \field{year}{2005}
+      \field{pages}{90\bibrangedash 118}
+      \range{pages}{29}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\FNFQ59PN\\Lewin-Epstein and Levanon - 2005 - National identity and xenophobia in an ethnically .pdf
+      \endverb
+    \endentry
+    \entry{linMakeChinaGreat2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=27065c0a7f3ea9b67be43410ae7bc1a0}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Cong},
+           giveni={C\bibinitperiod}}}%
+        {{hash=08b305d1e3a7f7d811c432b74dd0962e}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={Liz},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{e61a25436d5a867a6a5d1af2f3e7b8ea}
+      \strng{fullhash}{e61a25436d5a867a6a5d1af2f3e7b8ea}
+      \strng{bibnamehash}{e61a25436d5a867a6a5d1af2f3e7b8ea}
+      \strng{authorbibnamehash}{e61a25436d5a867a6a5d1af2f3e7b8ea}
+      \strng{authornamehash}{e61a25436d5a867a6a5d1af2f3e7b8ea}
+      \strng{authorfullhash}{e61a25436d5a867a6a5d1af2f3e7b8ea}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Educational Philosophy and Theory}
+      \field{number}{9}
+      \field{shorttitle}{Make {{China}} Great Again}
+      \field{title}{Make {{China}} Great Again: {{The}} Blood-Based View of {{Chineseness}} in {{Hong Kong}}}
+      \field{volume}{53}
+      \field{year}{2021}
+      \field{pages}{907\bibrangedash 919}
+      \range{pages}{13}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\BB2E6YMH\\Lin and Jackson - 2021 - Make China great again The blood-based view of Ch.pdf;C\:\\Users\\kenji\\Zotero\\storage\\CGRVKBMR\\00131857.2020.html
+      \endverb
+    \endentry
+    \entry{lohUndergroundFrontChinese2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3f6b9eb36c1f8bd62b01722f2e8995a1}{%
+           family={Loh},
+           familyi={L\bibinitperiod},
+           given={Christine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hong Kong University Press}%
+      }
+      \strng{namehash}{3f6b9eb36c1f8bd62b01722f2e8995a1}
+      \strng{fullhash}{3f6b9eb36c1f8bd62b01722f2e8995a1}
+      \strng{bibnamehash}{3f6b9eb36c1f8bd62b01722f2e8995a1}
+      \strng{authorbibnamehash}{3f6b9eb36c1f8bd62b01722f2e8995a1}
+      \strng{authornamehash}{3f6b9eb36c1f8bd62b01722f2e8995a1}
+      \strng{authorfullhash}{3f6b9eb36c1f8bd62b01722f2e8995a1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Underground {{Front}}}
+      \field{title}{Underground {{Front}}: {{The Chinese Communist Party}} in {{Hong Kong}}}
+      \field{year}{2010}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\JD3F96ZB\\books.html
+      \endverb
+    \endentry
+    \entry{lundbergUnifiedApproachInterpreting2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b659ebc88023a12a732b4db9afdede3d}{%
+           family={Lundberg},
+           familyi={L\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ee964079d93879aaef2382a5fff343d3}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Su-In},
+           giveni={S\bibinithyphendelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{92d799a71ca7ae2c3ebec3ec87e85189}
+      \strng{fullhash}{92d799a71ca7ae2c3ebec3ec87e85189}
+      \strng{bibnamehash}{92d799a71ca7ae2c3ebec3ec87e85189}
+      \strng{authorbibnamehash}{92d799a71ca7ae2c3ebec3ec87e85189}
+      \strng{authornamehash}{92d799a71ca7ae2c3ebec3ec87e85189}
+      \strng{authorfullhash}{92d799a71ca7ae2c3ebec3ec87e85189}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding why a model makes a certain prediction can be as crucial as the prediction's accuracy in many applications. However, the highest accuracy for large modern datasets is often achieved by complex models that even experts struggle to interpret, such as ensemble or deep learning models, creating a tension between accuracy and interpretability. In response, various methods have recently been proposed to help users interpret the predictions of complex models, but it is often unclear how these methods are related and when one method is preferable over another. To address this problem, we present a unified framework for interpreting predictions, SHAP (SHapley Additive exPlanations). SHAP assigns each feature an importance value for a particular prediction. Its novel components include: (1) the identification of a new class of additive feature importance measures, and (2) theoretical results showing there is a unique solution in this class with a set of desirable properties. The new class unifies six existing methods, notable because several recent methods in the class lack the proposed desirable properties. Based on insights from this unification, we present new methods that show improved computational performance and/or better consistency with human intuition than previous approaches.}
+      \field{eprintclass}{cs, stat}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1705.07874 [cs, stat]}
+      \field{month}{11}
+      \field{title}{A {{Unified Approach}} to {{Interpreting Model Predictions}}}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1705.07874
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\66YJ4XSD\\Lundberg and Lee - 2017 - A Unified Approach to Interpreting Model Predictio.pdf;C\:\\Users\\kenji\\Zotero\\storage\\5V5KQU22\\1705.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Statistics - Machine Learning}
+    \endentry
+    \entry{maPoliticalPartiesElections2012}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=1b419801e11390741ac2573b55b49b6a}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Ngok},
+           giveni={N\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=6b06b8cd8a94e626d7a7ade4088fd595}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Wai-man},
+           giveni={W\bibinithyphendelim m\bibinitperiod}}}%
+        {{hash=f0f4a82e8a253e9e2570b4378c5f5642}{%
+           family={Lui},
+           familyi={L\bibinitperiod},
+           given={Percy\bibnamedelima Luen-tim},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinithyphendelim t\bibinitperiod}}}%
+        {{hash=29d2112bd28edaa15b894877502907b5}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Wilson},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hong Kong University Press}%
+      }
+      \strng{namehash}{1b419801e11390741ac2573b55b49b6a}
+      \strng{fullhash}{1b419801e11390741ac2573b55b49b6a}
+      \strng{bibnamehash}{1b419801e11390741ac2573b55b49b6a}
+      \strng{authorbibnamehash}{1b419801e11390741ac2573b55b49b6a}
+      \strng{authornamehash}{1b419801e11390741ac2573b55b49b6a}
+      \strng{authorfullhash}{1b419801e11390741ac2573b55b49b6a}
+      \strng{editorbibnamehash}{0f2e76418068d443687ba868f45e3519}
+      \strng{editornamehash}{bb1e67a5429593ddc2ee7c2ff5f5a431}
+      \strng{editorfullhash}{0f2e76418068d443687ba868f45e3519}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Contemporary {{Hong Kong}} Government and Politics}
+      \field{edition}{Second}
+      \field{title}{Political Parties and Elections}
+      \field{year}{2012}
+      \field{pages}{159\bibrangedash 176}
+      \range{pages}{18}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\3T6D8G7D\\books.html;C\:\\Users\\kenji\\Zotero\\storage\\JPH5WVI5\\books.html
+      \endverb
+    \endentry
+    \entry{mathewsAsylumSeekersSymbols2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=65feb7cbcf0affeb51debfffc1b7ba51}{%
+           family={Mathews},
+           familyi={M\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {French Centre for Research on Contemporary China}%
+      }
+      \strng{namehash}{65feb7cbcf0affeb51debfffc1b7ba51}
+      \strng{fullhash}{65feb7cbcf0affeb51debfffc1b7ba51}
+      \strng{bibnamehash}{65feb7cbcf0affeb51debfffc1b7ba51}
+      \strng{authorbibnamehash}{65feb7cbcf0affeb51debfffc1b7ba51}
+      \strng{authornamehash}{65feb7cbcf0affeb51debfffc1b7ba51}
+      \strng{authorfullhash}{65feb7cbcf0affeb51debfffc1b7ba51}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{China Perspectives}
+      \field{number}{2018/3}
+      \field{title}{Asylum Seekers as Symbols of {{Hong Kong}}'s Non-{{Chineseness}}}
+      \field{volume}{2018}
+      \field{year}{2018}
+      \field{pages}{51\bibrangedash 58}
+      \range{pages}{8}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\5JLIJERN\\Mathews - 2018 - Asylum seekers as symbols of Hong Kong’s non-Chine.pdf;C\:\\Users\\kenji\\Zotero\\storage\\T6R3IQD5\\8132.html
+      \endverb
+    \endentry
+    \entry{mckayAnyOneThese2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=652a7d02760df3f8a6278480293e4913}{%
+           family={McKay},
+           familyi={M\bibinitperiod},
+           given={Fiona\bibnamedelima H.},
+           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=b3fd31dec9040627676e0b0b79bd1730}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Samantha\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=37a1eb6455e19f3e1d91a2d4acaeb08c}{%
+           family={Warwick\bibnamedelima Blood},
+           familyi={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Sage Publications Sage UK: London, England}%
+      }
+      \strng{namehash}{a3fb2adecbef5ac9de0d0b91594248fd}
+      \strng{fullhash}{2b94fafdcadb81011bad83e93b551fbd}
+      \strng{bibnamehash}{2b94fafdcadb81011bad83e93b551fbd}
+      \strng{authorbibnamehash}{2b94fafdcadb81011bad83e93b551fbd}
+      \strng{authornamehash}{a3fb2adecbef5ac9de0d0b91594248fd}
+      \strng{authorfullhash}{2b94fafdcadb81011bad83e93b551fbd}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journalism}
+      \field{number}{5}
+      \field{title}{"{{Any}} One of These Boat People Could Be a Terrorist for All We {{Know}}!" {{Media}} Representations and Public Perceptions of â\texteuro\texttildelow{{Boat Peopleâ}}\texteuro\texttrademark{{Arrivals}} in {{Australia}}}
+      \field{volume}{12}
+      \field{year}{2011}
+      \field{pages}{607\bibrangedash 626}
+      \range{pages}{20}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\VP333JZW\\1464884911408219.html
+      \endverb
+    \endentry
+    \entry{medranoNationCitizenshipImmigration2005}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2c7d4c92959d7995171301be22ab5d64}{%
+           family={Medrano},
+           familyi={M\bibinitperiod},
+           given={Juan\bibnamedelima Diez},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c7d4c92959d7995171301be22ab5d64}
+      \strng{fullhash}{2c7d4c92959d7995171301be22ab5d64}
+      \strng{bibnamehash}{2c7d4c92959d7995171301be22ab5d64}
+      \strng{authorbibnamehash}{2c7d4c92959d7995171301be22ab5d64}
+      \strng{authornamehash}{2c7d4c92959d7995171301be22ab5d64}
+      \strng{authorfullhash}{2c7d4c92959d7995171301be22ab5d64}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal on Multicultural Societies}
+      \field{number}{2}
+      \field{title}{Nation, Citizenship and Immigration in Contemporary {{Spain}}}
+      \field{volume}{7}
+      \field{year}{2005}
+      \field{pages}{133\bibrangedash 156}
+      \range{pages}{24}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\FJ9MBR5D\\Medrano - 2005 - Nation, citizenship and immigration in contemporar.pdf
+      \endverb
+    \endentry
+    \entry{medranoNationalismCitizenshipImmigration2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2c7d4c92959d7995171301be22ab5d64}{%
+           family={Medrano},
+           familyi={M\bibinitperiod},
+           given={Juan\bibnamedelima Diez},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4b03afeaafa308c95bd8c36cd361ce83}{%
+           family={Koenig},
+           familyi={K\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6d94f8f3259385b86ab1afbb7f60dee}
+      \strng{fullhash}{a6d94f8f3259385b86ab1afbb7f60dee}
+      \strng{bibnamehash}{a6d94f8f3259385b86ab1afbb7f60dee}
+      \strng{authorbibnamehash}{a6d94f8f3259385b86ab1afbb7f60dee}
+      \strng{authornamehash}{a6d94f8f3259385b86ab1afbb7f60dee}
+      \strng{authorfullhash}{a6d94f8f3259385b86ab1afbb7f60dee}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal on Multicultural Societies}
+      \field{number}{2}
+      \field{title}{Nationalism, Citizenship and Immigration in Social Science Research}
+      \field{volume}{7}
+      \field{year}{2005}
+      \field{pages}{82\bibrangedash 89}
+      \range{pages}{8}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\QKJRK7JQ\\Medrano and Koenig - 2005 - Nationalism, citizenship and immigration in social.pdf
+      \endverb
+    \endentry
+    \entry{orientaldailynewsChrisTangPingkeung2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ccfc02757fb5fce63856d51c23643c72}{%
+           family={News},
+           familyi={N\bibinitperiod},
+           given={Oriental\bibnamedelima Daily},
+           giveni={O\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccfc02757fb5fce63856d51c23643c72}
+      \strng{fullhash}{ccfc02757fb5fce63856d51c23643c72}
+      \strng{bibnamehash}{ccfc02757fb5fce63856d51c23643c72}
+      \strng{authorbibnamehash}{ccfc02757fb5fce63856d51c23643c72}
+      \strng{authornamehash}{ccfc02757fb5fce63856d51c23643c72}
+      \strng{authorfullhash}{ccfc02757fb5fce63856d51c23643c72}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://hk.news.yahoo.com/\%E9\%84\%A7\%E7\%82\%B3\%E5\%BC\%B7-\%E6\%8E\%A8\%E9\%80\%B2\%E8\%81\%B2\%E8\%AB\%8B\%E4\%BF\%AE\%E4\%BE\%8B-\%E6\%9D\%9C\%E7\%B5\%95\%E5\%81\%87\%E9\%9B\%A3\%E6\%B0\%91\%E5\%95\%8F\%E9\%A1\%8C-214500030.html}
+      \field{journaltitle}{Yahoo! News}
+      \field{langid}{chinese-traditional-hongkongsarchina}
+      \field{month}{6}
+      \field{title}{{Chris Tang Ping-keung pushes forward the amendment of laws on non-refoulement claimants to resolve the fake refugee problem}}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\UJR7WI4S\\鄧炳強-推進聲請修例-杜絕假難民問題-214500030.html
+      \endverb
+    \endentry
+    \entry{ngHongKongProdemocracy2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=10082676eb19b04ade1bb86104534861}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Edmond},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a0937917c223bc54a9913c2aee765e11}{%
+           family={Pomfret},
+           familyi={P\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{bfd5ef62f59826ae01a72b25f710c7dd}
+      \strng{fullhash}{bfd5ef62f59826ae01a72b25f710c7dd}
+      \strng{bibnamehash}{bfd5ef62f59826ae01a72b25f710c7dd}
+      \strng{authorbibnamehash}{bfd5ef62f59826ae01a72b25f710c7dd}
+      \strng{authornamehash}{bfd5ef62f59826ae01a72b25f710c7dd}
+      \strng{authorfullhash}{bfd5ef62f59826ae01a72b25f710c7dd}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Media \& Telecom}
+      \field{journaltitle}{Reuters}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{title}{Hong {{Kong}} Pro-Democracy {{Stand News}} Closes after Police Raids Condemned by {{U}}.{{N}}., {{Germany}}}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\SBF8K2A9\\hong-kong-police-arrest-6-current-or-former-staff-online-media-outlet-2021-12-28.html
+      \endverb
+    \endentry
+    \entry{ngCriminalizingInnocentsSocial2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=22e7e41ae7bb83c72aedbeac3ef08bdd}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Isabella},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{22e7e41ae7bb83c72aedbeac3ef08bdd}
+      \strng{fullhash}{22e7e41ae7bb83c72aedbeac3ef08bdd}
+      \strng{bibnamehash}{22e7e41ae7bb83c72aedbeac3ef08bdd}
+      \strng{authorbibnamehash}{22e7e41ae7bb83c72aedbeac3ef08bdd}
+      \strng{authornamehash}{22e7e41ae7bb83c72aedbeac3ef08bdd}
+      \strng{authorfullhash}{22e7e41ae7bb83c72aedbeac3ef08bdd}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journal of Asian Public Policy}
+      \field{number}{3}
+      \field{shorttitle}{Criminalizing the Innocents}
+      \field{title}{Criminalizing the Innocents: Social Exclusion of Asylum-Seekers and Refugees in {{Hong Kong}}}
+      \field{volume}{13}
+      \field{year}{2020}
+      \field{pages}{319\bibrangedash 332}
+      \range{pages}{14}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\NENJ2BIL\\Ng - 2020 - Criminalizing the innocents social exclusion of a.pdf;C\:\\Users\\kenji\\Zotero\\storage\\BSTFYGNH\\17516234.2019.html
+      \endverb
+    \endentry
+    \entry{ngResistanceFramingPortrayal2021}{article}{}
+      \name{author}{3}{ul=2}{%
+        {{hash=22e7e41ae7bb83c72aedbeac3ef08bdd}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Isabella},
+           giveni={I\bibinitperiod}}}%
+        {{hash=d0dba1ea1cd0dca178f8e49b7ce37914}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Sharice\bibnamedelima Fung-Yee},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=936ff7eb59a392501fd055b96d9752aa}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Alex\bibnamedelima Lih-Shing},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{40f3d07a7ae88cee74113a63176e8789}
+      \strng{fullhash}{69a8ebc2ee6b2308e34ed62b8b73f20c}
+      \strng{bibnamehash}{69a8ebc2ee6b2308e34ed62b8b73f20c}
+      \strng{authorbibnamehash}{69a8ebc2ee6b2308e34ed62b8b73f20c}
+      \strng{authornamehash}{40f3d07a7ae88cee74113a63176e8789}
+      \strng{authorfullhash}{69a8ebc2ee6b2308e34ed62b8b73f20c}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journalism Practice}
+      \field{shorttitle}{Resistance to `{{Framing}}'?}
+      \field{title}{Resistance to `{{Framing}}'? {{The Portrayal}} of {{Asylum Seekers}} and {{Refugees}} in {{Hong Kong}}'s {{Online Media}}}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\8TX7U7QZ\\17512786.2021.html
+      \endverb
+    \endentry
+    \entry{ngFramingIssueAsylum2019}{article}{}
+      \name{author}{3}{ul=2}{%
+        {{hash=22e7e41ae7bb83c72aedbeac3ef08bdd}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Isabella},
+           giveni={I\bibinitperiod}}}%
+        {{hash=c59071e0fb09f123305f7f1cab091825}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Sharice\bibnamedelima Fungyee},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=95a05ae9661eb05c38387680b83cfb6f}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Alex\bibnamedelima Lihshing},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{652a2f2a1ca90da78721cd8149996230}
+      \strng{fullhash}{c1f8e54b6a821c556840a8d9b5c579ce}
+      \strng{bibnamehash}{c1f8e54b6a821c556840a8d9b5c579ce}
+      \strng{authorbibnamehash}{c1f8e54b6a821c556840a8d9b5c579ce}
+      \strng{authornamehash}{652a2f2a1ca90da78721cd8149996230}
+      \strng{authorfullhash}{c1f8e54b6a821c556840a8d9b5c579ce}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Policy-makers often refer to media reports and public opinion polls when advocating immigration policies. A good example of this is provided by Hong Kong, an international financial hub that prides itself on its multiculturalism and pluralism, but whose government officials and pro-establishment legislators have been calling for tougher measures because of a plethora of negative news reports on immigrants. This study examines how print media frames the issue of asylum seekers and refugees, with the findings indicating that the majority of local Chinese news articles portray asylum seekers negatively as â\texteuroœfake refugeesâ\texteuro  and â\texteuroœcriminals.â\texteuro  The study also examines newspapersâ\texteuro\texttrademark{} framing of the causes of requests for asylum and their recommendations for dealing with the â\texteuroœproblemâ\texteuro : (1) setting up detention camps, (2) enforcing stricter border control, and (3) withdrawing from the UNCAT. It argues that the negative framing provides justifications for anti-refugee policy-makers to suggest tougher policy solutions to the issue of asylum seekers and refugees. Policy implications are discussed which may affect Hong Kongâ\texteuro\texttrademark s position as a first-class global city.}
+      \field{issn}{1874-6365}
+      \field{journaltitle}{Journal of International Migration and Integration}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Framing the {{Issue}} of {{Asylum Seekers}} and {{Refugees}} for {{Tougher Refugee Policyâ}}\texteuro ''a {{Study}} of the {{Mediaâ}}\texteuro\texttrademark s {{Portrayal}} in {{Post-colonial Hong Kong}}}
+      \field{volume}{20}
+      \field{year}{2019}
+      \field{pages}{593\bibrangedash 617}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1007/s12134-018-0624-7
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\RN5GISVG\\Ng et al. - 2019 - Framing the Issue of Asylum Seekers and Refugees f.pdf
+      \endverb
+    \endentry
+    \entry{ngoPoliticalDarkArts2016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5382927c0aa55f1d456d5864bb792f8a}{%
+           family={Ngo},
+           familyi={N\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5382927c0aa55f1d456d5864bb792f8a}
+      \strng{fullhash}{5382927c0aa55f1d456d5864bb792f8a}
+      \strng{bibnamehash}{5382927c0aa55f1d456d5864bb792f8a}
+      \strng{authorbibnamehash}{5382927c0aa55f1d456d5864bb792f8a}
+      \strng{authornamehash}{5382927c0aa55f1d456d5864bb792f8a}
+      \strng{authorfullhash}{5382927c0aa55f1d456d5864bb792f8a}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{News}
+      \field{howpublished}{https://www.scmp.com/news/hong-kong/politics/article/1933095/political-dark-arts-live-hong-kong-bogus-banners-designed}
+      \field{journaltitle}{South China Morning Post}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Political Dark Arts Live on in {{Hong Kong}} with Bogus Banners Designed to Shame Lawmakers}
+      \field{year}{2016}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\PZ46PPHF\\political-dark-arts-live-hong-kong-bogus-banners-designed.html
+      \endverb
+    \endentry
+    \entry{odohertyAsylumSeekersBoat2007}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0823caf8d6f6096c6460bdeeb67ccdc3}{%
+           family={O'Doherty},
+           familyi={O\bibinitperiod},
+           given={Kieran},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3f0f8f4f590dfae6664cf11e9f74cdb3}{%
+           family={Lecouteur},
+           familyi={L\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{a51a3cb794c8e5371599dba0239f2f42}
+      \strng{fullhash}{a51a3cb794c8e5371599dba0239f2f42}
+      \strng{bibnamehash}{a51a3cb794c8e5371599dba0239f2f42}
+      \strng{authorbibnamehash}{a51a3cb794c8e5371599dba0239f2f42}
+      \strng{authornamehash}{a51a3cb794c8e5371599dba0239f2f42}
+      \strng{authorfullhash}{a51a3cb794c8e5371599dba0239f2f42}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Australian journal of psychology}
+      \field{number}{1}
+      \field{shorttitle}{``{{Asylum}} Seekers'',``Boat People'' and ``Illegal Immigrants''}
+      \field{title}{``{{Asylum}} Seekers'',``Boat People'' and ``Illegal Immigrants'': {{Social}} Categorisation in the Media}
+      \field{volume}{59}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\SU56R3AK\\O'Doherty and Lecouteur - 2007 - “Asylum seekers”,“boat people” and “illegal immigr.pdf;C\:\\Users\\kenji\\Zotero\\storage\\J2TKKJV4\\00049530600941685.html
+      \endverb
+    \endentry
+    \entry{OCTOBERROUNDUPREFUGEE2018}{misc}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Refugee Union}
+      \field{chapter}{RU updates, programs, events}
+      \field{howpublished}{http://refugeeunion.org/9739/october-roundup-refugee-union-office/}
+      \field{journaltitle}{Refugee Union}
+      \field{langid}{american}
+      \field{month}{11}
+      \field{title}{{{OCTOBER ROUNDUP AT THE REFUGEE UNION}}}
+      \field{year}{2018}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\I3DZBTBY\\october-roundup-refugee-union-office.html
+      \endverb
+    \endentry
+    \entry{democraticpartyManifesto2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=70521bde1409fe6c7218c70eb3cda444}{%
+           family={Party},
+           familyi={P\bibinitperiod},
+           given={Democratic},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{70521bde1409fe6c7218c70eb3cda444}
+      \strng{fullhash}{70521bde1409fe6c7218c70eb3cda444}
+      \strng{bibnamehash}{70521bde1409fe6c7218c70eb3cda444}
+      \strng{authorbibnamehash}{70521bde1409fe6c7218c70eb3cda444}
+      \strng{authornamehash}{70521bde1409fe6c7218c70eb3cda444}
+      \strng{authorfullhash}{70521bde1409fe6c7218c70eb3cda444}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.dphk.org/index.php?route=eng/about\_us/detail\&id=1}
+      \field{journaltitle}{The Democratic Party}
+      \field{title}{Manifesto}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\U3HVRUCR\\index.html
+      \endverb
+    \endentry
+    \entry{pedregosaScikitlearnMachineLearning2011}{article}{}
+      \name{author}{10}{}{%
+        {{hash=bab4e5caee2d67831e464ce575022b37}{%
+           family={Pedregosa},
+           familyi={P\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=cfa3239dded54488f9a82a5718d5b927}{%
+           family={Varoquaux},
+           familyi={V\bibinitperiod},
+           given={Gaël},
+           giveni={G\bibinitperiod}}}%
+        {{hash=12ebe424e1c87de156c57e8fa7683f46}{%
+           family={Gramfort},
+           familyi={G\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=504ea1986689f1047a6f0beda2cb3822}{%
+           family={Michel},
+           familyi={M\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=0f3fc06fb9fcbb01b9cc0985eaf0a71c}{%
+           family={Thirion},
+           familyi={T\bibinitperiod},
+           given={Bertrand},
+           giveni={B\bibinitperiod}}}%
+        {{hash=721be0317527f44db425f7a97dcab15e}{%
+           family={Grisel},
+           familyi={G\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+        {{hash=d3b6c8582cea4e8b6576137b6a72cadc}{%
+           family={Blondel},
+           familyi={B\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=86e647e5c801f3ce733927f75f029463}{%
+           family={Prettenhofer},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=89d698773eaf2fae761ff0008031c7be}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b255e99d411f28c789a231829f765c64}{%
+           family={Dubourg},
+           familyi={D\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JMLR. org}%
+      }
+      \strng{namehash}{9ec95d747bac3417f92265a9a44f8bb4}
+      \strng{fullhash}{aec179f65ae38efd3cda4340b85de0c4}
+      \strng{bibnamehash}{9ec95d747bac3417f92265a9a44f8bb4}
+      \strng{authorbibnamehash}{9ec95d747bac3417f92265a9a44f8bb4}
+      \strng{authornamehash}{9ec95d747bac3417f92265a9a44f8bb4}
+      \strng{authorfullhash}{aec179f65ae38efd3cda4340b85de0c4}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{the Journal of machine Learning research}
+      \field{shorttitle}{Scikit-Learn}
+      \field{title}{Scikit-Learn: {{Machine}} Learning in {{Python}}}
+      \field{volume}{12}
+      \field{year}{2011}
+      \field{pages}{2825\bibrangedash 2830}
+      \range{pages}{6}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\JYGYWNLV\\Pedregosa et al. - 2011 - Scikit-learn Machine learning in Python.pdf
+      \endverb
+    \endentry
+    \entry{kungkaopoChen2Shu1ji1Yu32019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d6975238cd71a53b32adf3212dfadc24}{%
+           family={Po},
+           familyi={P\bibinitperiod},
+           given={Kung\bibnamedelima Kao},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6975238cd71a53b32adf3212dfadc24}
+      \strng{fullhash}{d6975238cd71a53b32adf3212dfadc24}
+      \strng{bibnamehash}{d6975238cd71a53b32adf3212dfadc24}
+      \strng{authorbibnamehash}{d6975238cd71a53b32adf3212dfadc24}
+      \strng{authornamehash}{d6975238cd71a53b32adf3212dfadc24}
+      \strng{authorfullhash}{d6975238cd71a53b32adf3212dfadc24}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://kkp.org.hk/node/19587}
+      \field{langid}{chinese}
+      \field{month}{10}
+      \field{title}{{chen2 shu1ji1 yu3 xin4tu2 xian4 mi2sa5 ji4nian4 yu3san3 yun4dong4 wu3 zhou1nian2}}
+      \field{year}{2019}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\BGS2THXW\\19587.html
+      \endverb
+    \endentry
+    \entry{R-base}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=dcdebb6b35bff7c0568bf8c50ef8626d}{%
+           family={{R Core Team}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{fullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{bibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorbibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authornamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorfullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.R-project.org/
+      \endverb
+      \verb{url}
+      \verb https://www.R-project.org/
+      \endverb
+    \endentry
+    \entry{RefugeeCommunitySupports2015}{misc}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Advocacy}
+      \field{howpublished}{http://www.vfnow.org/7401/vision-first-supports-lawmaker-fernando-cheung-chiu-hung/}
+      \field{journaltitle}{Vision First}
+      \field{langid}{american}
+      \field{month}{3}
+      \field{title}{Refugee Community Supports Lawmaker {{Fernando Cheung Chiu-hung}}}
+      \field{year}{2015}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\A7QAX392\\vision-first-supports-lawmaker-fernando-cheung-chiu-hung.html
+      \endverb
+    \endentry
+    \entry{RefugeePopulationCountry2021}{misc}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://data.worldbank.org/indicator/SM.POP.REFG?locations=HK}
+      \field{journaltitle}{World Bank}
+      \field{title}{Refugee Population by Country or Territory of Asylum - {{Hong Kong SAR}}, {{China}} | {{Data}}}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\A48ZL9B7\\SM.POP.html
+      \endverb
+    \endentry
+    \entry{ShapTreeExplainerSHAP}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://shap-lrjball.readthedocs.io/en/docs\_update/generated/shap.TreeExplainer.html}
+      \field{title}{Shap.{{TreeExplainer}} —{} {{SHAP}} Latest Documentation}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\65AUYRH7\\shap.TreeExplainer.html
+      \endverb
+    \endentry
+    \entry{soMakingHongKong2015}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=3614ff4ae141e125697d01243bda1a3a}{%
+           family={So},
+           familyi={S\bibinitperiod},
+           given={Alvin\bibnamedelima Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=01935828c2a0899dfa0ec662da0dcd8d}{%
+           family={Kingston},
+           familyi={K\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{3614ff4ae141e125697d01243bda1a3a}
+      \strng{fullhash}{3614ff4ae141e125697d01243bda1a3a}
+      \strng{bibnamehash}{3614ff4ae141e125697d01243bda1a3a}
+      \strng{authorbibnamehash}{3614ff4ae141e125697d01243bda1a3a}
+      \strng{authornamehash}{3614ff4ae141e125697d01243bda1a3a}
+      \strng{authorfullhash}{3614ff4ae141e125697d01243bda1a3a}
+      \strng{editorbibnamehash}{01935828c2a0899dfa0ec662da0dcd8d}
+      \strng{editornamehash}{01935828c2a0899dfa0ec662da0dcd8d}
+      \strng{editorfullhash}{01935828c2a0899dfa0ec662da0dcd8d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Asian Nationalisms Reconsidered}
+      \field{edition}{1st}
+      \field{title}{The Making of {{Hong Kong}} Nationalism}
+      \field{year}{2015}
+      \field{pages}{151\bibrangedash 162}
+      \range{pages}{12}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\BHVHPIU8\\So - 2015 - The making of Hong Kong nationalism.pdf;C\:\\Users\\kenji\\Zotero\\storage\\4V7C6RSR\\making-hong-kong-nationalism-alvin.html
+      \endverb
+    \endentry
+    \entry{stevensExploringTopicCoherence2012}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=7970dc920ecd23f635158e89bed903aa}{%
+           family={Stevens},
+           familyi={S\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1703b747886444f47a70dac87376522d}{%
+           family={Kegelmeyer},
+           familyi={K\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7cbebc20a9c52644b5eb8fa475d2ad7b}{%
+           family={Andrzejewski},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=52df62f5fe6798f1ba3619adc8162f05}{%
+           family={Buttler},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0fb52cc577f5b9106ebe772a25961a00}
+      \strng{fullhash}{f33c7a51be6b19d328190c61feba8f1b}
+      \strng{bibnamehash}{0fb52cc577f5b9106ebe772a25961a00}
+      \strng{authorbibnamehash}{0fb52cc577f5b9106ebe772a25961a00}
+      \strng{authornamehash}{0fb52cc577f5b9106ebe772a25961a00}
+      \strng{authorfullhash}{f33c7a51be6b19d328190c61feba8f1b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning}
+      \field{title}{Exploring Topic Coherence over Many Models and Many Topics}
+      \field{year}{2012}
+      \field{pages}{952\bibrangedash 961}
+      \range{pages}{10}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\YEVYCJHP\\Stevens et al. - 2012 - Exploring topic coherence over many models and man.pdf
+      \endverb
+    \endentry
+    \entry{tanAppleDailyHong2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cd1b24b18fe5b8ab47b90ffb8769a073}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Yvette},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd1b24b18fe5b8ab47b90ffb8769a073}
+      \strng{fullhash}{cd1b24b18fe5b8ab47b90ffb8769a073}
+      \strng{bibnamehash}{cd1b24b18fe5b8ab47b90ffb8769a073}
+      \strng{authorbibnamehash}{cd1b24b18fe5b8ab47b90ffb8769a073}
+      \strng{authornamehash}{cd1b24b18fe5b8ab47b90ffb8769a073}
+      \strng{authorfullhash}{cd1b24b18fe5b8ab47b90ffb8769a073}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{chapter}{China}
+      \field{journaltitle}{BBC News}
+      \field{langid}{british}
+      \field{month}{6}
+      \field{shorttitle}{Apple {{Daily}}}
+      \field{title}{Apple {{Daily}}: {{The Hong Kong}} Newspaper That Pushed the Boundary}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\NXUKP8PE\\world-asia-china-53734887.html
+      \endverb
+    \endentry
+    \entry{tensorflowWordEmbeddingsText}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=074dd699710da0ec1eb45f13b31788e3}{%
+           family={TensorFlow},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{fullhash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{bibnamehash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{authorbibnamehash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{authornamehash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{authorfullhash}{074dd699710da0ec1eb45f13b31788e3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.tensorflow.org/text/guide/word\_embeddings}
+      \field{journaltitle}{TensorFlow}
+      \field{langid}{english}
+      \field{title}{Word Embeddings | {{Text}}}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\DWC4PD3F\\word_embeddings.html
+      \endverb
+    \endentry
+    \entry{thesunJiu4shi4lun4shi4Ben3tu3pai4Shi1sheng12016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1b002974dd4c0527d90248453f85c19d}{%
+           family={{the Sun}},
+           familyi={t\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b002974dd4c0527d90248453f85c19d}
+      \strng{fullhash}{1b002974dd4c0527d90248453f85c19d}
+      \strng{bibnamehash}{1b002974dd4c0527d90248453f85c19d}
+      \strng{authorbibnamehash}{1b002974dd4c0527d90248453f85c19d}
+      \strng{authornamehash}{1b002974dd4c0527d90248453f85c19d}
+      \strng{authorfullhash}{1b002974dd4c0527d90248453f85c19d}
+      \field{sortinit}{t}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{http://the-sun.on.cc/cnt/news/20160312/00418\_009.html}
+      \field{journaltitle}{The Sun}
+      \field{langid}{zh-hk}
+      \field{month}{3}
+      \field{title}{{jiu4shi4lun4shi4: ben3tu3pai4 shi1sheng1}}
+      \field{year}{2016}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\3GY4M9MG\\00418_009.html
+      \endverb
+    \endentry
+    \entry{Theme32ndAnni2021}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://web.archive.org/web/20210501051630/https://hka8964.wordpress.com/6432-2/}
+      \field{journaltitle}{Hong Kong Alliance in Support of Patriotic Democratic Movements of China}
+      \field{title}{Theme of the 32nd Anni. of {{June}} 4：``{{For}} Freedom, a Common Fate, a Shared Struggle''}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\WH9ZXHKW\\6432-2.html
+      \endverb
+    \endentry
+    \entry{UnifiedScreeningMechanism2021}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.unhcr.org/hk/en/2675-usm-procedures-2.html}
+      \field{journaltitle}{UNHCR Hong Kong}
+      \field{langid}{english}
+      \field{title}{Unified {{Screening Mechanism Procedures}}}
+      \field{year}{2021}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\CDLTKVYL\\2675-usm-procedures-2.html
+      \endverb
+    \endentry
+    \entry{vanatteveldtValiditySentimentAnalysis2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=49b80bf409d279d0b83969839d938c56}{%
+           family={{van Atteveldt}},
+           familyi={v\bibinitperiod},
+           given={Wouter},
+           giveni={W\bibinitperiod}}}%
+        {{hash=2b577bc7ea518fabedaad6605dca1778}{%
+           family={{van der Velden}},
+           familyi={v\bibinitperiod},
+           given={Mariken\bibnamedelimb A.\bibnamedelimi C.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=e913a449a628c4a086bcd2a8a08b58cd}{%
+           family={Boukes},
+           familyi={B\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{05d002343783404a0b4fb395a03d381d}
+      \strng{fullhash}{a74d252dc5f77897c444d110e9672fdd}
+      \strng{bibnamehash}{a74d252dc5f77897c444d110e9672fdd}
+      \strng{authorbibnamehash}{a74d252dc5f77897c444d110e9672fdd}
+      \strng{authornamehash}{05d002343783404a0b4fb395a03d381d}
+      \strng{authorfullhash}{a74d252dc5f77897c444d110e9672fdd}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{annotation}{\_eprint: https://doi.org/10.1080/19312458.2020.1869198}
+      \field{issn}{1931-2458}
+      \field{journaltitle}{Communication Methods and Measures}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shorttitle}{The {{Validity}} of {{Sentiment Analysis}}}
+      \field{title}{The {{Validity}} of {{Sentiment Analysis}}: {{Comparing Manual Annotation}}, {{Crowd-Coding}}, {{Dictionary Approaches}}, and {{Machine Learning Algorithms}}}
+      \field{volume}{15}
+      \field{year}{2021}
+      \field{pages}{121\bibrangedash 140}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1080/19312458.2020.1869198
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\XY7PSLXL\\van Atteveldt et al. - 2021 - The Validity of Sentiment Analysis Comparing Manu.pdf;C\:\\Users\\kenji\\Zotero\\storage\\M9ZBQAYJ\\19312458.2020.html
+      \endverb
+      \keyw{Automated Approaches,Evaluation,Manual Annotation,Measurement,Sentiment Analysis,Validity}
+    \endentry
+    \entry{varshneyEthnicityEthnicConflict2007}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=3fb28386bf3ee28b4336fbf73bf7b9e4}{%
+           family={Varshney},
+           familyi={V\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=428c46bc733f20d7ce6454a9590347dc}{%
+           family={Boix},
+           familyi={B\bibinitperiod},
+           given={Carles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1b0490bbee3b27b7729125f198b1b103}{%
+           family={Stokes},
+           familyi={S\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{3fb28386bf3ee28b4336fbf73bf7b9e4}
+      \strng{fullhash}{3fb28386bf3ee28b4336fbf73bf7b9e4}
+      \strng{bibnamehash}{3fb28386bf3ee28b4336fbf73bf7b9e4}
+      \strng{authorbibnamehash}{3fb28386bf3ee28b4336fbf73bf7b9e4}
+      \strng{authornamehash}{3fb28386bf3ee28b4336fbf73bf7b9e4}
+      \strng{authorfullhash}{3fb28386bf3ee28b4336fbf73bf7b9e4}
+      \strng{editorbibnamehash}{12ffe16d477a18029b925e239ed37150}
+      \strng{editornamehash}{12ffe16d477a18029b925e239ed37150}
+      \strng{editorfullhash}{12ffe16d477a18029b925e239ed37150}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The {{Oxford Handbook}} of {{Comparative Politics}}}
+      \field{edition}{1st}
+      \field{title}{Ethnicity and {{Ethnic Conflict}}}
+      \field{year}{2007}
+      \field{pages}{274\bibrangedash 294}
+      \range{pages}{21}
+    \endentry
+    \entry{vecchioAsylumSeekingGlobal2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7f120069624a5ff1c2489f1dcb72228c}{%
+           family={Vecchio},
+           familyi={V\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{7f120069624a5ff1c2489f1dcb72228c}
+      \strng{fullhash}{7f120069624a5ff1c2489f1dcb72228c}
+      \strng{bibnamehash}{7f120069624a5ff1c2489f1dcb72228c}
+      \strng{authorbibnamehash}{7f120069624a5ff1c2489f1dcb72228c}
+      \strng{authornamehash}{7f120069624a5ff1c2489f1dcb72228c}
+      \strng{authorfullhash}{7f120069624a5ff1c2489f1dcb72228c}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Asylum Seeking and the Global City}
+      \field{year}{2014}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\QKW5QXQ7\\books.html
+      \endverb
+    \endentry
+    \entry{VoicesProtectionGo2014}{misc}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.justicecentre.org.hk/3060/}
+      \field{journaltitle}{Justice Centre Hong Kong}
+      \field{langid}{american}
+      \field{month}{7}
+      \field{title}{Voices for {{Protection}} Go to {{LegCo}}}
+      \field{year}{2014}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\KUXQT8NL\\3060.html
+      \endverb
+    \endentry
+    \entry{bookdown2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=25ce25b9d444076e0963bcf9fa3a6f92}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Yihui},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, Florida}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall/CRC}%
+      }
+      \strng{namehash}{25ce25b9d444076e0963bcf9fa3a6f92}
+      \strng{fullhash}{25ce25b9d444076e0963bcf9fa3a6f92}
+      \strng{bibnamehash}{25ce25b9d444076e0963bcf9fa3a6f92}
+      \strng{authorbibnamehash}{25ce25b9d444076e0963bcf9fa3a6f92}
+      \strng{authornamehash}{25ce25b9d444076e0963bcf9fa3a6f92}
+      \strng{authorfullhash}{25ce25b9d444076e0963bcf9fa3a6f92}
+      \field{extraname}{1}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{ISBN 978-1138700109}
+      \field{title}{bookdown: Authoring Books and Technical Documents with {R} Markdown}
+      \field{year}{2016}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://bookdown.org/yihui/bookdown
+      \endverb
+      \verb{url}
+      \verb https://bookdown.org/yihui/bookdown
+      \endverb
+    \endentry
+    \entry{R-bookdown}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=25ce25b9d444076e0963bcf9fa3a6f92}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Yihui},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{25ce25b9d444076e0963bcf9fa3a6f92}
+      \strng{fullhash}{25ce25b9d444076e0963bcf9fa3a6f92}
+      \strng{bibnamehash}{25ce25b9d444076e0963bcf9fa3a6f92}
+      \strng{authorbibnamehash}{25ce25b9d444076e0963bcf9fa3a6f92}
+      \strng{authornamehash}{25ce25b9d444076e0963bcf9fa3a6f92}
+      \strng{authorfullhash}{25ce25b9d444076e0963bcf9fa3a6f92}
+      \field{extraname}{2}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 0.24}
+      \field{title}{bookdown: Authoring Books and Technical Documents with R Markdown}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://CRAN.R-project.org/package=bookdown
+      \endverb
+      \verb{url}
+      \verb https://CRAN.R-project.org/package=bookdown
+      \endverb
+    \endentry
+    \entry{yuenProBeijingLawmakerSubmits2016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=bede578763b0b2796178557c8ad8d038}{%
+           family={Yuen},
+           familyi={Y\bibinitperiod},
+           given={Chantal},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{bede578763b0b2796178557c8ad8d038}
+      \strng{fullhash}{bede578763b0b2796178557c8ad8d038}
+      \strng{bibnamehash}{bede578763b0b2796178557c8ad8d038}
+      \strng{authorbibnamehash}{bede578763b0b2796178557c8ad8d038}
+      \strng{authornamehash}{bede578763b0b2796178557c8ad8d038}
+      \strng{authorfullhash}{bede578763b0b2796178557c8ad8d038}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://hongkongfp.com/2016/11/18/pro-establishment-lawmaker-submits-motion-to-stop-bogus-refugees/}
+      \field{journaltitle}{Hong Kong Free Press HKFP}
+      \field{langid}{british}
+      \field{month}{11}
+      \field{title}{Pro-{{Beijing}} Lawmaker Submits Motion to Stop 'Bogus Refugees'}
+      \field{year}{2016}
+      \verb{file}
+      \verb C\:\\Users\\kenji\\Zotero\\storage\\EXCPH6TW\\pro-establishment-lawmaker-submits-motion-to-stop-bogus-refugees.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

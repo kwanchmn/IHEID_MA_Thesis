@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.15)  21 JAN 2022 00:37
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.15)  21 JAN 2022 19:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1224,7 +1224,10 @@ Requested font "phvb8t" at 20.74pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
 [4
 
-] [5]
+]
+Requested font "ec-lmbxi10" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
+[5]
 Requested font "ec-lmbx12" at 14.4pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 [6] [7]
@@ -1264,13 +1267,13 @@ Requested font "ec-lmr6" at 6.0pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
 Requested font "ec-lmri8" at 8.0pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmri8.tfm
-[8]
+[8] [9]
 Chapter 2.
 Requested font "ec-lmr12" at 12.0pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
 Requested font "ec-lmbx12" at 12.0pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
-[9
+[10
 
 ]
 Requested font "ts1-lmr10" at 10.0pt
@@ -1279,203 +1282,205 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmr' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
+[11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22]
 Requested font "ec-lmr9" at 9.0pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmr9.tfm
 Requested font "ec-lmbx9" at 9.0pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbx9.tfm
-[22] [23]
+[23] [24]
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-1-1.pdf>
-
-Overfull \hbox (48.6534pt too wide) in paragraph at lines 679--680
- [][] 
- []
-
-[24]
+[25]
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-2-3.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-2-3.pdf>
 
-Overfull \hbox (48.6534pt too wide) in paragraph at lines 687--688
+Overfull \hbox (48.6534pt too wide) in paragraph at lines 682--683
  [][] 
  []
 
-[25] [26]
-Overfull \hbox (2.9556pt too wide) in paragraph at lines 708--709
+[26] [27]
+Overfull \hbox (2.9556pt too wide) in paragraph at lines 703--704
 \T1/lmr/m/n/10 Putting aside the lack of a clear ex-pec-ta-tion of the lo-cal-ist camp's at-ti-tude to-wards non-refoulement
  []
 
 
-Overfull \hbox (5.69331pt too wide) in paragraph at lines 708--709
+Overfull \hbox (5.69331pt too wide) in paragraph at lines 703--704
 \T1/lmr/m/n/10 claimants, it seems that draw-ing from pre-lim-i-nary ev-i-dence, how the pro-Beijing and pro-democracy
  []
 
-[27] [28] [29]
+[28] [29] [30]
 Chapter 3.
-[30
+[31
 
-] [31] [32] [33] [34]
-Requested font "ec-lmbxi10" at 10.0pt
- -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
-[35] [36] [37]
+] [32] [33] [34] [35] [36] [37] [38]
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-3-5.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-3-5.pdf>
 
-Overfull \hbox (48.6534pt too wide) in paragraph at lines 853--854
+Overfull \hbox (48.6534pt too wide) in paragraph at lines 848--849
  [][] 
  []
 
-[38] [39] [40] [41] [42]
+[39] [40] [41] [42] [43]
 Chapter 4.
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-4-1.pdf>
 
-Overfull \hbox (48.6534pt too wide) in paragraph at lines 894--895
+Overfull \hbox (48.6534pt too wide) in paragraph at lines 889--890
  [][] 
  []
 
-[43
+[44
 
-] [44]
+] [45]
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-7-1.pdf>
 
-Overfull \hbox (48.6534pt too wide) in paragraph at lines 929--930
+Overfull \hbox (48.6534pt too wide) in paragraph at lines 924--925
  [][] 
  []
 
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-8-3.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-8-3.pdf>
 
-Overfull \hbox (48.6534pt too wide) in paragraph at lines 940--941
+Overfull \hbox (48.6534pt too wide) in paragraph at lines 935--936
  [][] 
  []
 
-[45] [46] [47]
-
-LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
-(Font)              using `T1/zi4/m/n' instead on input line 985.
-
-LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
-(Font)              scaled to size 10.0pt on input line 986.
-Requested font "t1-zi4b-0" at 10.0pt
- -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/inconsolata/t1-zi4b-0.tfm
-LaTeX Font Info:    Font shape `T1/zi4/m/it' will be
-(Font)              scaled to size 10.0pt on input line 988.
-[48]
+[46] [47] [48] [49]
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-11-1.pdf>
 
-Overfull \hbox (48.6534pt too wide) in paragraph at lines 1011--1012
+Overfull \hbox (48.6534pt too wide) in paragraph at lines 982--983
  [][] 
  []
 
-[49] [50]
+[50]
 File: figures/nmf_topic_words_list.png Graphic file (type bmp)
 <figures/nmf_topic_words_list.png>
-[51]
+
+LaTeX Warning: Float too large for page by 21.02151pt on input line 992.
+
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 8.0pt on input line 1049.
+(Font)              scaled to size 8.0pt on input line 1018.
 Requested font "t1-zi4r-0" at 8.0pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/inconsolata/t1-zi4r-0.tfm
-
-Underfull \hbox (badness 5203) in paragraph at lines 1049--1049
+[51] [52]
+Underfull \hbox (badness 5203) in paragraph at lines 1020--1020
 [][][]\T1/lmr/m/n/8 Hyper-parameters of the tuned XG-Boost model used here are: {`ob-jec-tive': `multi:softprob',
  []
 
 
-Overfull \hbox (0.33939pt too wide) in paragraph at lines 1090--1090
+Overfull \hbox (0.33939pt too wide) in paragraph at lines 1061--1061
 []\T1/phv/b/n/14.4 Results: was pro-Beijing me-dia out-lets more likely to neg-
  []
 
 Missing character: There is no — ("2014) in font ec-lmri10!
-[52] [53]
+
+Underfull \vbox (badness 2237) has occurred while \output is active []
+
+[53] [54]
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-16-1.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-16-1.pdf>
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-17-3.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-17-3.pdf>
-[54] [55] [56]
+[55] [56] [57]
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-18-5.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-18-5.pdf>
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-18-6.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-18-6.pdf>
-[57] [58]
+[58]
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-19-9.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-19-9.pdf>
+[59] [60]
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-20-11.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-20-11.pdf>
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-20-12.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-20-12.pdf>
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-21-15.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-21-15.pdf>
-[59] [60] [61] [62]
+[61]
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-22-17.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-22-17.pdf>
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-22-18.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-22-18.pdf>
-[63] [64] [65]
+[62] [63] [64] [65] [66]
 File: Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-23-21.pdf Graphic file (type pdf)
 <use Thesis_Kwan_2022-01-21_files/figure-latex/unnamed-chunk-23-21.pdf>
-[66] [67] [68]
+[67] [68]
 File: figures/settle_the_storm.png Graphic file (type bmp)
 <figures/settle_the_storm.png>
 
-LaTeX Warning: Float too large for page by 21.0266pt on input line 1198.
+LaTeX Warning: Float too large for page by 21.0266pt on input line 1169.
 
+[69] [70]
 File: figures/community_security.png Graphic file (type bmp)
 <figures/community_security.png>
 
-LaTeX Warning: Float too large for page by 21.00275pt on input line 1204.
+LaTeX Warning: Float too large for page by 21.00275pt on input line 1175.
 
-[69] [70] [71]
 File: figures/refugee_personal_story.png Graphic file (type bmp)
 <figures/refugee_personal_story.png>
 
-LaTeX Warning: Float too large for page by 21.04462pt on input line 1210.
+LaTeX Warning: Float too large for page by 21.04462pt on input line 1181.
 
-[72] [73]
+[71] [72] [73]
 Chapter 5.
 [74
 
-] [75] [76] [77
-
-] [78
+] [75] [76] [77] [78] [79] [80
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 1321.
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 1250.
+
+LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
+(Font)              scaled to size 10.0pt on input line 1251.
+Requested font "t1-zi4b-0" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/inconsolata/t1-zi4b-0.tfm
+LaTeX Font Info:    Font shape `T1/zi4/m/it' will be
+(Font)              scaled to size 10.0pt on input line 1262.
+[81
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 1292.
 (c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 
 LaTeX Font Warning: Font shape `TS1/zi4/m/it' undefined
 (Font)              using `TS1/zi4/m/n' instead
-(Font)              for symbol `textquotesingle' on input line 1321.
+(Font)              for symbol `textquotesingle' on input line 1292.
 
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 1321.
+(Font)              scaled to size 10.0pt on input line 1292.
 Requested font "ts1-zi4r" at 10.0pt
  -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/inconsolata/ts1-zi4r.tfm
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[79] [80]
-Requested font "ec-lmcsc10" at 10.0pt
- -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
-[81
+[82] [83] [84
 
 ]
-Missing character: There is no – ("2013) in font ec-lmr10!
-Missing character: There is no – ("2013) in font ec-lmr10!
-[82]
-Overfull \hbox (54.61906pt too wide) in paragraph at lines 1368--1368
+Requested font "ec-lmcsc10" at 10.0pt
+ -> c:/Users/kenji/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
+
+Overfull \hbox (54.61906pt too wide) in paragraph at lines 1339--1339
 \T1/lmr/m/n/10 https://webcache.googleusercontent.com/search?q=cache:zyvAUu3wlSoJ:https://www.legco.gov.hk/yr16- 
  []
 
-[83] [84] [85]
+Missing character: There is no – ("2013) in font ec-lmr10!
+Missing character: There is no – ("2013) in font ec-lmr10!
+[85] [86] [87]
+Overfull \hbox (12.63416pt too wide) in paragraph at lines 1339--1339
+\T1/lmr/m/n/10 %E6%9D%9C%E7%B5%95%E5%81%87%E9%9B%A3%E6%B0%91%E5%95%8F%E9%A1%8C- 
+ []
+
+[88]
 Missing character: There is no — ("2014) in font ec-lmri10!
 Missing character: There is no ： ("FF1A) in font ec-lmri10!
-[86] [87] (./Thesis_Kwan_2022-01-21.aux)
+[89] [90] (./Thesis_Kwan_2022-01-21.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1483,18 +1488,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Thesis_Kwan_2022-01-21.out' has not changed.
-(rerunfilecheck)             Checksum: 7C83B3BB5B806C3880853D028D120452;12646.
+(rerunfilecheck)             Checksum: 6F181E7CC1DB6BB573405DCDB4E2A15B;12721.
 Package logreq Info: Writing requests to 'Thesis_Kwan_2022-01-21.run.xml'.
 \openout1 = `Thesis_Kwan_2022-01-21.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27054 strings out of 478189
- 550506 string characters out of 5853131
- 1341326 words of memory out of 5000000
- 47204 multiletter control sequences out of 15000+600000
+ 27055 strings out of 478189
+ 550646 string characters out of 5853131
+ 1340690 words of memory out of 5000000
+ 47205 multiletter control sequences out of 15000+600000
  550139 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 88i,12n,117p,2376b,5605s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 88i,12n,117p,2399b,5605s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis_Kwan_2022-01-21.pdf (95 pages).
+Output written on Thesis_Kwan_2022-01-21.pdf (98 pages).

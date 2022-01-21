@@ -1,0 +1,18 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'Thesis_Kwan_2022-01-21.blg'
+[106] biber-MSWIN64:340> INFO - === 
+[145] Biber.pm:415> INFO - Reading 'Thesis_Kwan_2022-01-21.bcf'
+[273] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[287] Biber.pm:4340> INFO - Processing section 0
+[298] Biber.pm:4531> INFO - Looking for bibtex format file 'bib/references.bib' for section 0
+[356] bibtex.pm:1689> INFO - LaTeX decoding ...
+[441] bibtex.pm:1494> INFO - Found BibTeX data source 'bib/references.bib'
+[648] Biber.pm:4531> INFO - Looking for bibtex format file 'bib/packages.bib' for section 0
+[707] bibtex.pm:1689> INFO - LaTeX decoding ...
+[711] bibtex.pm:1494> INFO - Found BibTeX data source 'bib/packages.bib'
+[798] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[798] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[798] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[798] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[862] bbl.pm:654> INFO - Writing 'Thesis_Kwan_2022-01-21.bbl' with encoding 'UTF-8'
+[891] bbl.pm:757> INFO - Output to Thesis_Kwan_2022-01-21.bbl

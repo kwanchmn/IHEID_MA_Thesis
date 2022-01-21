@@ -1,6 +1,6 @@
 Throughout the writing of my thesis and my study at the Graduate Institute, I am very grateful to have received an enormous amount of support and assistance.
 
-Starting with my thesis, I would like to thank my supervisor, Professor Sungmin Rho, who has provided invaluable and timely feedback on how I should proceed with my research, especially when at times I was stuck at how to proceed. Also my deepest gratitude to Professor Ravinder Bhavnani for agreeing to be my second reader.
+Starting with my thesis, I would like to thank my supervisor, Professor Sung Min Rho, who has provided invaluable and timely feedback on how I should proceed with my research, especially when at times I was stuck at how to proceed. Also my deepest gratitude to Professor Ravinder Bhavnani for agreeing to be my second reader.
 
 I would also like to thank all the professors and teaching assistants at the IRPS department for all of the amazing courses they have taught. I have surely come across a lot of stimulating and intriguing topics and perspectives throughout the courses I have taken. Particularly, I had never expected that I would discover my interest in data science via the two stats courses offered by the department.
 

@@ -17,8 +17,6 @@ labs <- setdiff(labs, c("setup", "get-labels"))
 
 # Appendix: The Echoes of the Code redux {.unnumbered}
 
-Add as many appendices as you like.
-
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo=TRUE, eval=FALSE, message=FALSE)
 ```
@@ -58,46 +56,19 @@ def xgb_objective(params):
   "colsample_bytree": params["colsample_bytree"],
   "reg_lambda": params["reg_lambda"]
   }
-  loss = 1 - np.mean(cross_val_score(xgboost_clf.set_params(**xgb_params), X_train_final, y_train, cv=five_fold_cv, scoring=make_scorer(f1_score, average="macro")))  # This means 1 - f1_score because the function fmin minimises the loss
+  loss = 1 - np.mean(cross_val_score(xgboost_clf.set_params(**xgb_params),
+                                     X_train_final, y_train, 
+                                     cv=five_fold_cv, 
+                                     scoring=make_scorer(f1_score, 
+                                                         average="macro")))  # This means 1 - f1_score because the function fmin minimises the loss
   return loss
 
 # Searching for optimal hyper-parameters
 xgb_trials = Trials()
-best_xgb_params = fmin(xgb_objective, xgb_space, algo=tpe.suggest, max_evals=1000, rstate=np.random.seed(1), trials=xgb_trials)
-```
-
-```{python}
-# from sklearn.model_selection import cross_val_score, StratifiedKFold
-# from sklearn.metrics import classification_report
-
-# Utility function for evaluating the model's performance in cross validation and test set in terms of log loss
-# def evaluate_model_f1(model, model_name: str, cv=five_fold_cv, X_train=X_train_final, X_test=X_test_final, y_train=y_train, y_test=y_test):
-#   y_pred = model.predict(X_test)
-#   cv_f1_score = np.mean(cross_val_score(model, X_train, y_train, cv=cv, scoring=make_scorer(f1_score, average="macro")))
-#   test_f1_score = f1_score(y_test, y_pred, average="macro")
-#   return {"5-fold cv f1 score": cv_f1_score, "Test set f1 score": test_f1_score}
-
-# Setting the appropriate data types of some hyper-parameters
-best_xgb_params["n_estimators"]= int(best_xgb_params["n_estimators"])
-best_xgb_params["max_depth"] = int(best_xgb_params["max_depth"])
-
-# Fitting the model
-xgb_tuned = xgb.XGBClassifier(objective="multi:softprob",
-                                  eval_metric="mlogloss",
-                                  random_state=1,
-                                  use_label_encoder=False).set_params(**best_xgb_params)
-_ = xgb_tuned.fit(X_train_final,
-                  y_train,
-                  sample_weight=xgb_sample_weight,
-                  eval_set=[(X_test_final, y_test)],
-                  early_stopping_rounds=5,
-                  verbose=0)
-
-# Evaluating the tuned model
-print(evaluate_model_f1(xgb_tuned, "Tuned xgboost"))
-print(classification_report(y_test, xgb_tuned.predict(X_test_final)))
-
-# To save the model locally. un-comment the below lines of code
-import pickle
-pickle.dump(xgb_tuned, open("xgb_clf_tuned_II.pkl", "wb"))
+best_xgb_params = fmin(xgb_objective, 
+                       xgb_space, 
+                       algo=tpe.suggest, 
+                       max_evals=1000, 
+                       rstate=np.random.seed(1), 
+                       trials=xgb_trials)
 ```

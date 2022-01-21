@@ -67,14 +67,14 @@ sentiment_camp.columns = ["Negative", "Neutral", "Positive", "All"]
 ```
 
 ```{r}
-knitr::kable(py$sentiment_camp, digits = 4, caption="Polarities of the news articles on asylum seekers by political camps in Hong Kong in 2019")
+knitr::kable(py$sentiment_camp, digits = 4, caption="Polarities of the news articles (on columns) on asylum seekers by political camps (on rows) in Hong Kong in 2019")
 ```
 
 ### Presence of racial labels
 
 Given the majority of asylum seekers in Hong Kong being non-ethnic Chinese, it will also be worth glimpsing whether the presence of racial labels for describing asylum seekers is associated with the sentiment of the news articles. Judging from figure 4.2 preliminarily, however, it appears that the patterns of the polarities are quite similar no matter if news articles contain racial labels or not, namely, most of the articles framed non-refoulement claimants negatively, some reported on events about this group of population neutrally, and only a small amount of articles were favourable towards asylum seekers residing in the city. Machine learning models can test whether there is any association between racial labels and the polarity of news articles more formally later.
 
-```{python, fig.cap="Presence of racial labels in the news articles by sentiment"}
+```{python, fig.cap="Presence of racial labels in the news articles by sentiment in 2019"}
 ax = sns.countplot(x="Racial_label", hue="Sentiment", data=news_df)
 ax.set(xlabel="Presence of racial labels", ylabel="Number of articles")
 ax.set_xticklabels(["No", "Yes"])
@@ -122,7 +122,7 @@ knitr::kable(py$article_length_summary, col.names = c("Title", "Raw main text"),
 
 ### Pre-processing
 
-After making sense of the dataset with EDA, it is time to build the sentiment analysis model to see whether the political affiliation of news media outlets is associated with the polarities of the news articles after controlling for other variables. But first there are some pre-processing steps to be done so that the data are transformed into suitable formats as inputs for machine learning models. For starters, columns of the metadata should be excluded for being the inputs of the models. Note that I have also removed the `Newspaper` column since H~1~ is more interested in whether newspaper outlets of the pro-Beijing camp *as a whole* may hold more negative attitudes towards asylum seekers in Hong Kong vis-a-vis media outlets with other political stances. The removed metadata columns are: `Index`, `Date`, `Category`, `Page_number` and `Newspaper`.
+After making sense of the dataset with EDA, it is time to build the sentiment analysis model to see whether the political affiliation of news media outlets is associated with the polarities of the news articles after controlling for other variables. But first there are some pre-processing steps to be done so that the data are transformed into suitable formats as inputs for machine learning models. For starters, columns of the metadata should be excluded from being the inputs of the models. Note that I have also removed the `Newspaper` column since H~1~ is more interested in whether newspaper outlets of the pro-Beijing camp *as a whole* may hold more negative attitudes towards asylum seekers in Hong Kong vis-a-vis media outlets with other political stances. The removed metadata columns are: `Index`, `Date`, `Category`, `Page_number` and `Newspaper`.
 
 ```{python dropping_metadata_columns}
 metadata_columns = ["Index", "Date", "Category", "Page_number", "Newspaper"]
@@ -149,7 +149,7 @@ news_df["Quarter"] = pd.Categorical(news_df.Month.apply(quarter))
 news_df.drop(columns="Month", inplace=True)
 ```
 
-```{python ohe_and_split, echo=TRUE}
+```{python ohe_and_split}
 from sklearn.model_selection import train_test_split
 
 # One-hot encoding
@@ -184,7 +184,7 @@ def read_text(path):
         return text
 ```
 
-```{python adding_words_to_dict}
+```{python adding_words_to_dictm, include=FALSE}
 hk_politics_words = read_text('Coding/HKPolDict-master/merged.txt')  # Words related to Hong Kong politics
 asylum_seeker_words = read_text('Coding/Asylum_seeker_words.txt')  # Words related to asylum seekers in Hong Kong
 for word in chain(hk_politics_words, asylum_seeker_words):
@@ -197,7 +197,7 @@ punctuations = [punc for punc in zhon.hanzi.punctuation]
 stop_words_full = list(set(word for word in chain(stop_words_cantonese, punctuations)))  
 ```
 
-To avoid data leakage as mentioned before, I will only fit the `TfidfVectorizer` and the `NMF` models on the train set (i.e. `X_train`) and then use the fitted instances to transform both the train and test data. I set the number of latent topics (`n_components`) as 10 for the `NMF` model, and this is decided based on figure 4.4 which plots the reconstruction error measuring the difference of the values between the original TF-IDF matrix and the reconstructed version after NMF. Although there are certainly other valid choices of the number of latent topics to be discovered by NMF, `10` appears to be a reasonable choice as a compromise between finding out a wide variety of topics in the corpus and not fitting too much into the noise of the data.
+To avoid data leakage as mentioned before, I will only fit the `TfidfVectorizer` and the `NMF` models on the training set and then use the fitted instances to transform both the train and test data. I set the number of latent topics (`n_components`) as 10 for the `NMF` model, and this is decided based on figure 4.4 which plots the reconstruction error measuring the difference of the values between the original TF-IDF matrix and the reconstructed version after NMF. Although there are certainly other valid choices of the number of latent topics to be discovered by NMF, `10` appears to be a reasonable choice as a compromise between finding out a wide variety of topics in the corpus and not fitting too much into the noise of the data.
 
 ```{python tokeniser_setup}
 # tokenizer
@@ -254,7 +254,7 @@ def topic_words(model, vectorizer, top_n_words):
 _ = topic_words(nmf_10, tfidf_vec, 30)  # the output is shown in figure 4.5
 ```
 
-```{r, fig.cap="Word list of each of the topics generated by the NMF model, note: the importance of each word in each topic is arranged in descending order from left to right", out.width="100%"}
+```{r, out.width="100%", out.height="100%", fig.cap="Word list of each of the topics generated by the NMF model", out.width="100%"}
 knitr::include_graphics("figures/nmf_topic_words_list.png")
 ```
 
@@ -361,7 +361,7 @@ knitr::kable(py$baseline_f1_score_df, caption = "F1 scores on 5-fold cross valid
 
 Table 4.3 contains the performance of the macro average f1 scores of the four baseline models on both the 5-fold cross validation and test data. It seems that the two tree-based models perform better than the two linear classifiers (i.e. logistic regression and SVM) in the 5-fold cross validation. Eventually, I decided to go forward with the XGBoost model because the random forest model's f1 score on the test data is more than 0.1 less than that on 5-fold cross validation which is indicative of over-fitting, whereas this was not the case for the XGBoost baseline model. Therefore, I will proceed with XGBoost for hyper-parametering tuning to see if the model's performance can be improved[^11].
 
-[^11]: The code for tuning the model can be found in the appendix.
+[^11]: The code for tuning the model via the package `hyperopt` with Bayesian optimisation can be found in the appendix.
 
 The comparison of the baseline and tuned model's performance in f1 score can be found in table 4.4[^12]. As expected, the tuned XGBoost model performs better on both 5-fold cross validation and the test data (although the magnitude of the increase of the f1 score on the test data should be taken with a grain of salt because of the small number of observations available in the dataset as mentioned before). Table 4.5 further breaks down the f1 score of the tuned XGBoost model on the test data. I will thus calculate the SHAP values of the features with the tuned XGBoost model given its better overall performance.
 
@@ -428,7 +428,7 @@ def shap_dependence_plot(feature_list, class_label, interaction_feature=None, **
   plt.clf()
 ```
 
-This section will report the findings of how important each feature contributed to the model's prediction of the sentiments of the news articles on asylum seekers in Hong Kong by media outlets in 2019. Apart from reporting on whether affiliation with the pro-Beijing camp of media outlets is an influential feature for predicting each of the polarities, I will also mention other worth-noting findings. The data points used for constructing the SHAP values are from the training set (`X_train_final`). According to the documentation of the `TreeExplainer` class used for generating SHAP values of tree-based ensemble models [@ShapTreeExplainerSHAP], in the case of classification tasks, the model output explained by SHAP values with regard to the features is the *log odds ratio.* Consequently, positive SHAP values (i.e. increasing log odds ratio) mean that an observation is more likely to belong to a certain class, whereas negative SHAP values (i.e. decreasing log odds ratio) implies that an observation is less likely to belong to a certain class.
+This section will report the findings of how important each feature contributed to the model's prediction of the sentiments of the news articles on asylum seekers in Hong Kong by media outlets in 2019. Apart from reporting on whether affiliation with the pro-Beijing camp of media outlets is an influential feature for predicting each of the polarities, I will also mention other worth-noting findings. The data points used for constructing the SHAP values are from the training set. According to the documentation of the `TreeExplainer` class used for generating SHAP values of tree-based ensemble models [@ShapTreeExplainerSHAP], in the case of classification tasks, the model output explained by SHAP values with regard to the features is the *log odds ratio.* Consequently, positive SHAP values (i.e. increasing log odds ratio) mean that an observation is more likely to belong to a certain class, whereas negative SHAP values (i.e. decreasing log odds ratio) implies that an observation is less likely to belong to a certain class.
 
 ### Overall magnitudes of SHAP values for each feature
 
@@ -440,7 +440,7 @@ It should also be noted that contrary to expectation, `Racial_label` is not an i
 shap_summary_plot()
 ```
 
-Nevertheless, figure 4.6 does not really show the *direction* of the SHAP values of each feature in affecting the model's output. We can therefore use the beeswarm summary plots from the `shap` package which also shows the directions of SHAP values for predicting each class in the dependent variable as each feature's value changes. The importance of the features is arranged in descending order on the y-axis from top (the most important) to bottom (the least important). In a SHAP value beeswarm summary plot, dots in black mean the value of a feature is high (or present in case of a binary feature, e.g. one-hot-encoded columns), whereas those in white mean the value of a feature is low (or absent in the case of a binary feature). Moreover, dependence plots which zooms in the relationship between the feature values (on the x-axis) and SHAP values (on the y-axis) of the eight most important features will be provided.
+Nevertheless, figure 4.6 does not really show the *direction* of the SHAP values of each feature in affecting the model's output. We can therefore use the beeswarm summary plots from the `shap` package which also shows the directions of SHAP values for predicting each class in the dependent variable as each feature's value changes. The importance of the features is arranged in descending order on the y-axis from top (the most important) to bottom (the least important). In a SHAP value beeswarm summary plot, dots in black mean the value of a feature is high (or present in case of a binary feature, e.g. one-hot-encoded columns), whereas those in white mean the value of a feature is low (or absent in the case of a binary feature). Moreover, dependence plots which zoom in the relationships between the feature values (on the x-axis) and SHAP values (on the y-axis) of the eight most important features will be provided.
 
 A little note on how to interpret the findings from the beeswarm summary and dependence plots. Each plot will show the SHAP values of each feature to assess whether a feature's value away from its baseline will increase or decrease the model's prediction of the log odds ratio that an observation belongs to a certain class. For instance, if feature A's SHAP value for class 0 increases as its value becomes larger, then this means the model will predict that an observation is more likely to belong to class 0 as feature A's value becomes larger.
 
@@ -450,7 +450,7 @@ A little note on how to interpret the findings from the beeswarm summary and dep
 shap_summary_plot(0)
 ```
 
-According to figure 4.7, pro-Beijing affiliation (`Political_camp_Pro-Beijing`) is the third most important feature in predicting whether a news article reports on asylum seekers in Hong Kong negatively or not. Consistent with the expectation in H~1~, articles published by pro-Beijing media newspapers are more likely to report on asylum seekers negatively than those by outlets with different political orientations. Conversely, albeit with less magnitudes in SHAP values, media outlets with neutral (`Political-camp-Neutral`) or pro-Democracy (`Political_camp_Pro-democracy`) stances are less likely to publish negative articles on non-refoulement claimants. When it comes to negative articles, therefore, political affiliations of media outlets in Hong Kong do matter, meaning that pro-Beijing camp newspapers are more likely to depict non-refoulement claimants negatively than their counterparts holding other political stances[^13].
+According to figure 4.7, pro-Beijing affiliation (`Political_camp_Pro-Beijing`) is the third most important feature in predicting whether a news article reports on asylum seekers in Hong Kong negatively or not. Consistent with the expectation in H~1~, articles published by pro-Beijing media newspapers are more likely to report on asylum seekers negatively than those by outlets with different political orientations. Conversely, albeit with less magnitudes in SHAP values, media outlets with neutral (`Political-camp-Neutral`) or pro-democracy (`Political_camp_Pro-democracy`) stances are less likely to publish negative articles on non-refoulement claimants. When it comes to negative articles, therefore, political affiliations of media outlets in Hong Kong do matter, meaning that pro-Beijing camp newspapers are more likely to depict non-refoulement claimants negatively than their counterparts holding other political stances[^13].
 
 [^13]: Of course, Oriental Daily News contributed to a huge volume of reportage on non-refoulement claimanats within the pro-Beijing camp. I will explain why it is not appropriate to re-run the model without including entries from this outlet in the Discussion section below.
 
@@ -491,7 +491,7 @@ Rather, some topics of the news articles are more informative in predicting whet
 shap_summary_plot(2)
 ```
 
-Figure 4.13 shows the SHAP values of the features in predicting whether news articles have a positive polarity towards non-refoulement claimants or not. This time, pro-Beijing affiliation (`Political_camp_Pro-Beijing`) is the second most crucial feature for predicting whether a news articles is likely to depict non-refoulement claimants positively. As expected in H~1~, a newspaper outlet is predicted to be less likely to publish positive articles about asylum seekers if it is associated with the pro-Beijing camp. By contrast, although with a smaller magnitude of SHAP values, pro-Democracy newspaper outlets are predicted to be more likely to have favourable reportage on non-refoulement claimants. Meanwhile, neutral newspaper outlets are neither more nor less likely to publish positive articles while reporting on asylum seekers in Hong Kong. In sum, pro-Beijing affiliation of newspaper media in Hong Kong is quite informative for predicting whether an article will portray non-refoulement claimants in positive light, and it is inferred from the model that pro-Beijing outlets are generally less likely to give positive coverage on this group of population.
+Figure 4.13 shows the SHAP values of the features in predicting whether news articles have a positive polarity towards non-refoulement claimants or not. This time, pro-Beijing affiliation (`Political_camp_Pro-Beijing`) is the second most crucial feature for predicting whether a news articles is likely to depict non-refoulement claimants positively. As expected in H~1~, a newspaper outlet is predicted to be less likely to publish positive articles about asylum seekers if it is associated with the pro-Beijing camp. By contrast, although with a smaller magnitude of SHAP values, pro-democracy newspaper outlets are predicted to be more likely to have favourable reportage on non-refoulement claimants. Meanwhile, neutral newspaper outlets are neither more nor less likely to publish positive articles while reporting on asylum seekers in Hong Kong. In sum, pro-Beijing affiliation of newspaper media in Hong Kong is quite informative for predicting whether an article will portray non-refoulement claimants in positive light, and it is inferred from the model that pro-Beijing outlets are generally less likely to give positive coverage on this group of population.
 
 ```{python, out.width="100%", fig.cap="Dependence plot of the eight most important features for predicting positive polarity of news articles"}
 pos_features_I = ["Problem and solution", "Political_camp_Pro-Beijing", "Murder", "Illegal labours"]
@@ -530,11 +530,11 @@ def plot_pos_and_neg_pred(feature, interaction="auto", X_train=X_train_final):
   
 ```
 
-Based on the formulation of H~1~, figure 4.16 investigates whether there could be any interaction between the `Problem and solution` topic and the political affiliation of newspaper outlets (as expressed in whether they belong to the pro-Beijing camp or not). At first glance, both pro-Beijing and non-pro-Beijing newspaper outlets had news articles which emphasise on this topic (as shown by the black dots). Nevertheless, the within-group SHAP values of the news articles for each political camp are rather closely clustered together regardless of whether their news articles covered more or less on the `Problem and solution` topics. Ultimately, it was whether a newspaper outlet is affiliated with the pro-Beijing camp (on the x-axis) that clearly separated the SHAP values for the predictions of both negative and positive polarity of the news articles.
+Based on the formulation of H~1~, figure 4.16 investigates whether there could be any interaction between the `Problem and solution` topic and the political affiliation of newspaper outlets (as expressed in whether they belong to the pro-Beijing camp or not). At first glance, both pro-Beijing and non-pro-Beijing newspaper outlets had news articles which emphasise on this topic (as shown by the black dots). Nevertheless, the within-group SHAP values of the news articles for each political camp are rather closely clustered together regardless of whether their news articles covered more or less on the `Problem and solution` topics. Ultimately, it was whether a newspaper outlet is affiliated with the pro-Beijing camp (on the x-axis) that clearly separated the SHAP values for the predictions of both negative and positive polarities of the news articles.
 
 A potential reason for this observation is that each camp adopts different approaches and framing while writing on whether non-refoulement claimants in Hong Kong should be treated as a social problem and whether solutions to alleviate this "problem" are warranted. For instance, pro-Beijing newspaper outlets may follow suite the pro-Beijing politicians' hostility against non-refoulement claimants by constantly framing the latter as "fake refugees" (which is one of the topic words included in figure 4.5 for `Problem and solution`) to question their legitimacy of seeking refuge in Hong Kong in the first place while also alleging this group of population to multiple wrongdoings. By contrast, neutral newspaper outlets may be more likely to just report on news about asylum seekers in Hong Kong with little interpretation from the journalists, and pro-democracy outlets may even echo the stance of pro-democracy politicians in treating non-refoulement claimants more humanely while they are awaiting for the decision of their applications.
 
-While qualitatively investigating how pro-Beijing and non-pro-Beijing newspaper outlets may use different framing to report on the topic of `Problem and solution` is out of the scope of this thesis, this can be a starting point for future research to prompt the dynamic of the contestation between pro-Beijing and pro-Democracy (and also the localist camp if possible) camps in attempting to persuade the public about how the issue of non-refoulement claimants in Hong Kong should be perceived. In particular, the anecdotal smearing of the localist camp's unwillingness to advocate more stringent measures against asylum seekers in Hong Kong by the pro-Beijing newspaper outlets [The Sun -@thesunJiu4shi4lun4shi4Ben3tu3pai4Shi1sheng12016] may signal that the issue of non-refoulement claimants may be exploited by political camps to criticise others of not protecting the interests of Hong Kong's society enough.
+While qualitatively investigating how pro-Beijing and non-pro-Beijing newspaper outlets may use different framing to report on the topic of `Problem and solution` is out of the scope of this thesis, this can be a starting point for future research to prompt the dynamic of the contestation between pro-Beijing and pro-democracy (and also the localist camp if possible) camps in attempting to persuade the public about how the issue of non-refoulement claimants in Hong Kong should be perceived. In particular, the anecdotal smearing of the localist camp's unwillingness to advocate more stringent measures against asylum seekers in Hong Kong by the pro-Beijing newspaper outlets [The Sun -@thesunJiu4shi4lun4shi4Ben3tu3pai4Shi1sheng12016] may signal that the issue of non-refoulement claimants may be exploited by political camps to criticise others of not protecting the interests of Hong Kong's society enough.
 
 ```{python, out.width="100%", fig.cap="Interaction between pro-Beijing affiliation of newspaper outlets and the salience of the problem and solution topic for the XGBoost model's prediction of the negative (top) and positive (bottom) polarities"}
 plot_pos_and_neg_pred("Political_camp_Pro-Beijing", "Problem and solution")
@@ -550,7 +550,7 @@ Related to the publication volume by the pro-Beijing camp, a question about the 
 
 ### Snapshots of news articles
 
-It will also be interesting to take some snapshots of how news articles from different political camps may report on non-refoulement claimants in Hong Kong. One way that the pro-Beijing newspapers portrayed non-refoulement claimants negatively in 2019 was accusing the latter of wasting public resources that could have been better used on Hong Kong citizens. For example, the excerpt in figure 4.17 by Oriental Daily News describes non-refoulement claimants as "fake refugees" who are "overrunning" districts in Hong Kong as "armies" and wasting the Government's public resources for processing their applications. Note how the first sentence of this article already connotes non-refoulement claimants with the South Asian racial group, and that their presence in many districts in Hong Kong has destroyed the peace of local citizens and motivated them to emigrate. The last two sentences also express discontent about the wasted resource on handling the "fake refugee" problem could have better used for improving the quality of life of citizens in need. In effect, such discourse by Oriental Daily News resembles how the majority ethnic-Chinese population is viewed as a family mentioned by @erniWhoNeedsStrangers2012, namely, the non-refoulement claimants from South Asia as outsiders both disrupt the way of life of the local citizens and prevent the Government from prioritising the interests of the local population.
+It will also be interesting to take some snapshots of how news articles from different political camps may report on non-refoulement claimants in Hong Kong. One way that the pro-Beijing newspapers portrayed non-refoulement claimants negatively in 2019 was accusing the latter of wasting public resources that could have been better used on Hong Kong citizens. For example, the excerpt in figure 4.17 by Oriental Daily News describes non-refoulement claimants as "fake refugees" who are "overrunning" districts in Hong Kong as "armies" and wasting the Government's public resources for processing their applications. Note how the first sentence of this article already connotes non-refoulement claimants with the South Asian racial label, and that their presence in many districts in Hong Kong has destroyed the peace of local citizens and motivated them to emigrate. The last two sentences also express discontent about how the wasted resource on handling the "fake refugee" problem could have been better used for improving the quality of life of citizens in need. In effect, such discourse by Oriental Daily News resembles how the majority ethnic-Chinese population is viewed as a family mentioned by @erniWhoNeedsStrangers2012, namely, the non-refoulement claimants from South Asia as outsiders both disrupt the way of life of the local citizens and prevent the Government from prioritising the interests of the local population.
 
 ```{r, out.width="100%", out.height="100%", fig.cap="Abridged excerpt from pro-Beijing Oriental Daily News"}
 knitr::include_graphics("figures/settle_the_storm.png")
@@ -564,7 +564,7 @@ knitr::include_graphics("figures/community_security.png")
 
 On the other side, non-pro-Beijing newspaper outlets often cover non-refoulement claimants positively either by sharing their personal stories or advocating more sympathy towards this group of vulnerable population. Out of all the positive articles included in the dataset, the excerpt from Apple Daily in figure 4.19 is worth highlighting because it not only sympathetically reports the struggles faced by a former non-refoulement claimant in Hong Kong but also cites expert opinion which criticises the Hong Kong Government's current asylum seeking regime of lacking transparency and fairness compared to the one in Canada. Such reportage aligns with the former pro-democracy legislators' arguments that non-refoulement claimants should be treated more humane instead of potentially being indiscriminately detained under the accusation of being "fake refugees" as suggested by the pro-Beijing camp.
 
-```{r, out.width="100%", out.height="100%", fig.cap="Abridged excerpt by pro-Democracy Apple Daily"}
+```{r, out.width="100%", out.height="100%", fig.cap="Abridged excerpt from pro-democracy Apple Daily"}
 knitr::include_graphics("figures/refugee_personal_story.png")
 ```
 

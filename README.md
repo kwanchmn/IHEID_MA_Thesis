@@ -22,3 +22,12 @@ several pro-democracy newspaper outlets, one can expect that the narrative on as
 in Hong Kong will be further dominated by pro-Beijing media outlets, thereby potentially
 fostering a more hostile social environment against those who seek refuge in Hong Kong due to
 facing threats of tortures in their home countries.
+
+## What are the folders for
+Aside from the .Rmd files which store both the texts and codes used for writing my thesis, the folders listed in this repo serve the following purposes respectively:
+* Coding: python scripts used for parsing the news articles downloaded from *WiseNews* to tabular format
+* bib: references used for this thesis
+* data: datasets used for the analysis
+* figures: to paste Chinese-language texts into the main text body
+* models: storing the trained and tuned XGBoost model
+* versions: a log of the past versions of my thesis

@@ -1,6 +1,6 @@
 # IHEID_MA_Thesis
 
-This repository includes the codes used for the analysis in my master thesis submitted as the requirement of the master's programme in the International Relations/Political Science Department at IHEID.
+This repository includes the codes used for the analysis in my master thesis submitted as the requirement of the master's programme in the International Relations/Political Science Department at IHEID. The file ***Chin_Man_KWAN_MA_Thesis_final.pdf*** contains the whole passage of it.
 
 ## Abstract 
 Asylum seekers (or formally non-refoulement claimants) have started to draw attention in Hong

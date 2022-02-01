@@ -25,7 +25,7 @@ facing threats of tortures in their home countries.
 
 ## What are the folders for
 Aside from the .Rmd files which store both the texts and codes used for writing my thesis, the folders listed in this repo serve the following purposes respectively:
-* Coding: python scripts used for parsing the news articles downloaded from *WiseNews* to tabular format
+* Coding: Python codes used for parsing the news articles downloaded from *WiseNews* and then transforming the news articles into tabular format
 * bib: references used for this thesis
 * data: datasets used for the analysis
 * figures: to paste Chinese-language texts into the main text body
